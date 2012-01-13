@@ -1,0 +1,5 @@
+.DS_Store
+build/
+vdrift-frameworks.xcodeproj/xcuserdata/
+vdrift-frameworks.xcodeproj/project.xcworkspace/
+
