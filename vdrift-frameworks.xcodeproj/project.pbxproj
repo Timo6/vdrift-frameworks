@@ -41,17 +41,19 @@
 		F5078A0E14C1E11B00791F26 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540ADB714C19EE800F2FAC4 /* BulletDynamics.framework */; };
 		F5078A6414C1E35A00791F26 /* btBulletCollisionCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F5078A6214C1E35A00791F26 /* btBulletCollisionCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5078A6514C1E35A00791F26 /* btBulletDynamicsCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F5078A6314C1E35A00791F26 /* btBulletDynamicsCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5232A9314CB64EB00FCC16E /* IMG_ImageIO.m in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8914CB64EA00FCC16E /* IMG_ImageIO.m */; };
+		F5232A9414CB64EB00FCC16E /* IMG_lbm.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8A14CB64EA00FCC16E /* IMG_lbm.c */; };
+		F5232A9514CB64EB00FCC16E /* IMG_pcx.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8B14CB64EA00FCC16E /* IMG_pcx.c */; };
+		F5232A9614CB64EB00FCC16E /* IMG_pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8C14CB64EA00FCC16E /* IMG_pnm.c */; };
+		F5232A9714CB64EB00FCC16E /* IMG_webp.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8D14CB64EA00FCC16E /* IMG_webp.c */; };
+		F5232A9814CB64EB00FCC16E /* IMG_xcf.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8E14CB64EA00FCC16E /* IMG_xcf.c */; };
+		F5232A9914CB64EB00FCC16E /* IMG_xpm.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8F14CB64EA00FCC16E /* IMG_xpm.c */; };
+		F5232A9A14CB64EB00FCC16E /* IMG_xv.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A9014CB64EB00FCC16E /* IMG_xv.c */; };
+		F5232A9B14CB64EB00FCC16E /* IMG_xxx.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A9114CB64EB00FCC16E /* IMG_xxx.c */; };
+		F5232A9C14CB64EB00FCC16E /* IMG.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A9214CB64EB00FCC16E /* IMG.c */; };
+		F5232A9E14CB650D00FCC16E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5232A9D14CB650D00FCC16E /* Foundation.framework */; };
 		F53EBE4F14C0D1FD0064FEC0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572C5EC14A8DD70008B223B /* Ogg.framework */; };
 		F53EC26214C0E3E10064FEC0 /* SDL_image.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EC26114C0E3E10064FEC0 /* SDL_image.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F53EC26B14C0E4160064FEC0 /* IMG_ImageIO.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26314C0E4160064FEC0 /* IMG_ImageIO.c */; };
-		F53EC26C14C0E4160064FEC0 /* IMG_lbm.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26414C0E4160064FEC0 /* IMG_lbm.c */; };
-		F53EC26D14C0E4160064FEC0 /* IMG_pcx.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26514C0E4160064FEC0 /* IMG_pcx.c */; };
-		F53EC26E14C0E4160064FEC0 /* IMG_pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26614C0E4160064FEC0 /* IMG_pnm.c */; };
-		F53EC26F14C0E4160064FEC0 /* IMG_xcf.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26714C0E4160064FEC0 /* IMG_xcf.c */; };
-		F53EC27014C0E4160064FEC0 /* IMG_xv.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26814C0E4160064FEC0 /* IMG_xv.c */; };
-		F53EC27114C0E4160064FEC0 /* IMG_xxx.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26914C0E4160064FEC0 /* IMG_xxx.c */; };
-		F53EC27214C0E4160064FEC0 /* IMG.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC26A14C0E4160064FEC0 /* IMG.c */; };
-		F53EC27414C0E42C0064FEC0 /* IMG_xpm.c in Sources */ = {isa = PBXBuildFile; fileRef = F53EC27314C0E42C0064FEC0 /* IMG_xpm.c */; };
 		F53EC27614C0E4450064FEC0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EC27514C0E4440064FEC0 /* ApplicationServices.framework */; };
 		F540AAFA14C0F23D00F2FAC4 /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = F540AAF914C0F23D00F2FAC4 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F540AAFC14C0F24B00F2FAC4 /* SDLnetsys.h in Headers */ = {isa = PBXBuildFile; fileRef = F540AAFB14C0F24A00F2FAC4 /* SDLnetsys.h */; };
@@ -274,6 +276,8 @@
 		F57F0F3F14C1E91200E08E55 /* btRaycastCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F57F0E6A14C1E91100E08E55 /* btRaycastCallback.cpp */; };
 		F57F0F4214C1E91200E08E55 /* btSubSimplexConvexCast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F57F0E6D14C1E91100E08E55 /* btSubSimplexConvexCast.cpp */; };
 		F57F0F4414C1E91200E08E55 /* btVoronoiSimplexSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F57F0E6F14C1E91100E08E55 /* btVoronoiSimplexSolver.cpp */; };
+		F57FD1BC14CB6ABA009601E5 /* webp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57FD1BB14CB6ABA009601E5 /* webp.framework */; };
+		F57FD1C014CB6AD9009601E5 /* webp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57FD1BB14CB6ABA009601E5 /* webp.framework */; };
 		F58A5DF314C2FF38006DD785 /* SDLMain.nib in Resources */ = {isa = PBXBuildFile; fileRef = F58A5DF214C2FF38006DD785 /* SDLMain.nib */; };
 		F5A52A8514A9EE5800B3A15A /* arpa_telnet.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A52A1C14A9EE3600B3A15A /* arpa_telnet.h */; };
 		F5A52A8614A9EE5800B3A15A /* asyn.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A52A1D14A9EE3700B3A15A /* asyn.h */; };
@@ -835,21 +839,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F57FD1BF14CB6AD3009601E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F57FD1C014CB6AD9009601E5 /* webp.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F5078A6214C1E35A00791F26 /* btBulletCollisionCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btBulletCollisionCommon.h; path = BulletDynamics/bullet/src/btBulletCollisionCommon.h; sourceTree = "<group>"; };
 		F5078A6314C1E35A00791F26 /* btBulletDynamicsCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btBulletDynamicsCommon.h; path = BulletDynamics/bullet/src/btBulletDynamicsCommon.h; sourceTree = "<group>"; };
+		F5232A8914CB64EA00FCC16E /* IMG_ImageIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IMG_ImageIO.m; path = SDL_image/SDL_image/IMG_ImageIO.m; sourceTree = "<group>"; };
+		F5232A8A14CB64EA00FCC16E /* IMG_lbm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_lbm.c; path = SDL_image/SDL_image/IMG_lbm.c; sourceTree = "<group>"; };
+		F5232A8B14CB64EA00FCC16E /* IMG_pcx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_pcx.c; path = SDL_image/SDL_image/IMG_pcx.c; sourceTree = "<group>"; };
+		F5232A8C14CB64EA00FCC16E /* IMG_pnm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_pnm.c; path = SDL_image/SDL_image/IMG_pnm.c; sourceTree = "<group>"; };
+		F5232A8D14CB64EA00FCC16E /* IMG_webp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_webp.c; path = SDL_image/SDL_image/IMG_webp.c; sourceTree = "<group>"; };
+		F5232A8E14CB64EA00FCC16E /* IMG_xcf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xcf.c; path = SDL_image/SDL_image/IMG_xcf.c; sourceTree = "<group>"; };
+		F5232A8F14CB64EA00FCC16E /* IMG_xpm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xpm.c; path = SDL_image/SDL_image/IMG_xpm.c; sourceTree = "<group>"; };
+		F5232A9014CB64EB00FCC16E /* IMG_xv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xv.c; path = SDL_image/SDL_image/IMG_xv.c; sourceTree = "<group>"; };
+		F5232A9114CB64EB00FCC16E /* IMG_xxx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xxx.c; path = SDL_image/SDL_image/IMG_xxx.c; sourceTree = "<group>"; };
+		F5232A9214CB64EB00FCC16E /* IMG.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG.c; path = SDL_image/SDL_image/IMG.c; sourceTree = "<group>"; };
+		F5232A9D14CB650D00FCC16E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F53EBE6514C0D3F00064FEC0 /* SDL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SDL-Info.plist"; path = "SDL/SDL-Info.plist"; sourceTree = "<group>"; };
 		F53EC25C14C0E28E0064FEC0 /* SDL_image.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_image.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53EC26114C0E3E10064FEC0 /* SDL_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDL_image.h; path = SDL_image/SDL_image/SDL_image.h; sourceTree = "<group>"; };
-		F53EC26314C0E4160064FEC0 /* IMG_ImageIO.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_ImageIO.c; path = SDL_image/SDL_image/IMG_ImageIO.c; sourceTree = "<group>"; };
-		F53EC26414C0E4160064FEC0 /* IMG_lbm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_lbm.c; path = SDL_image/SDL_image/IMG_lbm.c; sourceTree = "<group>"; };
-		F53EC26514C0E4160064FEC0 /* IMG_pcx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_pcx.c; path = SDL_image/SDL_image/IMG_pcx.c; sourceTree = "<group>"; };
-		F53EC26614C0E4160064FEC0 /* IMG_pnm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_pnm.c; path = SDL_image/SDL_image/IMG_pnm.c; sourceTree = "<group>"; };
-		F53EC26714C0E4160064FEC0 /* IMG_xcf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xcf.c; path = SDL_image/SDL_image/IMG_xcf.c; sourceTree = "<group>"; };
-		F53EC26814C0E4160064FEC0 /* IMG_xv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xv.c; path = SDL_image/SDL_image/IMG_xv.c; sourceTree = "<group>"; };
-		F53EC26914C0E4160064FEC0 /* IMG_xxx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xxx.c; path = SDL_image/SDL_image/IMG_xxx.c; sourceTree = "<group>"; };
-		F53EC26A14C0E4160064FEC0 /* IMG.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG.c; path = SDL_image/SDL_image/IMG.c; sourceTree = "<group>"; };
-		F53EC27314C0E42C0064FEC0 /* IMG_xpm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_xpm.c; path = SDL_image/SDL_image/IMG_xpm.c; sourceTree = "<group>"; };
 		F53EC27514C0E4440064FEC0 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		F540AAD814C0EED200F2FAC4 /* SDL_image-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SDL_image-Info.plist"; path = "SDL_image/SDL_image-Info.plist"; sourceTree = "<group>"; };
 		F540AAF514C0F0F800F2FAC4 /* SDL_net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1108,6 +1127,7 @@
 		F57F0E6A14C1E91100E08E55 /* btRaycastCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btRaycastCallback.cpp; path = BulletCollision/bullet/src/BulletCollision/NarrowPhaseCollision/btRaycastCallback.cpp; sourceTree = "<group>"; };
 		F57F0E6D14C1E91100E08E55 /* btSubSimplexConvexCast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSubSimplexConvexCast.cpp; path = BulletCollision/bullet/src/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.cpp; sourceTree = "<group>"; };
 		F57F0E6F14C1E91100E08E55 /* btVoronoiSimplexSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btVoronoiSimplexSolver.cpp; path = BulletCollision/bullet/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp; sourceTree = "<group>"; };
+		F57FD1BB14CB6ABA009601E5 /* webp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = webp.framework; path = SDL_image/SDL_image/Xcode/Frameworks/webp.framework; sourceTree = "<group>"; };
 		F58A5DF214C2FF38006DD785 /* SDLMain.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SDLMain.nib; path = SDL/SDL/src/main/macosx/SDLMain.nib; sourceTree = "<group>"; };
 		F590626E14C21C5B004033EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
 		F590626F14C21C5B004033EB /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = ../../../../../System/Library/Frameworks/AudioUnit.framework; sourceTree = "<group>"; };
@@ -1545,7 +1565,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53EC27614C0E4450064FEC0 /* ApplicationServices.framework in Frameworks */,
+				F5232A9E14CB650D00FCC16E /* Foundation.framework in Frameworks */,
 				F57718BE14C8C11700465A38 /* SDL.framework in Frameworks */,
+				F57FD1BC14CB6ABA009601E5 /* webp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1644,6 +1666,8 @@
 			isa = PBXGroup;
 			children = (
 				F53EC27514C0E4440064FEC0 /* ApplicationServices.framework */,
+				F5232A9D14CB650D00FCC16E /* Foundation.framework */,
+				F57FD1BB14CB6ABA009601E5 /* webp.framework */,
 				F540AAD814C0EED200F2FAC4 /* SDL_image-Info.plist */,
 				F540AAD714C0EEBF00F2FAC4 /* Source */,
 			);
@@ -1653,15 +1677,16 @@
 		F540AAD714C0EEBF00F2FAC4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F53EC27314C0E42C0064FEC0 /* IMG_xpm.c */,
-				F53EC26314C0E4160064FEC0 /* IMG_ImageIO.c */,
-				F53EC26414C0E4160064FEC0 /* IMG_lbm.c */,
-				F53EC26514C0E4160064FEC0 /* IMG_pcx.c */,
-				F53EC26614C0E4160064FEC0 /* IMG_pnm.c */,
-				F53EC26714C0E4160064FEC0 /* IMG_xcf.c */,
-				F53EC26814C0E4160064FEC0 /* IMG_xv.c */,
-				F53EC26914C0E4160064FEC0 /* IMG_xxx.c */,
-				F53EC26A14C0E4160064FEC0 /* IMG.c */,
+				F5232A8914CB64EA00FCC16E /* IMG_ImageIO.m */,
+				F5232A8A14CB64EA00FCC16E /* IMG_lbm.c */,
+				F5232A8B14CB64EA00FCC16E /* IMG_pcx.c */,
+				F5232A8C14CB64EA00FCC16E /* IMG_pnm.c */,
+				F5232A8D14CB64EA00FCC16E /* IMG_webp.c */,
+				F5232A8E14CB64EA00FCC16E /* IMG_xcf.c */,
+				F5232A8F14CB64EA00FCC16E /* IMG_xpm.c */,
+				F5232A9014CB64EB00FCC16E /* IMG_xv.c */,
+				F5232A9114CB64EB00FCC16E /* IMG_xxx.c */,
+				F5232A9214CB64EB00FCC16E /* IMG.c */,
 				F53EC26114C0E3E10064FEC0 /* SDL_image.h */,
 			);
 			name = Source;
@@ -2818,6 +2843,9 @@
 				F53EC1CD14C0E28E0064FEC0 /* Headers */,
 				F53EC1F714C0E28E0064FEC0 /* Sources */,
 				F53EC25014C0E28E0064FEC0 /* Frameworks */,
+				F57FD1BF14CB6AD3009601E5 /* CopyFiles */,
+				F57FD1C114CB6AEE009601E5 /* Create Frameworks symlink */,
+				F57FD1C214CB6B09009601E5 /* Convert SDL includes to SDL Framework includes */,
 			);
 			buildRules = (
 			);
@@ -2922,7 +2950,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F549229114C2206700137A01 /* Build configuration list for PBXNativeTarget "SDL" */;
 			buildPhases = (
-				F58A5DEF14C2FE37006DD785 /* ShellScript */,
+				F58A5DEF14C2FE37006DD785 /* Run Script to Create SDL_config.h */,
 				F549219814C2206700137A01 /* Headers */,
 				F58A5DF114C2FF1D006DD785 /* Resources */,
 				F549221D14C2206700137A01 /* Sources */,
@@ -3107,13 +3135,42 @@
 			shellScript = "make -C $SRCROOT/cURL/curl/xcode -f $SRCROOT/cURL/curl/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		F58A5DEF14C2FE37006DD785 /* ShellScript */ = {
+		F57FD1C114CB6AEE009601E5 /* Create Frameworks symlink */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Create Frameworks symlink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $SYMROOT/$CONFIGURATION/SDL_image.framework\nif ! [ -L Frameworks ]; then\nln -s Versions/Current/Frameworks Frameworks\nfi";
+		};
+		F57FD1C214CB6B09009601E5 /* Convert SDL includes to SDL Framework includes */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Convert SDL includes to SDL Framework includes";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $SYMROOT/$CONFIGURATION/SDL_image.framework/Versions/Current/Headers\nsed 's,#include \"\\(.*\\)\",#include <SDL/\\1>,' <SDL_image.h >SDL_image.h.new\nmv SDL_image.h.new SDL_image.h";
+		};
+		F58A5DEF14C2FE37006DD785 /* Run Script to Create SDL_config.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script to Create SDL_config.h";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3127,15 +3184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53EC26B14C0E4160064FEC0 /* IMG_ImageIO.c in Sources */,
-				F53EC26C14C0E4160064FEC0 /* IMG_lbm.c in Sources */,
-				F53EC26D14C0E4160064FEC0 /* IMG_pcx.c in Sources */,
-				F53EC26E14C0E4160064FEC0 /* IMG_pnm.c in Sources */,
-				F53EC26F14C0E4160064FEC0 /* IMG_xcf.c in Sources */,
-				F53EC27414C0E42C0064FEC0 /* IMG_xpm.c in Sources */,
-				F53EC27014C0E4160064FEC0 /* IMG_xv.c in Sources */,
-				F53EC27114C0E4160064FEC0 /* IMG_xxx.c in Sources */,
-				F53EC27214C0E4160064FEC0 /* IMG.c in Sources */,
+				F5232A9314CB64EB00FCC16E /* IMG_ImageIO.m in Sources */,
+				F5232A9414CB64EB00FCC16E /* IMG_lbm.c in Sources */,
+				F5232A9514CB64EB00FCC16E /* IMG_pcx.c in Sources */,
+				F5232A9614CB64EB00FCC16E /* IMG_pnm.c in Sources */,
+				F5232A9714CB64EB00FCC16E /* IMG_webp.c in Sources */,
+				F5232A9814CB64EB00FCC16E /* IMG_xcf.c in Sources */,
+				F5232A9914CB64EB00FCC16E /* IMG_xpm.c in Sources */,
+				F5232A9A14CB64EB00FCC16E /* IMG_xv.c in Sources */,
+				F5232A9B14CB64EB00FCC16E /* IMG_xxx.c in Sources */,
+				F5232A9C14CB64EB00FCC16E /* IMG.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3746,6 +3804,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -3755,6 +3814,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -3762,7 +3822,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.2;
-				DYLIB_CURRENT_VERSION = 1.2.10;
+				DYLIB_CURRENT_VERSION = 1.2.12;
+				FRAMEWORK_SEARCH_PATHS = SDL_image/SDL_image/Xcode/Frameworks;
 				FRAMEWORK_VERSION = 1.2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					LOAD_BMP,
@@ -3773,12 +3834,17 @@
 					LOAD_PNG,
 					LOAD_PNM,
 					LOAD_TGA,
-					LOAD_XCF,
-					LOAD_XPM,
-					LOAD_XXX,
 					LOAD_TIF,
+					LOAD_WEBP,
+					LOAD_XPM,
+					LOAD_XV,
+				);
+				HEADER_SEARCH_PATHS = (
+					build/SDL.framework/Headers,
+					SDL_image/SDL_image/Xcode/Frameworks/webp.framework/Headers,
 				);
 				INFOPLIST_FILE = "SDL_image/SDL_image-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				PRODUCT_NAME = SDL_image;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -3788,7 +3854,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.2;
-				DYLIB_CURRENT_VERSION = 1.2.10;
+				DYLIB_CURRENT_VERSION = 1.2.12;
+				FRAMEWORK_SEARCH_PATHS = SDL_image/SDL_image/Xcode/Frameworks;
 				FRAMEWORK_VERSION = 1.2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					LOAD_BMP,
@@ -3799,12 +3866,17 @@
 					LOAD_PNG,
 					LOAD_PNM,
 					LOAD_TGA,
-					LOAD_XCF,
-					LOAD_XPM,
-					LOAD_XXX,
 					LOAD_TIF,
+					LOAD_WEBP,
+					LOAD_XPM,
+					LOAD_XV,
+				);
+				HEADER_SEARCH_PATHS = (
+					build/SDL.framework/Headers,
+					SDL_image/SDL_image/Xcode/Frameworks/webp.framework/Headers,
 				);
 				INFOPLIST_FILE = "SDL_image/SDL_image-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				PRODUCT_NAME = SDL_image;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -3814,7 +3886,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.2;
-				DYLIB_CURRENT_VERSION = 1.2.7;
+				DYLIB_CURRENT_VERSION = 1.2.8;
 				FRAMEWORK_VERSION = 1.2;
 				INFOPLIST_FILE = "SDL_net/SDL_net-Info.plist";
 				PRODUCT_NAME = SDL_net;
@@ -3826,7 +3898,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.2;
-				DYLIB_CURRENT_VERSION = 1.2.7;
+				DYLIB_CURRENT_VERSION = 1.2.8;
 				FRAMEWORK_VERSION = 1.2;
 				INFOPLIST_FILE = "SDL_net/SDL_net-Info.plist";
 				PRODUCT_NAME = SDL_net;
@@ -3942,7 +4014,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.2;
-				DYLIB_CURRENT_VERSION = 1.2.14;
+				DYLIB_CURRENT_VERSION = 1.2.15;
 				FRAMEWORK_VERSION = 1.2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(GCC_PREPROCESSOR_DEFINITIONS)",
@@ -3970,7 +4042,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.2;
-				DYLIB_CURRENT_VERSION = 1.2.14;
+				DYLIB_CURRENT_VERSION = 1.2.15;
 				FRAMEWORK_VERSION = 1.2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(GCC_PREPROCESSOR_DEFINITIONS)",
