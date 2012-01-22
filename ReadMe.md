@@ -50,15 +50,14 @@ Now you need to configure a few of the libraries before we can build the framewo
 Archive
 -------
 
-* In a command line:
+In a command line:
 
     cd vdrift-frameworks/Archive/libarchive
     ./configure
 
+Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 463
 
-* Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 463
-
-    \#define HAVE_STRUCT_STAT_ST_BIRTHTIME
+    #define HAVE_STRUCT_STAT_ST_BIRTHTIME
 
 and line 466
 
