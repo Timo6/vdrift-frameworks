@@ -1,4 +1,4 @@
-A Xcode project that builds the dependancies VDrift (http://vdrift.net) requires as native Mac OS X frameworks. For instructions about VDrift itself visit http://wiki.vdrift.net. Released under the GNU General Public License (GPL) v3 (http://gnu.org/copyleft/gpl.html).
+A Xcode project that builds the dependancies VDrift (http://vdrift.net) requires as native Mac OS X frameworks. For instructions about VDrift itself visit the wiki (http://wiki.vdrift.net). Released under the GNU General Public License (GPL) v3 (http://gnu.org/copyleft/gpl.html).
 
 If you know a better way of doing any part of this, or find a bug, please make an issue or send a pull request on GitHub (http://github.com/Timo6/vdrift-frameworks).
 
