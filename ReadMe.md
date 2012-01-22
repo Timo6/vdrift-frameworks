@@ -1,4 +1,4 @@
-A Xcode project that builds the dependancies VDrift (http://vdrift.net) requires as native Mac OS X frameworks. For instructions about VDrift itself visit http://wiki.vdrift.net. Released under the GNU General Public License (GPL) v3 (http://gnu.org/copyleft/gpl.html). 
+A Xcode project that builds the dependancies VDrift (http://vdrift.net) requires as native Mac OS X frameworks. For instructions about VDrift itself visit http://wiki.vdrift.net. Released under the GNU General Public License (GPL) v3 (http://gnu.org/copyleft/gpl.html).
 If you know a better way of doing any part of this, or find a bug, please make an issue or send a pull request on GitHub (http://github.com/Timo6/vdrift-frameworks).
 
 Prerequisites
@@ -20,7 +20,7 @@ GLEW: http://glew.sourceforge.net/
 LinearMath: http://code.google.com/p/bullet/downloads/list
 Ogg: http://xiph.org/downloads/
 SDL: http://libsdl.org/download.php
-SDL_gfx (**Requires SDL**): http://ferzkopp.net/joomla/software-mainmenu-14/4-ferzkopps-linux-software/19-sdlgfx
+SDL_gfx (**Requires SDL**): http://ferzkopp.net/joomla/software-mainmenu-14/4-ferzkopps-linux-software/19- sdlgfx
 SDL_image (**Requires SDL**): http://libsdl.org/projects/SDL_image/
 SDL_net (**Requires SDL**): http://libsdl.org/projects/SDL_net/
 Vorbis (**Requires Ogg**): http://xiph.org/downloads/
@@ -35,34 +35,34 @@ Now you need to configure a few of the libraries before we can build the framewo
 Archive
 -------
 
-- In a command line:
+* In a command line:
 
     cd vdrift-frameworks/Archive/libarchive
     ./configure
-    
 
-- Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 463
 
-    #define HAVE_STRUCT_STAT_ST_BIRTHTIME
-    
-and line 466 
+* Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 463
+
+    \#define HAVE_STRUCT_STAT_ST_BIRTHTIME
+
+and line 466
 
     #define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
-    
+
 from 1 to 0.
 
 cURL
 ----
 
-    cd vdrift-frameworks/cURL/curl
-    mkdir xcode
-    cd xcode
-    cmake -G "Xcode" ../
+cd vdrift-frameworks/cURL/curl
+mkdir xcode
+cd xcode
+cmake -G "Xcode" ../
 
-Update the version in vdrift-frameworks/FRAMEWORK_NAME/FRAMEWORK_NAME-Info.plist and the Compatibility Version, Current Library Version and Framework Version in the appropriate build settings in Xcode according to http://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/BPFrameworks/Concepts/VersionInformation.html.
+Update the version in vdrift-frameworks/FRAMEWORK_NAME/FRAMEWORK_NAME-Info.plist and the Compatibility Version, Current Library Version and Framework Version in the appropriate build settings in Xcode according to http://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/ BPFrameworks/Concepts/VersionInformation.html.
 
 Building
---------
+========
 
 You can now open vdrift-frameworks/vdrift-frameworks.xcodeproj and build some or all of the frameworks - use the drop down on the toolbar to select the required scheme. They will be put into vdrift-frameworks/build/Debug/ from which you can copy them into vdrift/vdrift-mac/Frameworks/
 
