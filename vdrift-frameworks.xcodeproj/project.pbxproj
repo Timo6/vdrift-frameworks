@@ -4177,9 +4177,9 @@
 				OTHER_LDFLAGS = (
 					/usr/lib/libz.dylib,
 					/usr/lib/libbz2.dylib,
-					/opt/local/lib/libssl.dylib,
-					/opt/local/lib/libcrypto.dylib,
-					/opt/local/lib/libxml2.dylib,
+					/usr/lib/libssl.dylib,
+					/usr/lib/libcrypto.dylib,
+					/usr/lib/libxml2.dylib,
 				);
 				PRODUCT_NAME = Archive;
 				WRAPPER_EXTENSION = framework;
@@ -4207,9 +4207,9 @@
 				OTHER_LDFLAGS = (
 					/usr/lib/libz.dylib,
 					/usr/lib/libbz2.dylib,
-					/opt/local/lib/libssl.dylib,
-					/opt/local/lib/libcrypto.dylib,
-					/opt/local/lib/libxml2.dylib,
+					/usr/lib/libssl.dylib,
+					/usr/lib/libcrypto.dylib,
+					/usr/lib/libxml2.dylib,
 				);
 				PRODUCT_NAME = Archive;
 				WRAPPER_EXTENSION = framework;
