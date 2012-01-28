@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
-	<string>cURL 7.23.1</string>
+	<string>cURL 7.24.0</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.libcurl.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>cURL 7.23.1</string>
+	<string>cURL 7.24.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>7.23.1</string>
+	<string>7.24.0</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2012. All rights reserved.</string>
 </dict>
