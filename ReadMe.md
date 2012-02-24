@@ -14,7 +14,7 @@ Downloads
 
 Once you have the prerequisites, download the latest stable release from the following sites. You don't need all of them, but some require one of more of the others. Make sure you download the source releases, not the packaged or binary versions.
 
-Archive: http://code.google.com/p/libarchive/
+Archive: http://libarchive.github.com/
 
 BulletCollision (**Requires LinearMath**): http://code.google.com/p/bullet/downloads/list
 
@@ -55,11 +55,11 @@ In a command line:
     cd vdrift-frameworks/Archive/libarchive
     ./configure
 
-Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 463
+Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 607
 
     #define HAVE_STRUCT_STAT_ST_BIRTHTIME
 
-and line 466
+and line 610
 
     #define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
 

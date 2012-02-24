@@ -1,4 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf230
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf320
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh14960\viewkind0
@@ -23,7 +23,7 @@ You also need CMake: {\field{\*\fldinst{HYPERLINK "http://cmake.org/cmake/resour
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
 \fs24 \cf0 Once you have the prerequisites, download the latest stable release from the following sites. You don't need all of them, but some require one of more of the others. Make sure you download the source releases, not the packaged or binary versions.\
-Archive: {\field{\*\fldinst{HYPERLINK "http://code.google.com/p/libarchive/"}}{\fldrslt http://code.google.com/p/libarchive/}}\
+Archive: {\field{\*\fldinst{HYPERLINK "http://libarchive.github.com/"}}{\fldrslt http://libarchive.github.com/}}\
 BulletCollision (
 \b Requires LinearMath
 \b0 ): {\field{\*\fldinst{HYPERLINK "http://code.google.com/p/bullet/downloads/list"}}{\fldrslt http://code.google.com/p/bullet/downloads/list}}\
@@ -72,10 +72,10 @@ Next expand the downloaded file into the relevant folder, removing the version n
 - In a command line\
 cd vdrift-frameworks/Archive/libarchive\
 ./configure\
-- Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 463\
+- Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the end of line 607\
 \pard\tx560\pardeftab560\pardirnatural
 \cf0 \CocoaLigature0 #define HAVE_STRUCT_STAT_ST_BIRTHTIME\
-and line 466 \
+and line 610\
 #define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC\
 from 1 to 0.\CocoaLigature1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
