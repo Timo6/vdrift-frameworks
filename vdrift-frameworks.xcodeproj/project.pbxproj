@@ -144,6 +144,9 @@
 		F50E394414F83A08005998F2 /* archive_write_private.h in Headers */ = {isa = PBXBuildFile; fileRef = F50E392F14F83A08005998F2 /* archive_write_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F50E394514F83A08005998F2 /* archive.h in Headers */ = {isa = PBXBuildFile; fileRef = F50E393014F83A08005998F2 /* archive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F50E394614F83A08005998F2 /* filter_fork.h in Headers */ = {isa = PBXBuildFile; fileRef = F50E393114F83A08005998F2 /* filter_fork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F51A95D3153D8BAF0033EC69 /* archive_getdate.c in Sources */ = {isa = PBXBuildFile; fileRef = F51A95D2153D8BAF0033EC69 /* archive_getdate.c */; };
+		F51A95D5153D8BBF0033EC69 /* archive_match.c in Sources */ = {isa = PBXBuildFile; fileRef = F51A95D4153D8BBF0033EC69 /* archive_match.c */; };
+		F51A95D7153D8BC90033EC69 /* archive_pathmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = F51A95D6153D8BC90033EC69 /* archive_pathmatch.c */; };
 		F5232A9314CB64EB00FCC16E /* IMG_ImageIO.m in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8914CB64EA00FCC16E /* IMG_ImageIO.m */; };
 		F5232A9414CB64EB00FCC16E /* IMG_lbm.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8A14CB64EA00FCC16E /* IMG_lbm.c */; };
 		F5232A9514CB64EB00FCC16E /* IMG_pcx.c in Sources */ = {isa = PBXBuildFile; fileRef = F5232A8B14CB64EA00FCC16E /* IMG_pcx.c */; };
@@ -982,6 +985,9 @@
 		F50E392F14F83A08005998F2 /* archive_write_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = archive_write_private.h; path = Archive/libarchive/libarchive/archive_write_private.h; sourceTree = "<group>"; };
 		F50E393014F83A08005998F2 /* archive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = archive.h; path = Archive/libarchive/libarchive/archive.h; sourceTree = "<group>"; };
 		F50E393114F83A08005998F2 /* filter_fork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = filter_fork.h; path = Archive/libarchive/libarchive/filter_fork.h; sourceTree = "<group>"; };
+		F51A95D2153D8BAF0033EC69 /* archive_getdate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_getdate.c; path = Archive/libarchive/libarchive/archive_getdate.c; sourceTree = "<group>"; };
+		F51A95D4153D8BBF0033EC69 /* archive_match.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_match.c; path = Archive/libarchive/libarchive/archive_match.c; sourceTree = "<group>"; };
+		F51A95D6153D8BC90033EC69 /* archive_pathmatch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_pathmatch.c; path = Archive/libarchive/libarchive/archive_pathmatch.c; sourceTree = "<group>"; };
 		F5232A8914CB64EA00FCC16E /* IMG_ImageIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IMG_ImageIO.m; path = SDL_image/SDL_image/IMG_ImageIO.m; sourceTree = "<group>"; };
 		F5232A8A14CB64EA00FCC16E /* IMG_lbm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_lbm.c; path = SDL_image/SDL_image/IMG_lbm.c; sourceTree = "<group>"; };
 		F5232A8B14CB64EA00FCC16E /* IMG_pcx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IMG_pcx.c; path = SDL_image/SDL_image/IMG_pcx.c; sourceTree = "<group>"; };
@@ -2316,7 +2322,10 @@
 				F50E387B14F83945005998F2 /* archive_entry_strmode.c */,
 				F50E387C14F83945005998F2 /* archive_entry_xattr.c */,
 				F50E387D14F83945005998F2 /* archive_entry.c */,
+				F51A95D2153D8BAF0033EC69 /* archive_getdate.c */,
+				F51A95D4153D8BBF0033EC69 /* archive_match.c */,
 				F50E387E14F83945005998F2 /* archive_options.c */,
+				F51A95D6153D8BC90033EC69 /* archive_pathmatch.c */,
 				F50E387F14F83945005998F2 /* archive_ppmd7.c */,
 				F50E388014F83945005998F2 /* archive_rb.c */,
 				F50E388114F83945005998F2 /* archive_read_data_into_fd.c */,
@@ -3620,7 +3629,10 @@
 				F50E38D014F83945005998F2 /* archive_entry_strmode.c in Sources */,
 				F50E38D114F83945005998F2 /* archive_entry_xattr.c in Sources */,
 				F50E38D214F83945005998F2 /* archive_entry.c in Sources */,
+				F51A95D3153D8BAF0033EC69 /* archive_getdate.c in Sources */,
+				F51A95D5153D8BBF0033EC69 /* archive_match.c in Sources */,
 				F50E38D314F83945005998F2 /* archive_options.c in Sources */,
+				F51A95D7153D8BC90033EC69 /* archive_pathmatch.c in Sources */,
 				F50E38D414F83945005998F2 /* archive_ppmd7.c in Sources */,
 				F50E38D514F83945005998F2 /* archive_rb.c in Sources */,
 				F50E38D614F83945005998F2 /* archive_read_data_into_fd.c in Sources */,
@@ -4291,7 +4303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 3.0;
-				DYLIB_CURRENT_VERSION = 3.0.3;
+				DYLIB_CURRENT_VERSION = 3.0.4;
 				FRAMEWORK_VERSION = 3.0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
@@ -4320,7 +4332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 3.0;
-				DYLIB_CURRENT_VERSION = 3.0.3;
+				DYLIB_CURRENT_VERSION = 3.0.4;
 				FRAMEWORK_VERSION = 3.0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
