@@ -94,8 +94,7 @@ cd vdrift-frameworks/cURL/curl mkdir xcode cd xcode cmake -G "Xcode" ../
 Update the version in vdrift-frameworks/FRAMEWORK_NAME/FRAMEWORK_NAME-Info.plist
 and the Compatibility Version, Current Library Version and Framework Version in
 the appropriate build settings in Xcode according to
-http://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/
-BPFrameworks/Concepts/VersionInformation.html.
+http://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/BPFrameworks/Concepts/VersionInformation.html.
 
 Building
 ========
