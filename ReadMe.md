@@ -78,11 +78,11 @@ cd vdrift-frameworks/Archive/libarchive ./configure
 Open vdrift-frameworks/Archive/libarchive/config.h and change the number at the
 end of line 607
 
-#define HAVE_STRUCT_STAT_ST_BIRTHTIME
+ #define HAVE_STRUCT_STAT_ST_BIRTHTIME
 
 and line 610
 
-#define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
+ #define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
 
 from 1 to 0.
 
