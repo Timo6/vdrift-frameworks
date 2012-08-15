@@ -4375,7 +4375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.23;
+				DYLIB_CURRENT_VERSION = 2.0.24;
 				FRAMEWORK_VERSION = 2.0;
 				INFOPLIST_FILE = "SDL_gfx/SDL_gfx-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4387,7 +4387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.23;
+				DYLIB_CURRENT_VERSION = 2.0.24;
 				FRAMEWORK_VERSION = 2.0;
 				INFOPLIST_FILE = "SDL_gfx/SDL_gfx-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
