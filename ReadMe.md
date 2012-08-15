@@ -8,7 +8,7 @@ an issue or send a pull request on [GitHub](http://github.com/Timo6/vdrift-frame
 
 # Prerequisites
 To build these frameworks you need Xcode 3.2 or later (tested only with Xcode
-4.2 to 4.3.2). Xcode is available free on the
+4.2 to 4.5). Xcode is available free on the
 [Mac App Store](http://itunes.apple.com/us/app/xcode/id422352214?mt=12&ls=1).
 
 You also need [CMake](http://cmake.org/cmake/resources/software.html). You can
@@ -76,11 +76,11 @@ In a command line:
     ./configure
 
 Open _vdrift-frameworks/Archive/libarchive/config.h_ and change the number at
-the end of line 607
+the end of line 613
 
     #define HAVE_STRUCT_STAT_ST_BIRTHTIME
 
-and line 610
+and line 616
 
     #define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
 
