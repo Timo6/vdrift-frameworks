@@ -1,5 +1,5 @@
 A Xcode project that builds the dependancies [VDrift](http://vdrift.net)
-requires as native Mac OS X frameworks. For instructions about VDrift itself
+requires as native OS X frameworks. For instructions about VDrift itself
 visit the [wiki](http://wiki.vdrift.net). Released under the
 [GNU General Public License (GPL) v3](http://gnu.org/copyleft/gpl.html).
 
@@ -11,7 +11,7 @@ To build these frameworks you need Xcode 3.2 or later (tested only with Xcode
 4.2 to 4.5). Xcode is available free on the
 [Mac App Store](http://itunes.apple.com/us/app/xcode/id422352214?mt=12&ls=1).
 
-You also need [CMake](http://cmake.org/cmake/resources/software.html). You can
+In order to build cURL you also need [CMake](http://cmake.org/cmake/resources/software.html). You can
 either use the GUI or, as in the following instructions, the command line tools.
 Just make sure you select _Install Command Line Links_ when asked at the end of
 the install.
