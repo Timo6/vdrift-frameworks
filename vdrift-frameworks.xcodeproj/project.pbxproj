@@ -30,6 +30,34 @@
 			name = ALL;
 			productName = "VDrift + Frameworks";
 		};
+		F57DD93C16A1C00D00018854 /* ALL BULLET */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F57DD95716A1C00D00018854 /* Build configuration list for PBXAggregateTarget "ALL BULLET" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F57DD93F16A1C00D00018854 /* PBXTargetDependency */,
+				F57DD94116A1C00D00018854 /* PBXTargetDependency */,
+				F57DD94316A1C00D00018854 /* PBXTargetDependency */,
+				F57DD94916A1C00D00018854 /* PBXTargetDependency */,
+			);
+			name = "ALL BULLET";
+			productName = "VDrift + Frameworks";
+		};
+		F57DD95B16A1C02B00018854 /* ALL SDL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F57DD97616A1C02B00018854 /* Build configuration list for PBXAggregateTarget "ALL SDL" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F57DD96C16A1C02B00018854 /* PBXTargetDependency */,
+				F57DD96E16A1C02B00018854 /* PBXTargetDependency */,
+				F57DD97016A1C02B00018854 /* PBXTargetDependency */,
+				F57DD97216A1C02B00018854 /* PBXTargetDependency */,
+			);
+			name = "ALL SDL";
+			productName = "VDrift + Frameworks";
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
@@ -910,6 +938,62 @@
 			proxyType = 1;
 			remoteGlobalIDString = F572C62B14A8E612008B223B;
 			remoteInfo = Vorbis;
+		};
+		F57DD94016A1C00D00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F540AB1614C1979A00F2FAC4;
+			remoteInfo = BulletCollision;
+		};
+		F57DD94216A1C00D00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F540ACD714C19EE800F2FAC4;
+			remoteInfo = BulletDynamics;
+		};
+		F57DD94416A1C00D00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F540AE1C14C1A12000F2FAC4;
+			remoteInfo = BulletSoftBody;
+		};
+		F57DD94A16A1C00D00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F540AF2B14C1A30E00F2FAC4;
+			remoteInfo = LinearMath;
+		};
+		F57DD96D16A1C02B00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55F2A2014C1BECC00284985;
+			remoteInfo = SDL_gfx;
+		};
+		F57DD96F16A1C02B00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53EC1CB14C0E28E0064FEC0;
+			remoteInfo = SDL_image;
+		};
+		F57DD97116A1C02B00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F540AADF14C0F0F800F2FAC4;
+			remoteInfo = SDL_net;
+		};
+		F57DD97316A1C02B00018854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F549219714C2206700137A01;
+			remoteInfo = SDL;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -3376,6 +3460,8 @@
 			projectRoot = ..;
 			targets = (
 				F572C61514A8E1DD008B223B /* ALL */,
+				F57DD93C16A1C00D00018854 /* ALL BULLET */,
+				F57DD95B16A1C02B00018854 /* ALL SDL */,
 				F572C67614A8EB01008B223B /* Archive */,
 				F540AB1614C1979A00F2FAC4 /* BulletCollision */,
 				F540ACD714C19EE800F2FAC4 /* BulletDynamics */,
@@ -4118,6 +4204,46 @@
 			target = F572C62B14A8E612008B223B /* Vorbis */;
 			targetProxy = F57718D814C8C12D00465A38 /* PBXContainerItemProxy */;
 		};
+		F57DD93F16A1C00D00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F540AB1614C1979A00F2FAC4 /* BulletCollision */;
+			targetProxy = F57DD94016A1C00D00018854 /* PBXContainerItemProxy */;
+		};
+		F57DD94116A1C00D00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F540ACD714C19EE800F2FAC4 /* BulletDynamics */;
+			targetProxy = F57DD94216A1C00D00018854 /* PBXContainerItemProxy */;
+		};
+		F57DD94316A1C00D00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F540AE1C14C1A12000F2FAC4 /* BulletSoftBody */;
+			targetProxy = F57DD94416A1C00D00018854 /* PBXContainerItemProxy */;
+		};
+		F57DD94916A1C00D00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F540AF2B14C1A30E00F2FAC4 /* LinearMath */;
+			targetProxy = F57DD94A16A1C00D00018854 /* PBXContainerItemProxy */;
+		};
+		F57DD96C16A1C02B00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55F2A2014C1BECC00284985 /* SDL_gfx */;
+			targetProxy = F57DD96D16A1C02B00018854 /* PBXContainerItemProxy */;
+		};
+		F57DD96E16A1C02B00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53EC1CB14C0E28E0064FEC0 /* SDL_image */;
+			targetProxy = F57DD96F16A1C02B00018854 /* PBXContainerItemProxy */;
+		};
+		F57DD97016A1C02B00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F540AADF14C0F0F800F2FAC4 /* SDL_net */;
+			targetProxy = F57DD97116A1C02B00018854 /* PBXContainerItemProxy */;
+		};
+		F57DD97216A1C02B00018854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F549219714C2206700137A01 /* SDL */;
+			targetProxy = F57DD97316A1C02B00018854 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -4551,6 +4677,34 @@
 			};
 			name = Release;
 		};
+		F57DD95816A1C00D00018854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "ALL copy";
+			};
+			name = Debug;
+		};
+		F57DD95916A1C00D00018854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "ALL copy";
+			};
+			name = Release;
+		};
+		F57DD97716A1C02B00018854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "ALL BULLET copy";
+			};
+			name = Debug;
+		};
+		F57DD97816A1C02B00018854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "ALL BULLET copy";
+			};
+			name = Release;
+		};
 		F5DB232214A8D3AB0070E657 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4761,6 +4915,24 @@
 			buildConfigurations = (
 				F572C69914A8EB01008B223B /* Debug */,
 				F572C69A14A8EB01008B223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F57DD95716A1C00D00018854 /* Build configuration list for PBXAggregateTarget "ALL BULLET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57DD95816A1C00D00018854 /* Debug */,
+				F57DD95916A1C00D00018854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F57DD97616A1C02B00018854 /* Build configuration list for PBXAggregateTarget "ALL SDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57DD97716A1C02B00018854 /* Debug */,
+				F57DD97816A1C02B00018854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
