@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>net.sourceforge.glew.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,8 +21,10 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.9.0</string>
+	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012. All rights reserved.</string>
+	<string>Copyright © 2002, Lev Povalahev, 2002-2007 , Marcelo E. Magallon &lt;mmagallo[]debian org&gt;, 2002-2007, Milan Ikits &lt;milan ikits[]ieee org&gt;. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
 </dict>
 </plist>

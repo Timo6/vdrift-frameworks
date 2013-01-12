@@ -6,10 +6,10 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleGetInfoString</key>
-	<string>cURL 7.27.0</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.libcurl.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>se.haxx.curl.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,12 +17,14 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>cURL 7.27.0</string>
+	<string>7.27.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>7.27.0</string>
+	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012. All rights reserved.</string>
+	<string>Copyright © 1996 - 2013, Daniel Stenberg, &lt;daniel@haxx.se&gt;. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
 </dict>
 </plist>

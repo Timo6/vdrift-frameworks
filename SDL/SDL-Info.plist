@@ -5,20 +5,26 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>SDL</string>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>org.libsdl.SDL</string>
+	<string>org.libsdl.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SDL</string>
+	<string>Simple DirectMedia Layer</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.2.15</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.2.15</string>
+	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012. All rights reserved.</string>
+	<string>Copyright © 2013 http://www.libsdl.org. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
 </dict>
 </plist>
