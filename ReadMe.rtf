@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww21420\viewh14960\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
@@ -13,16 +13,14 @@ If you know a better way of doing any part of this, or find a bug, please make a
 \fs24 \
 
 \b0 To build these frameworks you need Xcode 3.2 or later (tested only with Xcode 4.2 to 4.5). Xcode is available free on the {\field{\*\fldinst{HYPERLINK "http://itunes.apple.com/us/app/xcode/id422352214?mt=12&ls=1"}}{\fldrslt Mac App Store}}.\
-In order to build cURL you also need {\field{\*\fldinst{HYPERLINK "http://cmake.org/cmake/resources/software.html."}}{\fldrslt CMake}}. You can either use the GUI or, as in the following instructions, the command line tools. Just make sure you select
-\i  Install Command Line Links
-\i0  when asked at the end of the install.\
+In order to build cURL you also need {\field{\*\fldinst{HYPERLINK "http://cmake.org/cmake/resources/software.html."}}{\fldrslt CMake}} installed. If using the package from the website, make sure you select 'Install Command Line Links' when asked at the end of the install.\
 \
 
 \b\fs36 Downloads
 \b0 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\fs24 \cf0 Once you have the prerequisites, download the latest stable release from the following sites. You don't need all of them, but some require one of more of the others. Make sure you download the source releases, not the packaged or binary versions.\
+\fs24 \cf0 Once you have the prerequisites, download the latest stable release from the following sites. You don't need all of them, but some require one or more of the others. Make sure you download the source releases, not the packaged or binary versions.\
 Archive: {\field{\*\fldinst{HYPERLINK "http://libarchive.github.com/"}}{\fldrslt http://libarchive.github.com/}}\
 BulletCollision (
 \b Requires LinearMath
@@ -59,23 +57,6 @@ Next expand the downloaded file into the relevant folder, removing the version n
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\b\fs36 \cf0 cURL
-\fs28 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-
-\b0\fs24 \cf0 Before you can build the cURL framework, some files need to be generated:
-\b\fs28 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-
-\f1\b0\fs24 \cf0 	cd vdrift-frameworks/cURL/curl\
-	mkdir xcode\
-	cd xcode\
-	cmake -G "Xcode" ../
-\f0 \CocoaLigature0 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 \CocoaLigature1 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-
 \b\fs36 \cf0 Updating
 \b0\fs24 \
 Update the version in 
@@ -97,11 +78,9 @@ Update the version in
 \b0\fs24 \
 You can now open 
 \i vdrift-frameworks/vdrift-frameworks.xcodeproj
-\i0  and build some or all of the frameworks - use the drop down on the toolbar to select the required scheme. They will be put into 
-\i vdrift-frameworks/build/Debug/
-\i0  from which you can copy them into 
+\i0  and build some or all of the frameworks - use the drop down on the toolbar to select the required scheme. They will be put into your build directory from which you can copy them into 
 \i vdrift/vdrift-mac/Frameworks/
-\i0 \
+\i0 .\
 \
 \
 \
