@@ -65,34 +65,14 @@ Next expand the downloaded file into the relevant folder, removing the version
 number from the resultant folder, for example expand _libogg-1.3.0.tar.gz_ into
 _vdrift-frameworks/Ogg/libogg/_
 
-# Configuring
-Now you need to configure a few of the libraries before we can build the
-frameworks.
-
-## Archive
-In a command line:
-
-    cd vdrift-frameworks/Archive/libarchive
-    ./configure
-
-Open _vdrift-frameworks/Archive/libarchive/config.h_ and change the number at
-the end of line 613
-
-    #define HAVE_STRUCT_STAT_ST_BIRTHTIME
-
-and line 616
-
-    #define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
-
-from 1 to 0.
-
-## cURL
+# cURL
+Before you can build the cURL framework, some files need to be generated:
     cd vdrift-frameworks/cURL/curl
     mkdir xcode
     cd xcode
     cmake -G "Xcode" ../
 
-## All
+# Updating
 Update the version in _vdrift-frameworks/**FRAMEWORK_NAME**/**FRAMEWORK_NAME**-Info.plist_
 and the _Compatibility Version_, _Current Library Version_ and _Framework Version_
 in the appropriate build settings in Xcode according to

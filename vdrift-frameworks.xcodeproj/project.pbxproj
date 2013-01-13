@@ -4351,9 +4351,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F572C69814A8EB01008B223B /* Build configuration list for PBXNativeTarget "Archive" */;
 			buildPhases = (
-				F572C67914A8EB01008B223B /* Headers */,
+				F5FF38BE16A3037000762464 /* ./configure */,
 				F572C67F14A8EB01008B223B /* Sources */,
 				F50E386F14F8386F005998F2 /* Frameworks */,
+				F572C67914A8EB01008B223B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -4525,6 +4526,20 @@
 			shellPath = /bin/sh;
 			shellScript = "make -C $SRCROOT/cURL/curl/xcode/lib -f $SRCROOT/cURL/curl/xcode/lib/CMakeScripts/libcurl_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
+		};
+		F5FF38BE16A3037000762464 /* ./configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = ./configure;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $SRCROOT/Archive/libarchive\n./configure";
 		};
 /* End PBXShellScriptBuildPhase section */
 

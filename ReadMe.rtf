@@ -59,39 +59,12 @@ Next expand the downloaded file into the relevant folder, removing the version n
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\b\fs36 \cf0 Configuring
-\b0 \
+\b\fs36 \cf0 cURL
+\fs28 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\fs24 \cf0 Now you need to configure a few of the libraries before we can build the frameworks.\
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-
-\b\fs28 \cf0 Archive
-\b0\fs24 \
-- In a command line\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-
-\f1 \cf0 	cd vdrift-frameworks/Archive/libarchive\
-	./configure
-\f0 \
-- Open 
-\i vdrift-frameworks/Archive/libarchive/config.h
-\i0  and change the number at the end of line 613\
-\pard\tx560\pardeftab560\pardirnatural
-
-\f1 \cf0 \CocoaLigature0 	#define HAVE_STRUCT_STAT_ST_BIRTHTIME\
-
-\f0 and line 616\
-
-\f1 	#define HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
-\f0 \
-from 1 to 0.\CocoaLigature1 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-
-\b\fs28 \cf0 cURL\
+\b0\fs24 \cf0 Before you can build the cURL framework, some files need to be generated:
+\b\fs28 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
 \f1\b0\fs24 \cf0 	cd vdrift-frameworks/cURL/curl\
@@ -103,7 +76,7 @@ from 1 to 0.\CocoaLigature1 \
 \cf0 \CocoaLigature1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\b\fs28 \cf0 All
+\b\fs36 \cf0 Updating
 \b0\fs24 \
 Update the version in 
 \i vdrift-frameworks/
@@ -119,9 +92,8 @@ Update the version in
 \i Framework Version
 \i0  in the appropriate build settings in Xcode according to {\field{\*\fldinst{HYPERLINK "http://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/BPFrameworks/Concepts/VersionInformation.html"}}{\fldrslt Apple's documentation}}.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\b\fs36 \cf0 Building
+\b\fs36 Building
 \b0\fs24 \
 You can now open 
 \i vdrift-frameworks/vdrift-frameworks.xcodeproj
