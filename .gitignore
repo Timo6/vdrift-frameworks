@@ -12,6 +12,11 @@ SDL_gfx/SDL_gfx*
 SDL_image/SDL_image*
 SDL_net/SDL_net*
 SDL/SDL*
+SDL2_gfx/SDL2_gfx*
+SDL2_gfx/SDL_gfx*
+SDL2_image/SDL2_image*
+SDL2_image/SDL_image*
+SDL2/SDL*
 vdrift-frameworks.xcodeproj/xcuserdata
 vdrift-frameworks.xcodeproj/project.xcworkspace
 Vorbis/libvorbis*
