@@ -186,6 +186,8 @@
 		F53EBE4F14C0D1FD0064FEC0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572C5EC14A8DD70008B223B /* Ogg.framework */; };
 		F53EC26214C0E3E10064FEC0 /* SDL_image.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EC26114C0E3E10064FEC0 /* SDL_image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53EC27614C0E4450064FEC0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EC27514C0E4440064FEC0 /* ApplicationServices.framework */; };
+		F54008A216D2AE6D004FFC6C /* bundles.c in Sources */ = {isa = PBXBuildFile; fileRef = F54008A116D2AE6D004FFC6C /* bundles.c */; };
+		F54008A416D2AE84004FFC6C /* conncache.c in Sources */ = {isa = PBXBuildFile; fileRef = F54008A316D2AE84004FFC6C /* conncache.c */; };
 		F540AAFA14C0F23D00F2FAC4 /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = F540AAF914C0F23D00F2FAC4 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F540AAFC14C0F24B00F2FAC4 /* SDLnetsys.h in Headers */ = {isa = PBXBuildFile; fileRef = F540AAFB14C0F24A00F2FAC4 /* SDLnetsys.h */; };
 		F540AB0114C0F26800F2FAC4 /* SDLnet.c in Sources */ = {isa = PBXBuildFile; fileRef = F540AAFD14C0F26800F2FAC4 /* SDLnet.c */; };
@@ -1592,6 +1594,8 @@
 		F53EC25C14C0E28E0064FEC0 /* SDL_image.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_image.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53EC26114C0E3E10064FEC0 /* SDL_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDL_image.h; path = SDL_image/SDL_image/SDL_image.h; sourceTree = "<group>"; };
 		F53EC27514C0E4440064FEC0 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F54008A116D2AE6D004FFC6C /* bundles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bundles.c; path = cURL/curl/lib/bundles.c; sourceTree = "<group>"; };
+		F54008A316D2AE84004FFC6C /* conncache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = conncache.c; path = cURL/curl/lib/conncache.c; sourceTree = "<group>"; };
 		F540AAD814C0EED200F2FAC4 /* SDL_image-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SDL_image-Info.plist"; path = "SDL_image/SDL_image-Info.plist"; sourceTree = "<group>"; };
 		F540AAF514C0F0F800F2FAC4 /* SDL_net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F540AAF914C0F23D00F2FAC4 /* SDL_net.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDL_net.h; path = SDL_net/SDL_net/SDL_net.h; sourceTree = "<group>"; };
@@ -3308,6 +3312,8 @@
 				F5FF37E516A2F8A800762464 /* asyn-thread.c */,
 				F5FF37E616A2F8A800762464 /* axtls.c */,
 				F5FF37E716A2F8A800762464 /* base64.c */,
+				F54008A116D2AE6D004FFC6C /* bundles.c */,
+				F54008A316D2AE84004FFC6C /* conncache.c */,
 				F5FF37E816A2F8A800762464 /* connect.c */,
 				F5FF37E916A2F8A800762464 /* content_encoding.c */,
 				F5FF37EA16A2F8A800762464 /* cookie.c */,
@@ -4655,6 +4661,8 @@
 				F5FF385116A2F8A900762464 /* asyn-thread.c in Sources */,
 				F5FF385216A2F8A900762464 /* axtls.c in Sources */,
 				F5FF385316A2F8A900762464 /* base64.c in Sources */,
+				F54008A216D2AE6D004FFC6C /* bundles.c in Sources */,
+				F54008A416D2AE84004FFC6C /* conncache.c in Sources */,
 				F5FF385416A2F8A900762464 /* connect.c in Sources */,
 				F5FF385516A2F8A900762464 /* content_encoding.c in Sources */,
 				F5FF385616A2F8A900762464 /* cookie.c in Sources */,
@@ -5506,8 +5514,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.28.1;
-				FRAMEWORK_VERSION = 7.28;
+				DYLIB_CURRENT_VERSION = 7.29.0;
+				FRAMEWORK_VERSION = 7.29;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					libcurl_EXPORTS,
 					BUILDING_LIBCURL,
@@ -5538,8 +5546,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.28.1;
-				FRAMEWORK_VERSION = 7.28;
+				DYLIB_CURRENT_VERSION = 7.29.0;
+				FRAMEWORK_VERSION = 7.29;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
