@@ -208,6 +208,8 @@
 		F540AB0214C0F26800F2FAC4 /* SDLnetselect.c in Sources */ = {isa = PBXBuildFile; fileRef = F540AAFE14C0F26800F2FAC4 /* SDLnetselect.c */; };
 		F540AB0314C0F26800F2FAC4 /* SDLnetTCP.c in Sources */ = {isa = PBXBuildFile; fileRef = F540AAFF14C0F26800F2FAC4 /* SDLnetTCP.c */; };
 		F540AB0414C0F26800F2FAC4 /* SDLnetUDP.c in Sources */ = {isa = PBXBuildFile; fileRef = F540AB0014C0F26800F2FAC4 /* SDLnetUDP.c */; };
+		F5460CC9173408AF00BF77B2 /* pipeline.c in Sources */ = {isa = PBXBuildFile; fileRef = F5460CC8173408AF00BF77B2 /* pipeline.c */; };
+		F5460CCB173408C200BF77B2 /* polarssl_threadlock.c in Sources */ = {isa = PBXBuildFile; fileRef = F5460CCA173408C200BF77B2 /* polarssl_threadlock.c */; };
 		F549229614C2208E00137A01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590626E14C21C5B004033EB /* AudioToolbox.framework */; };
 		F549229714C2208E00137A01 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590626F14C21C5B004033EB /* AudioUnit.framework */; };
 		F549229814C2208E00137A01 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590627014C21C5B004033EB /* Carbon.framework */; };
@@ -1641,6 +1643,8 @@
 		F540AF2A14C1A2FE00F2FAC4 /* BulletSoftBody-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BulletSoftBody-Info.plist"; path = "BulletSoftBody/BulletSoftBody-Info.plist"; sourceTree = "<group>"; };
 		F540AF4A14C1A30E00F2FAC4 /* LinearMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinearMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F540AF8C14C1A42B00F2FAC4 /* LinearMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LinearMath-Info.plist"; path = "LinearMath/LinearMath-Info.plist"; sourceTree = "<group>"; };
+		F5460CC8173408AF00BF77B2 /* pipeline.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = pipeline.c; path = cURL/curl/lib/pipeline.c; sourceTree = "<group>"; };
+		F5460CCA173408C200BF77B2 /* polarssl_threadlock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = polarssl_threadlock.c; path = cURL/curl/lib/polarssl_threadlock.c; sourceTree = "<group>"; };
 		F549219614C2206500137A01 /* Xinerama.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Xinerama.c; path = SDL/SDL/src/video/Xext/Xinerama/Xinerama.c; sourceTree = "<group>"; };
 		F549229414C2206700137A01 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F556E48814C0D01700072CFC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -3426,6 +3430,8 @@
 				F5FF382B16A2F8A900762464 /* openldap.c */,
 				F5FF382C16A2F8A900762464 /* parsedate.c */,
 				F5FF382D16A2F8A900762464 /* pingpong.c */,
+				F5460CCA173408C200BF77B2 /* polarssl_threadlock.c */,
+				F5460CC8173408AF00BF77B2 /* pipeline.c */,
 				F5FF382E16A2F8A900762464 /* polarssl.c */,
 				F5FF382F16A2F8A900762464 /* pop3.c */,
 				F5FF383016A2F8A900762464 /* progress.c */,
@@ -4787,6 +4793,8 @@
 				F5FF389716A2F8A900762464 /* openldap.c in Sources */,
 				F5FF389816A2F8A900762464 /* parsedate.c in Sources */,
 				F5FF389916A2F8A900762464 /* pingpong.c in Sources */,
+				F5460CC9173408AF00BF77B2 /* pipeline.c in Sources */,
+				F5460CCB173408C200BF77B2 /* polarssl_threadlock.c in Sources */,
 				F5FF389A16A2F8A900762464 /* polarssl.c in Sources */,
 				F5FF389B16A2F8A900762464 /* pop3.c in Sources */,
 				F5FF389C16A2F8A900762464 /* progress.c in Sources */,
@@ -5570,8 +5578,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.29.0;
-				FRAMEWORK_VERSION = 7.29;
+				DYLIB_CURRENT_VERSION = 7.30.0;
+				FRAMEWORK_VERSION = 7.30;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					libcurl_EXPORTS,
 					BUILDING_LIBCURL,
@@ -5602,8 +5610,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.29.0;
-				FRAMEWORK_VERSION = 7.29;
+				DYLIB_CURRENT_VERSION = 7.30.0;
+				FRAMEWORK_VERSION = 7.30;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
