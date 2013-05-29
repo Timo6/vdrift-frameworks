@@ -903,6 +903,8 @@
 		F5E8A4E014C2344B008B99EF /* SDL_version.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E8A4BA14C2344B008B99EF /* SDL_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5E8A4E114C2344B008B99EF /* SDL_video.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E8A4BB14C2344B008B99EF /* SDL_video.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5E8A4E214C2344B008B99EF /* SDL.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E8A4BC14C2344B008B99EF /* SDL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5EF4B06175647D000EBFABA /* Ogg_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F5EF4B05175647D000EBFABA /* Ogg_Prefix.pch */; };
+		F5EF4B0A175647DB00EBFABA /* InfoPlist.strings in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EF4B08175647DA00EBFABA /* InfoPlist.strings */; };
 		F5FF378F16A2EF8C00762464 /* btCollisionObjectWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF378E16A2EF8C00762464 /* btCollisionObjectWrapper.h */; };
 		F5FF379016A2EF9A00762464 /* btCollisionObjectWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FF378E16A2EF8C00762464 /* btCollisionObjectWrapper.h */; };
 		F5FF384F16A2F8A900762464 /* amigaos.c in Sources */ = {isa = PBXBuildFile; fileRef = F5FF37E316A2F8A800762464 /* amigaos.c */; };
@@ -1463,6 +1465,16 @@
 			dstSubfolderSpec = 10;
 			files = (
 				F57FD1C014CB6AD9009601E5 /* webp.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EF4B07175647D600EBFABA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				F5EF4B0A175647DB00EBFABA /* InfoPlist.strings in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2202,6 +2214,8 @@
 		F5E8A4BA14C2344B008B99EF /* SDL_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_version.h; path = SDL/SDL/include/SDL_version.h; sourceTree = "<group>"; };
 		F5E8A4BB14C2344B008B99EF /* SDL_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_video.h; path = SDL/SDL/include/SDL_video.h; sourceTree = "<group>"; };
 		F5E8A4BC14C2344B008B99EF /* SDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL.h; path = SDL/SDL/include/SDL.h; sourceTree = "<group>"; };
+		F5EF4B05175647D000EBFABA /* Ogg_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ogg_Prefix.pch; path = Ogg/libogg/macosx/Ogg_Prefix.pch; sourceTree = "<group>"; };
+		F5EF4B09175647DB00EBFABA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = Ogg/libogg/macosx/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5FF378E16A2EF8C00762464 /* btCollisionObjectWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btCollisionObjectWrapper.h; path = BulletCollision/bullet/src/BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h; sourceTree = "<group>"; };
 		F5FF37CD16A2F78E00762464 /* curl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curl.h; path = cURL/curl/include/curl/curl.h; sourceTree = "<group>"; };
 		F5FF37CF16A2F78E00762464 /* curlrules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curlrules.h; path = cURL/curl/include/curl/curlrules.h; sourceTree = "<group>"; };
@@ -2941,6 +2955,7 @@
 		F572C5EF14A8DD70008B223B /* Ogg */ = {
 			isa = PBXGroup;
 			children = (
+				F5EF4B08175647DA00EBFABA /* InfoPlist.strings */,
 				F572C5F114A8DD70008B223B /* Ogg-Info.plist */,
 				F572C60C14A8E01E008B223B /* Source */,
 			);
@@ -2950,6 +2965,7 @@
 		F572C60C14A8E01E008B223B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F5EF4B05175647D000EBFABA /* Ogg_Prefix.pch */,
 				F572C60714A8DFDE008B223B /* bitwise.c */,
 				F572C60814A8DFDE008B223B /* framing.c */,
 				F572C60314A8DFBD008B223B /* ogg.h */,
@@ -3785,6 +3801,7 @@
 			files = (
 				F572C60514A8DFBD008B223B /* ogg.h in Headers */,
 				F572C60614A8DFBD008B223B /* os_types.h in Headers */,
+				F5EF4B06175647D000EBFABA /* Ogg_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4047,6 +4064,7 @@
 			buildConfigurationList = F572C5F914A8DD70008B223B /* Build configuration list for PBXNativeTarget "Ogg" */;
 			buildPhases = (
 				F572C5E914A8DD70008B223B /* Headers */,
+				F5EF4B07175647D600EBFABA /* CopyFiles */,
 				F572C5E714A8DD70008B223B /* Sources */,
 			);
 			buildRules = (
@@ -4976,6 +4994,18 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		F5EF4B08175647DA00EBFABA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5EF4B09175647DB00EBFABA /* English */,
+			);
+			name = InfoPlist.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		B9ADCF760907C8EB00D55A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -5399,8 +5429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.3;
-				DYLIB_CURRENT_VERSION = 1.3.0;
+				DYLIB_CURRENT_VERSION = 1.3.1;
 				FRAMEWORK_VERSION = 1.3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ogg/libogg/macosx/Ogg_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _MACOSX_;
 				HEADER_SEARCH_PATHS = Ogg/libogg/include/;
 				INFOPLIST_FILE = "Ogg/Ogg-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5412,8 +5445,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.3;
-				DYLIB_CURRENT_VERSION = 1.3.0;
+				DYLIB_CURRENT_VERSION = 1.3.1;
 				FRAMEWORK_VERSION = 1.3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ogg/libogg/macosx/Ogg_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _MACOSX_;
 				HEADER_SEARCH_PATHS = Ogg/libogg/include/;
 				INFOPLIST_FILE = "Ogg/Ogg-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
