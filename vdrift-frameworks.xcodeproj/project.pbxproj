@@ -221,6 +221,8 @@
 		F540AB0214C0F26800F2FAC4 /* SDLnetselect.c in Sources */ = {isa = PBXBuildFile; fileRef = F540AAFE14C0F26800F2FAC4 /* SDLnetselect.c */; };
 		F540AB0314C0F26800F2FAC4 /* SDLnetTCP.c in Sources */ = {isa = PBXBuildFile; fileRef = F540AAFF14C0F26800F2FAC4 /* SDLnetTCP.c */; };
 		F540AB0414C0F26800F2FAC4 /* SDLnetUDP.c in Sources */ = {isa = PBXBuildFile; fileRef = F540AB0014C0F26800F2FAC4 /* SDLnetUDP.c */; };
+		F54832EC1820874D0012A0E7 /* SDL_filesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F54832EB1820874C0012A0E7 /* SDL_filesystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54832EE182087850012A0E7 /* SDL_sysfilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = F54832ED182087850012A0E7 /* SDL_sysfilesystem.m */; };
 		F549229614C2208E00137A01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590626E14C21C5B004033EB /* AudioToolbox.framework */; };
 		F549229714C2208E00137A01 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590626F14C21C5B004033EB /* AudioUnit.framework */; };
 		F549229814C2208E00137A01 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590627014C21C5B004033EB /* Carbon.framework */; };
@@ -2000,6 +2002,8 @@
 		F540AF2A14C1A2FE00F2FAC4 /* BulletSoftBody-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BulletSoftBody-Info.plist"; path = "BulletSoftBody/BulletSoftBody-Info.plist"; sourceTree = "<group>"; };
 		F540AF4A14C1A30E00F2FAC4 /* LinearMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinearMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F540AF8C14C1A42B00F2FAC4 /* LinearMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LinearMath-Info.plist"; path = "LinearMath/LinearMath-Info.plist"; sourceTree = "<group>"; };
+		F54832EB1820874C0012A0E7 /* SDL_filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDL_filesystem.h; path = SDL2/SDL2/include/SDL_filesystem.h; sourceTree = "<group>"; };
+		F54832ED182087850012A0E7 /* SDL_sysfilesystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDL_sysfilesystem.m; path = SDL2/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m; sourceTree = "<group>"; };
 		F549219614C2206500137A01 /* Xinerama.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Xinerama.c; path = SDL/SDL/src/video/Xext/Xinerama/Xinerama.c; sourceTree = "<group>"; };
 		F549229414C2206700137A01 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F556E48814C0D01700072CFC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -3944,6 +3948,7 @@
 				F5C8316E17E27694002A7780 /* SDL_windowevents.c */,
 				F5C8316F17E27694002A7780 /* SDL_rwopsbundlesupport.m */,
 				F5C8317017E27694002A7780 /* SDL_rwops.c */,
+				F54832ED182087850012A0E7 /* SDL_sysfilesystem.m */,
 				F5C8317117E27694002A7780 /* SDL_syshaptic.c */,
 				F5C8317217E27694002A7780 /* SDL_haptic.c */,
 				F5C8317317E27694002A7780 /* SDL_sysjoystick.c */,
@@ -4045,6 +4050,7 @@
 				F5C832A917E27766002A7780 /* SDL_endian.h */,
 				F5C832AA17E27766002A7780 /* SDL_error.h */,
 				F5C832AB17E27766002A7780 /* SDL_events.h */,
+				F54832EB1820874C0012A0E7 /* SDL_filesystem.h */,
 				F5C832AC17E27766002A7780 /* SDL_gamecontroller.h */,
 				F5C832AD17E27766002A7780 /* SDL_gesture.h */,
 				F5C832AE17E27766002A7780 /* SDL_haptic.h */,
@@ -4917,6 +4923,7 @@
 				F5C8346D17E27882002A7780 /* SDL_endian.h in Headers */,
 				F5C8346E17E27882002A7780 /* SDL_error.h in Headers */,
 				F5C8346F17E27882002A7780 /* SDL_events.h in Headers */,
+				F54832EC1820874D0012A0E7 /* SDL_filesystem.h in Headers */,
 				F5C8347017E27882002A7780 /* SDL_gamecontroller.h in Headers */,
 				F5C8347117E27882002A7780 /* SDL_gesture.h in Headers */,
 				F5C8347217E27882002A7780 /* SDL_haptic.h in Headers */,
@@ -6020,6 +6027,7 @@
 				F5C831DC17E27720002A7780 /* SDL_windowevents.c in Sources */,
 				F5C831DD17E27720002A7780 /* SDL_rwopsbundlesupport.m in Sources */,
 				F5C831DE17E27720002A7780 /* SDL_rwops.c in Sources */,
+				F54832EE182087850012A0E7 /* SDL_sysfilesystem.m in Sources */,
 				F5C831DF17E27720002A7780 /* SDL_syshaptic.c in Sources */,
 				F5C831E017E27720002A7780 /* SDL_haptic.c in Sources */,
 				F5C831E117E27720002A7780 /* SDL_sysjoystick.c in Sources */,
@@ -6472,8 +6480,8 @@
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -6485,8 +6493,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -7040,9 +7048,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.0;
+				DYLIB_CURRENT_VERSION = 2.0.1;
 				FRAMEWORK_VERSION = 2.0;
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_AUTO_VECTORIZATION = YES;
@@ -7062,10 +7069,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.0;
+				DYLIB_CURRENT_VERSION = 2.0.1;
 				FRAMEWORK_VERSION = 2.0;
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_AUTO_VECTORIZATION = YES;
