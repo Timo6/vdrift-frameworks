@@ -1,12 +1,9 @@
 .DS_Store
 Archive/libarchive*
 build
-BulletCollision/bullet*
-BulletDynamics/bullet*
-BulletSoftBody/bullet*
+Bullet/bullet*
 cURL/curl*
 GLEW/glew*
-LinearMath/bullet*
 Ogg/libogg*
 SDL_gfx/SDL_gfx*
 SDL_image/SDL_image*
