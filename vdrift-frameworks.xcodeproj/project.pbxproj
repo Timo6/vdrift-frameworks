@@ -13,18 +13,13 @@
 			buildPhases = (
 			);
 			dependencies = (
+				F53690741864CC9A00D327D6 /* PBXTargetDependency */,
+				F53690761864CC9A00D327D6 /* PBXTargetDependency */,
+				F53690781864CC9A00D327D6 /* PBXTargetDependency */,
 				F57718C114C8C12D00465A38 /* PBXTargetDependency */,
-				F57718C314C8C12D00465A38 /* PBXTargetDependency */,
-				F57718C514C8C12D00465A38 /* PBXTargetDependency */,
-				F57718C714C8C12D00465A38 /* PBXTargetDependency */,
 				F57718C914C8C12D00465A38 /* PBXTargetDependency */,
 				F57718CB14C8C12D00465A38 /* PBXTargetDependency */,
-				F57718CD14C8C12D00465A38 /* PBXTargetDependency */,
 				F57718CF14C8C12D00465A38 /* PBXTargetDependency */,
-				F57718D114C8C12D00465A38 /* PBXTargetDependency */,
-				F57718D314C8C12D00465A38 /* PBXTargetDependency */,
-				F57718D514C8C12D00465A38 /* PBXTargetDependency */,
-				F57718D714C8C12D00465A38 /* PBXTargetDependency */,
 				F57718D914C8C12D00465A38 /* PBXTargetDependency */,
 			);
 			name = ALL;
@@ -284,74 +279,40 @@
 		F530838F183ECE460084A92F /* decode.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = F5308380183ECDD50084A92F /* decode.h */; };
 		F5308390183ECE460084A92F /* encode.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = F5308383183ECDE10084A92F /* encode.h */; };
 		F5308391183ECE460084A92F /* types.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = F5308387183ECDE10084A92F /* types.h */; };
-		F5308392183ECE910084A92F /* webp.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F58A09D6183ECD1F006E2069 /* webp.framework */; };
-		F5308398183ED0280084A92F /* webp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A09D6183ECD1F006E2069 /* webp.framework */; };
 		F53083A6183EDDD30084A92F /* btCompoundCompoundCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083A2183EDDD20084A92F /* btCompoundCompoundCollisionAlgorithm.cpp */; };
-		F53083A7183EDDD30084A92F /* btCompoundCompoundCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083A2183EDDD20084A92F /* btCompoundCompoundCollisionAlgorithm.cpp */; };
 		F53083A8183EDDD30084A92F /* btCompoundCompoundCollisionAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083A3183EDDD20084A92F /* btCompoundCompoundCollisionAlgorithm.h */; };
-		F53083A9183EDDD30084A92F /* btCompoundCompoundCollisionAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083A3183EDDD20084A92F /* btCompoundCompoundCollisionAlgorithm.h */; };
 		F53083AA183EDDD30084A92F /* btHashedSimplePairCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083A4183EDDD20084A92F /* btHashedSimplePairCache.cpp */; };
-		F53083AB183EDDD30084A92F /* btHashedSimplePairCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083A4183EDDD20084A92F /* btHashedSimplePairCache.cpp */; };
 		F53083AC183EDDD30084A92F /* btHashedSimplePairCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083A5183EDDD20084A92F /* btHashedSimplePairCache.h */; };
-		F53083AD183EDDD30084A92F /* btHashedSimplePairCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083A5183EDDD20084A92F /* btHashedSimplePairCache.h */; };
 		F53083B0183EDE730084A92F /* btCompoundFromGimpact.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083AF183EDE730084A92F /* btCompoundFromGimpact.h */; };
-		F53083B1183EDE730084A92F /* btCompoundFromGimpact.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083AF183EDE730084A92F /* btCompoundFromGimpact.h */; };
 		F53083B3183EDECB0084A92F /* btMatrixX.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083B2183EDECB0084A92F /* btMatrixX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53083B4183EDECB0084A92F /* btMatrixX.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083B2183EDECB0084A92F /* btMatrixX.h */; };
 		F53083B7183EDF040084A92F /* btFixedConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083B5183EDF040084A92F /* btFixedConstraint.cpp */; };
-		F53083B8183EDF040084A92F /* btFixedConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083B5183EDF040084A92F /* btFixedConstraint.cpp */; };
 		F53083B9183EDF040084A92F /* btFixedConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083B6183EDF040084A92F /* btFixedConstraint.h */; };
-		F53083BA183EDF040084A92F /* btFixedConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083B6183EDF040084A92F /* btFixedConstraint.h */; };
 		F53083CC183EDF2F0084A92F /* btMultiBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083BB183EDF2F0084A92F /* btMultiBody.cpp */; };
-		F53083CD183EDF2F0084A92F /* btMultiBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083BB183EDF2F0084A92F /* btMultiBody.cpp */; };
 		F53083CE183EDF2F0084A92F /* btMultiBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083BC183EDF2F0084A92F /* btMultiBody.h */; };
-		F53083CF183EDF2F0084A92F /* btMultiBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083BC183EDF2F0084A92F /* btMultiBody.h */; };
 		F53083D0183EDF2F0084A92F /* btMultiBodyConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083BD183EDF2F0084A92F /* btMultiBodyConstraint.cpp */; };
-		F53083D1183EDF2F0084A92F /* btMultiBodyConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083BD183EDF2F0084A92F /* btMultiBodyConstraint.cpp */; };
 		F53083D2183EDF2F0084A92F /* btMultiBodyConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083BE183EDF2F0084A92F /* btMultiBodyConstraint.h */; };
-		F53083D3183EDF2F0084A92F /* btMultiBodyConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083BE183EDF2F0084A92F /* btMultiBodyConstraint.h */; };
 		F53083D4183EDF2F0084A92F /* btMultiBodyConstraintSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083BF183EDF2F0084A92F /* btMultiBodyConstraintSolver.cpp */; };
-		F53083D5183EDF2F0084A92F /* btMultiBodyConstraintSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083BF183EDF2F0084A92F /* btMultiBodyConstraintSolver.cpp */; };
 		F53083D6183EDF2F0084A92F /* btMultiBodyConstraintSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C0183EDF2F0084A92F /* btMultiBodyConstraintSolver.h */; };
-		F53083D7183EDF2F0084A92F /* btMultiBodyConstraintSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C0183EDF2F0084A92F /* btMultiBodyConstraintSolver.h */; };
 		F53083D8183EDF2F0084A92F /* btMultiBodyDynamicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C1183EDF2F0084A92F /* btMultiBodyDynamicsWorld.cpp */; };
-		F53083D9183EDF2F0084A92F /* btMultiBodyDynamicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C1183EDF2F0084A92F /* btMultiBodyDynamicsWorld.cpp */; };
 		F53083DA183EDF2F0084A92F /* btMultiBodyDynamicsWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C2183EDF2F0084A92F /* btMultiBodyDynamicsWorld.h */; };
-		F53083DB183EDF2F0084A92F /* btMultiBodyDynamicsWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C2183EDF2F0084A92F /* btMultiBodyDynamicsWorld.h */; };
 		F53083DC183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C3183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.cpp */; };
-		F53083DD183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C3183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.cpp */; };
 		F53083DE183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C4183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.h */; };
-		F53083DF183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C4183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.h */; };
 		F53083E0183EDF2F0084A92F /* btMultiBodyJointMotor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C5183EDF2F0084A92F /* btMultiBodyJointMotor.cpp */; };
-		F53083E1183EDF2F0084A92F /* btMultiBodyJointMotor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C5183EDF2F0084A92F /* btMultiBodyJointMotor.cpp */; };
 		F53083E2183EDF2F0084A92F /* btMultiBodyJointMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C6183EDF2F0084A92F /* btMultiBodyJointMotor.h */; };
-		F53083E3183EDF2F0084A92F /* btMultiBodyJointMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C6183EDF2F0084A92F /* btMultiBodyJointMotor.h */; };
 		F53083E4183EDF2F0084A92F /* btMultiBodyLink.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C7183EDF2F0084A92F /* btMultiBodyLink.h */; };
-		F53083E5183EDF2F0084A92F /* btMultiBodyLink.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C7183EDF2F0084A92F /* btMultiBodyLink.h */; };
 		F53083E6183EDF2F0084A92F /* btMultiBodyLinkCollider.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C8183EDF2F0084A92F /* btMultiBodyLinkCollider.h */; };
-		F53083E7183EDF2F0084A92F /* btMultiBodyLinkCollider.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083C8183EDF2F0084A92F /* btMultiBodyLinkCollider.h */; };
 		F53083E8183EDF2F0084A92F /* btMultiBodyPoint2Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C9183EDF2F0084A92F /* btMultiBodyPoint2Point.cpp */; };
-		F53083E9183EDF2F0084A92F /* btMultiBodyPoint2Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53083C9183EDF2F0084A92F /* btMultiBodyPoint2Point.cpp */; };
 		F53083EA183EDF2F0084A92F /* btMultiBodyPoint2Point.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083CA183EDF2F0084A92F /* btMultiBodyPoint2Point.h */; };
-		F53083EB183EDF2F0084A92F /* btMultiBodyPoint2Point.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083CA183EDF2F0084A92F /* btMultiBodyPoint2Point.h */; };
 		F53083EC183EDF2F0084A92F /* btMultiBodySolverConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083CB183EDF2F0084A92F /* btMultiBodySolverConstraint.h */; };
-		F53083ED183EDF2F0084A92F /* btMultiBodySolverConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083CB183EDF2F0084A92F /* btMultiBodySolverConstraint.h */; };
 		F530840F183EDF530084A92F /* btDantzigLCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5308407183EDF530084A92F /* btDantzigLCP.cpp */; };
-		F5308410183EDF530084A92F /* btDantzigLCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5308407183EDF530084A92F /* btDantzigLCP.cpp */; };
 		F5308411183EDF530084A92F /* btDantzigLCP.h in Headers */ = {isa = PBXBuildFile; fileRef = F5308408183EDF530084A92F /* btDantzigLCP.h */; };
-		F5308412183EDF530084A92F /* btDantzigLCP.h in Headers */ = {isa = PBXBuildFile; fileRef = F5308408183EDF530084A92F /* btDantzigLCP.h */; };
 		F5308413183EDF530084A92F /* btDantzigSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F5308409183EDF530084A92F /* btDantzigSolver.h */; };
-		F5308414183EDF530084A92F /* btDantzigSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F5308409183EDF530084A92F /* btDantzigSolver.h */; };
 		F5308415183EDF530084A92F /* btMLCPSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F530840A183EDF530084A92F /* btMLCPSolver.cpp */; };
-		F5308416183EDF530084A92F /* btMLCPSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F530840A183EDF530084A92F /* btMLCPSolver.cpp */; };
 		F5308417183EDF530084A92F /* btMLCPSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840B183EDF530084A92F /* btMLCPSolver.h */; };
-		F5308418183EDF530084A92F /* btMLCPSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840B183EDF530084A92F /* btMLCPSolver.h */; };
 		F5308419183EDF530084A92F /* btMLCPSolverInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840C183EDF530084A92F /* btMLCPSolverInterface.h */; };
-		F530841A183EDF530084A92F /* btMLCPSolverInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840C183EDF530084A92F /* btMLCPSolverInterface.h */; };
 		F530841B183EDF530084A92F /* btPATHSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840D183EDF530084A92F /* btPATHSolver.h */; };
-		F530841C183EDF530084A92F /* btPATHSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840D183EDF530084A92F /* btPATHSolver.h */; };
 		F530841D183EDF530084A92F /* btSolveProjectedGaussSeidel.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840E183EDF530084A92F /* btSolveProjectedGaussSeidel.h */; };
-		F530841E183EDF530084A92F /* btSolveProjectedGaussSeidel.h in Headers */ = {isa = PBXBuildFile; fileRef = F530840E183EDF530084A92F /* btSolveProjectedGaussSeidel.h */; };
 		F530842B183EE0A10084A92F /* btFixedConstraint.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53083B6183EDF040084A92F /* btFixedConstraint.h */; };
 		F530842E183EE1090084A92F /* btMultiBody.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53083BC183EDF2F0084A92F /* btMultiBody.h */; };
 		F530842F183EE1090084A92F /* btMultiBodyConstraint.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53083BE183EDF2F0084A92F /* btMultiBodyConstraint.h */; };
@@ -374,7 +335,8 @@
 		F5308441183EE20D0084A92F /* btInternalEdgeUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57DDB0316A1DF0F00018854 /* btInternalEdgeUtility.h */; };
 		F5308442183EE22D0084A92F /* btCompoundFromGimpact.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53083AF183EDE730084A92F /* btCompoundFromGimpact.h */; };
 		F5308450183EE5340084A92F /* http2.c in Sources */ = {isa = PBXBuildFile; fileRef = F530844F183EE5340084A92F /* http2.c */; };
-		F5308451183EE5340084A92F /* http2.c in Sources */ = {isa = PBXBuildFile; fileRef = F530844F183EE5340084A92F /* http2.c */; };
+		F536907E1864D03900D327D6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F00116A468350062F5BD /* SDL2.framework */; };
+		F536907F1864D03900D327D6 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A09D6183ECD1F006E2069 /* WebP.framework */; };
 		F53EBE4F14C0D1FD0064FEC0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572C5EC14A8DD70008B223B /* Ogg.framework */; };
 		F53EC26214C0E3E10064FEC0 /* SDL_image.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EC26114C0E3E10064FEC0 /* SDL_image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53EC27614C0E4450064FEC0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EC27514C0E4440064FEC0 /* ApplicationServices.framework */; };
@@ -395,7 +357,6 @@
 		F53FE2B5183EBF65006D459E /* IMG_xxx.c in Sources */ = {isa = PBXBuildFile; fileRef = F53FE2A4183EBF65006D459E /* IMG_xxx.c */; };
 		F53FE2B6183EBF65006D459E /* IMG.c in Sources */ = {isa = PBXBuildFile; fileRef = F53FE2A5183EBF65006D459E /* IMG.c */; };
 		F53FE2B7183EBF65006D459E /* SDL_image.h in Headers */ = {isa = PBXBuildFile; fileRef = F53FE2A6183EBF65006D459E /* SDL_image.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F53FE2C0183EC199006D459E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F00116A468350062F5BD /* SDL2.framework */; };
 		F53FE2C6183EC523006D459E /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53FE2BE183EC129006D459E /* ApplicationServices.framework */; };
 		F53FE2C7183EC523006D459E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53FE2BF183EC130006D459E /* Foundation.framework */; };
 		F54008A216D2AE6D004FFC6C /* bundles.c in Sources */ = {isa = PBXBuildFile; fileRef = F54008A116D2AE6D004FFC6C /* bundles.c */; };
@@ -1551,26 +1512,47 @@
 			remoteGlobalIDString = F540AB1614C1979A00F2FAC4;
 			remoteInfo = BulletCollision;
 		};
-		F5308393183ECFAF0084A92F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5D0EF7016A468350062F5BD;
-			remoteInfo = SDL2;
-		};
-		F5308395183ECFAF0084A92F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F58A09D5183ECD1F006E2069;
-			remoteInfo = WebP;
-		};
 		F5308399183ED21E0084A92F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F53FE268183EBEE1006D459E;
 			remoteInfo = SDL2_image;
+		};
+		F53690731864CC9A00D327D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57DD93C16A1C00D00018854;
+			remoteInfo = "ALL BULLET";
+		};
+		F53690751864CC9A00D327D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57DD95B16A1C02B00018854;
+			remoteInfo = "ALL SDL";
+		};
+		F53690771864CC9A00D327D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D0F29C16A48B7D0062F5BD;
+			remoteInfo = "ALL SDL2";
+		};
+		F53690811864D05200D327D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D0EF7016A468350062F5BD;
+			remoteInfo = SDL2;
+		};
+		F53690831864D05200D327D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58A09D5183ECD1F006E2069;
+			remoteInfo = WebP;
 		};
 		F556E48A14C0D08C00072CFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1586,27 +1568,6 @@
 			remoteGlobalIDString = F572C67614A8EB01008B223B;
 			remoteInfo = Archive;
 		};
-		F57718C214C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F540AB1614C1979A00F2FAC4;
-			remoteInfo = BulletCollision;
-		};
-		F57718C414C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F540ACD714C19EE800F2FAC4;
-			remoteInfo = BulletDynamics;
-		};
-		F57718C614C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F540AE1C14C1A12000F2FAC4;
-			remoteInfo = BulletSoftBody;
-		};
 		F57718C814C8C12D00465A38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -1621,47 +1582,12 @@
 			remoteGlobalIDString = F5DB231314A8D3AA0070E657;
 			remoteInfo = GLEW;
 		};
-		F57718CC14C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F540AF2B14C1A30E00F2FAC4;
-			remoteInfo = LinearMath;
-		};
 		F57718CE14C8C12D00465A38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F572C5EB14A8DD70008B223B;
 			remoteInfo = Ogg;
-		};
-		F57718D014C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F55F2A2014C1BECC00284985;
-			remoteInfo = SDL_gfx;
-		};
-		F57718D214C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F53EC1CB14C0E28E0064FEC0;
-			remoteInfo = SDL_image;
-		};
-		F57718D414C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F540AADF14C0F0F800F2FAC4;
-			remoteInfo = SDL_net;
-		};
-		F57718D614C8C12D00465A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F549219714C2206700137A01;
-			remoteInfo = SDL;
 		};
 		F57718D814C8C12D00465A38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1802,17 +1728,6 @@
 				F530843D183EE14A0084A92F /* btPATHSolver.h in CopyFiles */,
 				F530843E183EE14A0084A92F /* btSolveProjectedGaussSeidel.h in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F53FE2C2183EC2E9006D459E /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F5308392183ECE910084A92F /* webp.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F57DDAD416A1DE0800018854 /* CopyFiles */ = {
@@ -2286,7 +2201,6 @@
 		F5308385183ECDE10084A92F /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mux_types.h; path = libwebp/src/webp/mux_types.h; sourceTree = "<group>"; };
 		F5308386183ECDE10084A92F /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mux.h; path = libwebp/src/webp/mux.h; sourceTree = "<group>"; };
 		F5308387183ECDE10084A92F /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = libwebp/src/webp/types.h; sourceTree = "<group>"; };
-		F5308397183ECFDF0084A92F /* webp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = webp.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/vdrift-frameworks-apmcrbjezkzhddertpvrjpmoqpyu/Build/Products/Debug/webp.framework"; sourceTree = "<group>"; };
 		F53083A2183EDDD20084A92F /* btCompoundCompoundCollisionAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btCompoundCompoundCollisionAlgorithm.cpp; path = bullet/src/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.cpp; sourceTree = "<group>"; };
 		F53083A3183EDDD20084A92F /* btCompoundCompoundCollisionAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btCompoundCompoundCollisionAlgorithm.h; path = bullet/src/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.h; sourceTree = "<group>"; };
 		F53083A4183EDDD20084A92F /* btHashedSimplePairCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btHashedSimplePairCache.cpp; path = bullet/src/BulletCollision/CollisionDispatch/btHashedSimplePairCache.cpp; sourceTree = "<group>"; };
@@ -2346,7 +2260,6 @@
 		F53FE2A6183EBF65006D459E /* SDL_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_image.h; path = SDL2_image/SDL_image.h; sourceTree = "<group>"; };
 		F53FE2BE183EC129006D459E /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		F53FE2BF183EC130006D459E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F53FE2C1183EC1A1006D459E /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/vdrift-frameworks-apmcrbjezkzhddertpvrjpmoqpyu/Build/Products/Debug/SDL2.framework"; sourceTree = "<group>"; };
 		F54008A116D2AE6D004FFC6C /* bundles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bundles.c; path = cURL/curl/lib/bundles.c; sourceTree = "<group>"; };
 		F54008A316D2AE84004FFC6C /* conncache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = conncache.c; path = cURL/curl/lib/conncache.c; sourceTree = "<group>"; };
 		F54008C916D2B37F004FFC6C /* archive_cmdline.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_cmdline.c; path = Archive/libarchive/libarchive/archive_cmdline.c; sourceTree = "<group>"; };
@@ -2755,7 +2668,7 @@
 		F57DDCEC16A2181000018854 /* btSoftSoftCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftSoftCollisionAlgorithm.h; path = bullet/src/BulletSoftBody/btSoftSoftCollisionAlgorithm.h; sourceTree = "<group>"; };
 		F57DDCED16A2181000018854 /* btSparseSDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSparseSDF.h; path = bullet/src/BulletSoftBody/btSparseSDF.h; sourceTree = "<group>"; };
 		F57FD1BB14CB6ABA009601E5 /* webp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = webp.framework; path = SDL_image/SDL_image/Xcode/Frameworks/webp.framework; sourceTree = "<group>"; };
-		F58A09D6183ECD1F006E2069 /* webp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = webp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A09D6183ECD1F006E2069 /* WebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A09E0183ECD1F006E2069 /* WebP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebP-Info.plist"; sourceTree = "<group>"; };
 		F58A5DF214C2FF38006DD785 /* SDLMain.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SDLMain.nib; path = SDL/SDL/src/main/macosx/SDLMain.nib; sourceTree = "<group>"; };
 		F590626E14C21C5B004033EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
@@ -3384,8 +3297,8 @@
 			files = (
 				F53FE2C6183EC523006D459E /* ApplicationServices.framework in Frameworks */,
 				F53FE2C7183EC523006D459E /* Foundation.framework in Frameworks */,
-				F53FE2C0183EC199006D459E /* SDL2.framework in Frameworks */,
-				F5308398183ED0280084A92F /* webp.framework in Frameworks */,
+				F536907E1864D03900D327D6 /* SDL2.framework in Frameworks */,
+				F536907F1864D03900D327D6 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3497,7 +3410,7 @@
 				F5D0F00116A468350062F5BD /* SDL2.framework */,
 				F5D0F2BF16A499EA0062F5BD /* SDL2_gfx.framework */,
 				F53FE269183EBEE1006D459E /* SDL2_image.framework */,
-				F58A09D6183ECD1F006E2069 /* webp.framework */,
+				F58A09D6183ECD1F006E2069 /* WebP.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3510,10 +3423,10 @@
 				F5E83CB214A901FB00623D45 /* cURL */,
 				F5DB231814A8D3AB0070E657 /* GLEW */,
 				F572C5EF14A8DD70008B223B /* Ogg */,
+				F590626D14C21C49004033EB /* SDL */,
 				F55F2A2914C1BECC00284985 /* SDL_gfx */,
 				F540AAD514C0EE9D00F2FAC4 /* SDL_image */,
 				F540AB0A14C1950700F2FAC4 /* SDL_net */,
-				F590626D14C21C49004033EB /* SDL */,
 				F5D0F00416A469400062F5BD /* SDL2 */,
 				F53FE271183EBEE1006D459E /* SDL2_image */,
 				F5D0F2C316A49ABE0062F5BD /* SDL2_gfx */,
@@ -3633,10 +3546,8 @@
 			children = (
 				F53FE2BE183EC129006D459E /* ApplicationServices.framework */,
 				F53FE2BF183EC130006D459E /* Foundation.framework */,
-				F53FE2C1183EC1A1006D459E /* SDL2.framework */,
 				F53FE2B8183EBF6B006D459E /* Source */,
 				F53FE294183EBF37006D459E /* SDL2_image-Info.plist */,
-				F5308397183ECFDF0084A92F /* webp.framework */,
 			);
 			path = SDL2_image;
 			sourceTree = "<group>";
@@ -5447,56 +5358,36 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53083CF183EDF2F0084A92F /* btMultiBody.h in Headers */,
-				F5308418183EDF530084A92F /* btMLCPSolver.h in Headers */,
-				F53083EB183EDF2F0084A92F /* btMultiBodyPoint2Point.h in Headers */,
 				F5308381183ECDD50084A92F /* decode.h in Headers */,
 				F5308389183ECDE10084A92F /* encode.h in Headers */,
-				F5308412183EDF530084A92F /* btDantzigLCP.h in Headers */,
 				F530838D183ECDE10084A92F /* types.h in Headers */,
 				F530836D183ECDCC0084A92F /* bit_writer.h in Headers */,
 				F5308351183ECDBF0084A92F /* muxi.h in Headers */,
 				F530838C183ECDE10084A92F /* mux.h in Headers */,
-				F5308414183EDF530084A92F /* btDantzigSolver.h in Headers */,
 				F530838B183ECDE10084A92F /* mux_types.h in Headers */,
 				F530834A183ECDB30084A92F /* vp8li.h in Headers */,
-				F53083BA183EDF040084A92F /* btFixedConstraint.h in Headers */,
 				F530831A183ECDA40084A92F /* lossless.h in Headers */,
 				F5308371183ECDCC0084A92F /* filters.h in Headers */,
 				F530836B183ECDCC0084A92F /* bit_reader.h in Headers */,
-				F53083E3183EDF2F0084A92F /* btMultiBodyJointMotor.h in Headers */,
-				F530841C183EDF530084A92F /* btPATHSolver.h in Headers */,
-				F53083E5183EDF2F0084A92F /* btMultiBodyLink.h in Headers */,
-				F53083DF183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.h in Headers */,
 				F530837F183ECDCC0084A92F /* utils.h in Headers */,
 				F530836F183ECDCC0084A92F /* color_cache.h in Headers */,
-				F53083B1183EDE730084A92F /* btCompoundFromGimpact.h in Headers */,
 				F530838A183ECDE10084A92F /* format_constants.h in Headers */,
 				F53082FF183ECD8A0084A92F /* webpi.h in Headers */,
-				F53083A9183EDDD30084A92F /* btCompoundCompoundCollisionAlgorithm.h in Headers */,
 				F5308348183ECDB30084A92F /* vp8enci.h in Headers */,
 				F530831F183ECDA40084A92F /* yuv.h in Headers */,
 				F53083B4183EDECB0084A92F /* btMatrixX.h in Headers */,
 				F5308339183ECDB30084A92F /* backward_references.h in Headers */,
-				F53083DB183EDF2F0084A92F /* btMultiBodyDynamicsWorld.h in Headers */,
-				F53083ED183EDF2F0084A92F /* btMultiBodySolverConstraint.h in Headers */,
 				F53082FD183ECD8A0084A92F /* vp8li.h in Headers */,
 				F5308373183ECDCC0084A92F /* huffman_encode.h in Headers */,
 				F530837B183ECDCC0084A92F /* rescaler.h in Headers */,
-				F53083E7183EDF2F0084A92F /* btMultiBodyLinkCollider.h in Headers */,
 				F5308379183ECDCC0084A92F /* quant_levels.h in Headers */,
 				F530837D183ECDCC0084A92F /* thread.h in Headers */,
 				F5308315183ECDA40084A92F /* dsp.h in Headers */,
-				F53083D3183EDF2F0084A92F /* btMultiBodyConstraint.h in Headers */,
 				F5308388183ECDE10084A92F /* demux.h in Headers */,
-				F53083D7183EDF2F0084A92F /* btMultiBodyConstraintSolver.h in Headers */,
-				F530841E183EDF530084A92F /* btSolveProjectedGaussSeidel.h in Headers */,
 				F5308377183ECDCC0084A92F /* quant_levels_dec.h in Headers */,
 				F53082F2183ECD8A0084A92F /* decode_vp8.h in Headers */,
 				F5308340183ECDB30084A92F /* histogram.h in Headers */,
-				F530841A183EDF530084A92F /* btMLCPSolverInterface.h in Headers */,
 				F5308375183ECDCC0084A92F /* huffman.h in Headers */,
-				F53083AD183EDDD30084A92F /* btHashedSimplePairCache.h in Headers */,
 				F530833C183ECDB30084A92F /* cost.h in Headers */,
 				F53082FB183ECD8A0084A92F /* vp8i.h in Headers */,
 			);
@@ -5709,15 +5600,13 @@
 				F53FE264183EBEE1006D459E /* Sources */,
 				F53FE265183EBEE1006D459E /* Frameworks */,
 				F53FE266183EBEE1006D459E /* Headers */,
-				F53FE2C2183EC2E9006D459E /* Copy Frameworks */,
-				F53FE2C4183EC317006D459E /* Create Frameworks symlink */,
-				F53FE2C5183EC32B006D459E /* Convert SDL includes to SDL Framework includes */,
+				F536909F1864DE2B00D327D6 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F5308394183ECFAF0084A92F /* PBXTargetDependency */,
-				F5308396183ECFAF0084A92F /* PBXTargetDependency */,
+				F53690821864D05200D327D6 /* PBXTargetDependency */,
+				F53690841864D05200D327D6 /* PBXTargetDependency */,
 			);
 			name = SDL2_image;
 			productName = SDL2_image;
@@ -5928,7 +5817,7 @@
 			);
 			name = WebP;
 			productName = WebP;
-			productReference = F58A09D6183ECD1F006E2069 /* webp.framework */;
+			productReference = F58A09D6183ECD1F006E2069 /* WebP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F5D0EF7016A468350062F5BD /* SDL2 */ = {
@@ -6063,33 +5952,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F53FE2C4183EC317006D459E /* Create Frameworks symlink */ = {
+		F536909F1864DE2B00D327D6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Create Frameworks symlink";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd $SYMROOT/$CONFIGURATION/$FULL_PRODUCT_NAME\nif ! [ -L Frameworks ]; then\nrm -f Frameworks\nln -s Versions/Current/Frameworks Frameworks\nfi";
-		};
-		F53FE2C5183EC32B006D459E /* Convert SDL includes to SDL Framework includes */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Convert SDL includes to SDL Framework includes";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd $SYMROOT/$CONFIGURATION/$PUBLIC_HEADERS_FOLDER_PATH\nHEADER=SDL_image.h\nsed 's,#include \"\\(.*\\)\",#include <SDL2/\\1>,' <$HEADER >$HEADER.new\nmv $HEADER.new $HEADER";
+			shellScript = "echo \"!!!\"\necho \"NOTE: If this build failed, try building SDL2 by itself first.\"\necho \"!!!\"";
 		};
 		F57FD1C114CB6AEE009601E5 /* Create Frameworks symlink */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -6652,7 +6526,6 @@
 			files = (
 				F5308347183ECDB30084A92F /* tree.c in Sources */,
 				F530837A183ECDCC0084A92F /* rescaler.c in Sources */,
-				F53083D9183EDF2F0084A92F /* btMultiBodyDynamicsWorld.cpp in Sources */,
 				F53082F5183ECD8A0084A92F /* io.c in Sources */,
 				F5308311183ECDA40084A92F /* cpu.c in Sources */,
 				F5308370183ECDCC0084A92F /* filters.c in Sources */,
@@ -6661,10 +6534,8 @@
 				F5308313183ECDA40084A92F /* dec_sse2.c in Sources */,
 				F53082F3183ECD8A0084A92F /* frame.c in Sources */,
 				F5308338183ECDB30084A92F /* backward_references.c in Sources */,
-				F53083D5183EDF2F0084A92F /* btMultiBodyConstraintSolver.cpp in Sources */,
 				F530837E183ECDCC0084A92F /* utils.c in Sources */,
 				F5308312183ECDA40084A92F /* dec_neon.c in Sources */,
-				F53083E1183EDF2F0084A92F /* btMultiBodyJointMotor.cpp in Sources */,
 				F530837C183ECDCC0084A92F /* thread.c in Sources */,
 				F530833B183ECDB30084A92F /* cost.c in Sources */,
 				F5308346183ECDB30084A92F /* token.c in Sources */,
@@ -6672,20 +6543,15 @@
 				F5308337183ECDB30084A92F /* analysis.c in Sources */,
 				F530833F183ECDB30084A92F /* histogram.c in Sources */,
 				F5308319183ECDA40084A92F /* lossless.c in Sources */,
-				F53083CD183EDF2F0084A92F /* btMultiBody.cpp in Sources */,
 				F5308317183ECDA40084A92F /* enc_sse2.c in Sources */,
 				F5308301183ECD970084A92F /* demux.c in Sources */,
 				F530833D183ECDB30084A92F /* filter.c in Sources */,
-				F53083DD183EDF2F0084A92F /* btMultiBodyJointLimitConstraint.cpp in Sources */,
 				F53082F6183ECD8A0084A92F /* layer.c in Sources */,
 				F53082F0183ECD8A0084A92F /* alpha.c in Sources */,
 				F5308376183ECDCC0084A92F /* quant_levels_dec.c in Sources */,
-				F5308451183EE5340084A92F /* http2.c in Sources */,
-				F53083B8183EDF040084A92F /* btFixedConstraint.cpp in Sources */,
 				F530836C183ECDCC0084A92F /* bit_writer.c in Sources */,
 				F5308350183ECDBF0084A92F /* muxedit.c in Sources */,
 				F53082FC183ECD8A0084A92F /* vp8l.c in Sources */,
-				F53083A7183EDDD30084A92F /* btCompoundCompoundCollisionAlgorithm.cpp in Sources */,
 				F5308336183ECDB30084A92F /* alpha.c in Sources */,
 				F530831B183ECDA40084A92F /* upsampling_neon.c in Sources */,
 				F53082FE183ECD8A0084A92F /* webp.c in Sources */,
@@ -6694,9 +6560,7 @@
 				F5308341183ECDB30084A92F /* iterator.c in Sources */,
 				F5308349183ECDB30084A92F /* vp8l.c in Sources */,
 				F53082FA183ECD8A0084A92F /* vp8.c in Sources */,
-				F5308416183EDF530084A92F /* btMLCPSolver.cpp in Sources */,
 				F5308345183ECDB30084A92F /* syntax.c in Sources */,
-				F53083AB183EDDD30084A92F /* btHashedSimplePairCache.cpp in Sources */,
 				F5308318183ECDA40084A92F /* enc.c in Sources */,
 				F5308353183ECDBF0084A92F /* muxread.c in Sources */,
 				F530831E183ECDA40084A92F /* yuv.c in Sources */,
@@ -6706,12 +6570,9 @@
 				F530836E183ECDCC0084A92F /* color_cache.c in Sources */,
 				F53082F1183ECD8A0084A92F /* buffer.c in Sources */,
 				F530833A183ECDB30084A92F /* config.c in Sources */,
-				F53083D1183EDF2F0084A92F /* btMultiBodyConstraint.cpp in Sources */,
 				F5308372183ECDCC0084A92F /* huffman_encode.c in Sources */,
-				F53083E9183EDF2F0084A92F /* btMultiBodyPoint2Point.cpp in Sources */,
 				F53082F9183ECD8A0084A92F /* tree.c in Sources */,
 				F530831D183ECDA40084A92F /* upsampling.c in Sources */,
-				F5308410183EDF530084A92F /* btDantzigLCP.cpp in Sources */,
 				F5308378183ECDCC0084A92F /* quant_levels.c in Sources */,
 				F5308374183ECDCC0084A92F /* huffman.c in Sources */,
 				F530831C183ECDA40084A92F /* upsampling_sse2.c in Sources */,
@@ -7009,20 +6870,35 @@
 			target = F540AB1614C1979A00F2FAC4 /* BulletCollision */;
 			targetProxy = F5078A1314C1E12800791F26 /* PBXContainerItemProxy */;
 		};
-		F5308394183ECFAF0084A92F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F5D0EF7016A468350062F5BD /* SDL2 */;
-			targetProxy = F5308393183ECFAF0084A92F /* PBXContainerItemProxy */;
-		};
-		F5308396183ECFAF0084A92F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F58A09D5183ECD1F006E2069 /* WebP */;
-			targetProxy = F5308395183ECFAF0084A92F /* PBXContainerItemProxy */;
-		};
 		F530839A183ED21E0084A92F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F53FE268183EBEE1006D459E /* SDL2_image */;
 			targetProxy = F5308399183ED21E0084A92F /* PBXContainerItemProxy */;
+		};
+		F53690741864CC9A00D327D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57DD93C16A1C00D00018854 /* ALL BULLET */;
+			targetProxy = F53690731864CC9A00D327D6 /* PBXContainerItemProxy */;
+		};
+		F53690761864CC9A00D327D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57DD95B16A1C02B00018854 /* ALL SDL */;
+			targetProxy = F53690751864CC9A00D327D6 /* PBXContainerItemProxy */;
+		};
+		F53690781864CC9A00D327D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D0F29C16A48B7D0062F5BD /* ALL SDL2 */;
+			targetProxy = F53690771864CC9A00D327D6 /* PBXContainerItemProxy */;
+		};
+		F53690821864D05200D327D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D0EF7016A468350062F5BD /* SDL2 */;
+			targetProxy = F53690811864D05200D327D6 /* PBXContainerItemProxy */;
+		};
+		F53690841864D05200D327D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58A09D5183ECD1F006E2069 /* WebP */;
+			targetProxy = F53690831864D05200D327D6 /* PBXContainerItemProxy */;
 		};
 		F556E48B14C0D08C00072CFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -7034,21 +6910,6 @@
 			target = F572C67614A8EB01008B223B /* Archive */;
 			targetProxy = F57718C014C8C12D00465A38 /* PBXContainerItemProxy */;
 		};
-		F57718C314C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F540AB1614C1979A00F2FAC4 /* BulletCollision */;
-			targetProxy = F57718C214C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
-		F57718C514C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F540ACD714C19EE800F2FAC4 /* BulletDynamics */;
-			targetProxy = F57718C414C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
-		F57718C714C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F540AE1C14C1A12000F2FAC4 /* BulletSoftBody */;
-			targetProxy = F57718C614C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
 		F57718C914C8C12D00465A38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F5E83CA314A901A100623D45 /* cURL */;
@@ -7059,35 +6920,10 @@
 			target = F5DB231314A8D3AA0070E657 /* GLEW */;
 			targetProxy = F57718CA14C8C12D00465A38 /* PBXContainerItemProxy */;
 		};
-		F57718CD14C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F540AF2B14C1A30E00F2FAC4 /* LinearMath */;
-			targetProxy = F57718CC14C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
 		F57718CF14C8C12D00465A38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F572C5EB14A8DD70008B223B /* Ogg */;
 			targetProxy = F57718CE14C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
-		F57718D114C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F55F2A2014C1BECC00284985 /* SDL_gfx */;
-			targetProxy = F57718D014C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
-		F57718D314C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F53EC1CB14C0E28E0064FEC0 /* SDL_image */;
-			targetProxy = F57718D214C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
-		F57718D514C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F540AADF14C0F0F800F2FAC4 /* SDL_net */;
-			targetProxy = F57718D414C8C12D00465A38 /* PBXContainerItemProxy */;
-		};
-		F57718D714C8C12D00465A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F549219714C2206700137A01 /* SDL */;
-			targetProxy = F57718D614C8C12D00465A38 /* PBXContainerItemProxy */;
 		};
 		F57718D914C8C12D00465A38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -7288,13 +7124,12 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(TARGET_BUILD_DIR)/webp.framework/Headers",
+					"$(TARGET_BUILD_DIR)/WebP.framework/Headers",
 					"$(TARGET_BUILD_DIR)/SDL2.framework/Headers",
 				);
 				INFOPLIST_FILE = "SDL2_image/SDL2_image-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers $(TARGET_BUILD_DIR)/webp.framework/Headers";
+				USER_HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers $(TARGET_BUILD_DIR)/WebP.framework/Headers";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7324,15 +7159,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(TARGET_BUILD_DIR)/webp.framework/Headers",
+					"$(TARGET_BUILD_DIR)/WebP.framework/Headers",
 					"$(TARGET_BUILD_DIR)/SDL2.framework/Headers",
 				);
 				INFOPLIST_FILE = "SDL2_image/SDL2_image-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SEPARATE_STRIP = YES;
 				STRIP_STYLE = "non-global";
-				USER_HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers $(TARGET_BUILD_DIR)/webp.framework/Headers";
+				USER_HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers $(TARGET_BUILD_DIR)/WebP.framework/Headers";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7851,7 +7685,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "WebP/WebP-Info.plist";
-				PRODUCT_NAME = webp;
+				PRODUCT_NAME = WebP;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7886,7 +7720,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "WebP/WebP-Info.plist";
-				PRODUCT_NAME = webp;
+				PRODUCT_NAME = WebP;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
