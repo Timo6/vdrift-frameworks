@@ -895,6 +895,11 @@
 		F57E14F618EB1A2300F21648 /* polarssl.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14EA18EB1A2300F21648 /* polarssl.c */; };
 		F57E14F718EB1A2300F21648 /* qssl.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14EB18EB1A2300F21648 /* qssl.c */; };
 		F57E14F818EB1A2300F21648 /* vtls.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14EC18EB1A2300F21648 /* vtls.c */; };
+		F57E150318EB1ECA00F21648 /* alphai.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E150218EB1ECA00F21648 /* alphai.h */; };
+		F57E150618EB1EFF00F21648 /* alpha_processing.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E150418EB1EFF00F21648 /* alpha_processing.c */; };
+		F57E150718EB1EFF00F21648 /* alpha_processing.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E150518EB1EFF00F21648 /* alpha_processing.h */; };
+		F57E150A18EB1F1F00F21648 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E150818EB1F1F00F21648 /* random.c */; };
+		F57E150B18EB1F1F00F21648 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E150918EB1F1F00F21648 /* random.h */; };
 		F57FD1BC14CB6ABA009601E5 /* webp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57FD1BB14CB6ABA009601E5 /* webp.framework */; };
 		F57FD1C014CB6AD9009601E5 /* webp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57FD1BB14CB6ABA009601E5 /* webp.framework */; };
 		F58A5DF314C2FF38006DD785 /* SDLMain.nib in Resources */ = {isa = PBXBuildFile; fileRef = F58A5DF214C2FF38006DD785 /* SDLMain.nib */; };
@@ -2684,6 +2689,11 @@
 		F57E14EA18EB1A2300F21648 /* polarssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = polarssl.c; path = cURL/curl/lib/vtls/polarssl.c; sourceTree = "<group>"; };
 		F57E14EB18EB1A2300F21648 /* qssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = qssl.c; path = cURL/curl/lib/vtls/qssl.c; sourceTree = "<group>"; };
 		F57E14EC18EB1A2300F21648 /* vtls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = vtls.c; path = cURL/curl/lib/vtls/vtls.c; sourceTree = "<group>"; };
+		F57E150218EB1ECA00F21648 /* alphai.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = alphai.h; path = libwebp/src/dec/alphai.h; sourceTree = "<group>"; };
+		F57E150418EB1EFF00F21648 /* alpha_processing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = alpha_processing.c; path = libwebp/src/utils/alpha_processing.c; sourceTree = "<group>"; };
+		F57E150518EB1EFF00F21648 /* alpha_processing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alpha_processing.h; path = libwebp/src/utils/alpha_processing.h; sourceTree = "<group>"; };
+		F57E150818EB1F1F00F21648 /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = random.c; path = libwebp/src/utils/random.c; sourceTree = "<group>"; };
+		F57E150918EB1F1F00F21648 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = random.h; path = libwebp/src/utils/random.h; sourceTree = "<group>"; };
 		F57FD1BB14CB6ABA009601E5 /* webp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = webp.framework; path = SDL_image/SDL_image/Xcode/Frameworks/webp.framework; sourceTree = "<group>"; };
 		F58A09D6183ECD1F006E2069 /* WebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A09E0183ECD1F006E2069 /* WebP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebP-Info.plist"; sourceTree = "<group>"; };
@@ -3457,6 +3467,8 @@
 				F5308385183ECDE10084A92F /* mux_types.h */,
 				F5308386183ECDE10084A92F /* mux.h */,
 				F5308387183ECDE10084A92F /* types.h */,
+				F57E150418EB1EFF00F21648 /* alpha_processing.c */,
+				F57E150518EB1EFF00F21648 /* alpha_processing.h */,
 				F5308354183ECDCC0084A92F /* bit_reader.c */,
 				F5308355183ECDCC0084A92F /* bit_reader.h */,
 				F5308356183ECDCC0084A92F /* bit_writer.c */,
@@ -3473,6 +3485,8 @@
 				F5308361183ECDCC0084A92F /* quant_levels_dec.h */,
 				F5308362183ECDCC0084A92F /* quant_levels.c */,
 				F5308363183ECDCC0084A92F /* quant_levels.h */,
+				F57E150818EB1F1F00F21648 /* random.c */,
+				F57E150918EB1F1F00F21648 /* random.h */,
 				F5308364183ECDCC0084A92F /* rescaler.c */,
 				F5308365183ECDCC0084A92F /* rescaler.h */,
 				F5308366183ECDCC0084A92F /* thread.c */,
@@ -3522,6 +3536,7 @@
 				F5308310183ECDA40084A92F /* yuv.h */,
 				F5308300183ECD970084A92F /* demux.c */,
 				F53082E0183ECD8A0084A92F /* alpha.c */,
+				F57E150218EB1ECA00F21648 /* alphai.h */,
 				F53082E1183ECD8A0084A92F /* buffer.c */,
 				F53082E2183ECD8A0084A92F /* decode_vp8.h */,
 				F53082E3183ECD8A0084A92F /* frame.c */,
@@ -5393,6 +5408,7 @@
 				F53083B4183EDECB0084A92F /* btMatrixX.h in Headers */,
 				F5308339183ECDB30084A92F /* backward_references.h in Headers */,
 				F53082FD183ECD8A0084A92F /* vp8li.h in Headers */,
+				F57E150718EB1EFF00F21648 /* alpha_processing.h in Headers */,
 				F5308373183ECDCC0084A92F /* huffman_encode.h in Headers */,
 				F530837B183ECDCC0084A92F /* rescaler.h in Headers */,
 				F5308379183ECDCC0084A92F /* quant_levels.h in Headers */,
@@ -5400,11 +5416,13 @@
 				F5308315183ECDA40084A92F /* dsp.h in Headers */,
 				F5308388183ECDE10084A92F /* demux.h in Headers */,
 				F5308377183ECDCC0084A92F /* quant_levels_dec.h in Headers */,
+				F57E150B18EB1F1F00F21648 /* random.h in Headers */,
 				F53082F2183ECD8A0084A92F /* decode_vp8.h in Headers */,
 				F5308340183ECDB30084A92F /* histogram.h in Headers */,
 				F5308375183ECDCC0084A92F /* huffman.h in Headers */,
 				F530833C183ECDB30084A92F /* cost.h in Headers */,
 				F53082FB183ECD8A0084A92F /* vp8i.h in Headers */,
+				F57E150318EB1ECA00F21648 /* alphai.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6548,6 +6566,7 @@
 				F53082F5183ECD8A0084A92F /* io.c in Sources */,
 				F5308311183ECDA40084A92F /* cpu.c in Sources */,
 				F5308370183ECDCC0084A92F /* filters.c in Sources */,
+				F57E150618EB1EFF00F21648 /* alpha_processing.c in Sources */,
 				F5308314183ECDA40084A92F /* dec.c in Sources */,
 				F53082F4183ECD8A0084A92F /* idec.c in Sources */,
 				F5308313183ECDA40084A92F /* dec_sse2.c in Sources */,
@@ -6567,6 +6586,7 @@
 				F530833D183ECDB30084A92F /* filter.c in Sources */,
 				F53082F6183ECD8A0084A92F /* layer.c in Sources */,
 				F53082F0183ECD8A0084A92F /* alpha.c in Sources */,
+				F57E150A18EB1F1F00F21648 /* random.c in Sources */,
 				F5308376183ECDCC0084A92F /* quant_levels_dec.c in Sources */,
 				F530836C183ECDCC0084A92F /* bit_writer.c in Sources */,
 				F5308350183ECDBF0084A92F /* muxedit.c in Sources */,
@@ -7687,9 +7707,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.3;
-				DYLIB_CURRENT_VERSION = 0.3.1;
-				FRAMEWORK_VERSION = 0.3;
+				DYLIB_COMPATIBILITY_VERSION = 0.4;
+				DYLIB_CURRENT_VERSION = 0.4.0;
+				FRAMEWORK_VERSION = 0.4;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -7727,10 +7747,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.3;
-				DYLIB_CURRENT_VERSION = 0.3.1;
+				DYLIB_COMPATIBILITY_VERSION = 0.4;
+				DYLIB_CURRENT_VERSION = 0.4.0;
 				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_VERSION = 0.3;
+				FRAMEWORK_VERSION = 0.4;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
