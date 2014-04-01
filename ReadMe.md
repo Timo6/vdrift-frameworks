@@ -29,24 +29,26 @@ GLEW: [http://glew.sourceforge.net/][10]
 
 Ogg: [http://xiph.org/downloads/][11]
 
-SDL: [http://libsdl.org/download-1.2.php][12]
+*SDL: [http://libsdl.org/download-1.2.php][12]
 
-SDL_gfx (**Requires SDL**):
+*SDL_gfx (**Requires SDL**):
 [http://ferzkopp.net/joomla/software-mainmenu-14/4-ferzkopps-linux-software/19-sdlgfx][13]
 
-SDL_image (**Requires SDL**): [http://libsdl.org/projects/SDL_image/release-1.2.html][14]
+*SDL_image (**Requires SDL**): [http://libsdl.org/projects/SDL_image/release-1.2.html][14]
 
-SDL_net (**Requires SDL**): [http://libsdl.org/projects/SDL_net/release-1.2.html][15]
+*SDL_net (**Requires SDL**): [http://libsdl.org/projects/SDL_net/release-1.2.html][15]
 
 SDL2: [http://libsdl.org/index.php][18]
 
-SDL2_gfx (**Reqires SDL2**): [http://ferzkopp.net/joomla/software-mainmenu-14/4-ferzkopps-linux-software/19-sdlgfx][19]
+*SDL2_gfx (**Reqires SDL2**): [http://ferzkopp.net/joomla/software-mainmenu-14/4-ferzkopps-linux-software/19-sdlgfx][19]
 
 SDL2_image (**Requires SDL2 and WebP**): [http://libsdl.org/projects/SDL_image/][20]
 
 Vorbis (**Requires Ogg**): [http://xiph.org/downloads/][16]
 
 WebP: [https://developers.google.com/speed/webp/][21]
+
+*No longer supported
 
 Next expand the downloaded file into the relevant folder, removing the version
 number from the resultant folder, for example expand _libogg-1.3.0.tar.gz_ into
