@@ -894,7 +894,6 @@
 		F57E14F418EB1A2300F21648 /* openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E818EB1A2300F21648 /* openssl.c */; };
 		F57E14F518EB1A2300F21648 /* polarssl_threadlock.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E918EB1A2300F21648 /* polarssl_threadlock.c */; };
 		F57E14F618EB1A2300F21648 /* polarssl.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14EA18EB1A2300F21648 /* polarssl.c */; };
-		F57E14F718EB1A2300F21648 /* qssl.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14EB18EB1A2300F21648 /* qssl.c */; };
 		F57E14F818EB1A2300F21648 /* vtls.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14EC18EB1A2300F21648 /* vtls.c */; };
 		F57E150318EB1ECA00F21648 /* alphai.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E150218EB1ECA00F21648 /* alphai.h */; };
 		F57E150A18EB1F1F00F21648 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E150818EB1F1F00F21648 /* random.c */; };
@@ -2703,7 +2702,6 @@
 		F57E14E818EB1A2300F21648 /* openssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = openssl.c; path = cURL/curl/lib/vtls/openssl.c; sourceTree = "<group>"; };
 		F57E14E918EB1A2300F21648 /* polarssl_threadlock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = polarssl_threadlock.c; path = cURL/curl/lib/vtls/polarssl_threadlock.c; sourceTree = "<group>"; };
 		F57E14EA18EB1A2300F21648 /* polarssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = polarssl.c; path = cURL/curl/lib/vtls/polarssl.c; sourceTree = "<group>"; };
-		F57E14EB18EB1A2300F21648 /* qssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = qssl.c; path = cURL/curl/lib/vtls/qssl.c; sourceTree = "<group>"; };
 		F57E14EC18EB1A2300F21648 /* vtls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = vtls.c; path = cURL/curl/lib/vtls/vtls.c; sourceTree = "<group>"; };
 		F57E150218EB1ECA00F21648 /* alphai.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = alphai.h; path = libwebp/src/dec/alphai.h; sourceTree = "<group>"; };
 		F57E150818EB1F1F00F21648 /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = random.c; path = libwebp/src/utils/random.c; sourceTree = "<group>"; };
@@ -4988,7 +4986,6 @@
 				F57E14E818EB1A2300F21648 /* openssl.c */,
 				F57E14E918EB1A2300F21648 /* polarssl_threadlock.c */,
 				F57E14EA18EB1A2300F21648 /* polarssl.c */,
-				F57E14EB18EB1A2300F21648 /* qssl.c */,
 				F57E14EC18EB1A2300F21648 /* vtls.c */,
 				F5FF384D16A2F8A900762464 /* warnless.c */,
 				F5FF384E16A2F8A900762464 /* wildcard.c */,
@@ -5677,10 +5674,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F53FE28E183EBEE1006D459E /* Build configuration list for PBXNativeTarget "SDL2_image" */;
 			buildPhases = (
+				F536909F1864DE2B00D327D6 /* ShellScript */,
 				F53FE264183EBEE1006D459E /* Sources */,
 				F53FE265183EBEE1006D459E /* Frameworks */,
 				F53FE266183EBEE1006D459E /* Headers */,
-				F536909F1864DE2B00D327D6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -6042,7 +6039,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"!!!\"\necho \"NOTE: If this build failed, try building SDL2 by itself first.\"\necho \"!!!\"";
+			shellScript = "echo \"!!!\"\necho \"NOTE: If this build fails, try building SDL2 by itself first.\"\necho \"!!!\"";
 		};
 		F57FD1C114CB6AEE009601E5 /* Create Frameworks symlink */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -6925,7 +6922,6 @@
 				F57E14F418EB1A2300F21648 /* openssl.c in Sources */,
 				F57E14F518EB1A2300F21648 /* polarssl_threadlock.c in Sources */,
 				F57E14F618EB1A2300F21648 /* polarssl.c in Sources */,
-				F57E14F718EB1A2300F21648 /* qssl.c in Sources */,
 				F57E14F818EB1A2300F21648 /* vtls.c in Sources */,
 				F5FF38B916A2F8A900762464 /* warnless.c in Sources */,
 				F5FF38BA16A2F8A900762464 /* wildcard.c in Sources */,
@@ -7939,8 +7935,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.38.0;
-				FRAMEWORK_VERSION = 7.38;
+				DYLIB_CURRENT_VERSION = 7.39.0;
+				FRAMEWORK_VERSION = 7.39;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					libcurl_EXPORTS,
@@ -7972,8 +7968,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.38.0;
-				FRAMEWORK_VERSION = 7.38;
+				DYLIB_CURRENT_VERSION = 7.39.0;
+				FRAMEWORK_VERSION = 7.39;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
