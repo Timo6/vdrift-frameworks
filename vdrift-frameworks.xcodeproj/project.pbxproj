@@ -338,6 +338,7 @@
 		F5308450183EE5340084A92F /* http2.c in Sources */ = {isa = PBXBuildFile; fileRef = F530844F183EE5340084A92F /* http2.c */; };
 		F536907E1864D03900D327D6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F00116A468350062F5BD /* SDL2.framework */; };
 		F536907F1864D03900D327D6 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A09D6183ECD1F006E2069 /* WebP.framework */; };
+		F53A89561A38A1A0007E2326 /* alpha_processing_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = F53A89551A38A1A0007E2326 /* alpha_processing_sse2.c */; };
 		F53EBE4F14C0D1FD0064FEC0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572C5EC14A8DD70008B223B /* Ogg.framework */; };
 		F53EC26214C0E3E10064FEC0 /* SDL_image.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EC26114C0E3E10064FEC0 /* SDL_image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53EC27614C0E4450064FEC0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EC27514C0E4440064FEC0 /* ApplicationServices.framework */; };
@@ -2260,6 +2261,7 @@
 		F530840D183EDF530084A92F /* btPATHSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btPATHSolver.h; path = bullet/src/BulletDynamics/MLCPSolvers/btPATHSolver.h; sourceTree = "<group>"; };
 		F530840E183EDF530084A92F /* btSolveProjectedGaussSeidel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btSolveProjectedGaussSeidel.h; path = bullet/src/BulletDynamics/MLCPSolvers/btSolveProjectedGaussSeidel.h; sourceTree = "<group>"; };
 		F530844F183EE5340084A92F /* http2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http2.c; path = cURL/curl/lib/http2.c; sourceTree = "<group>"; };
+		F53A89551A38A1A0007E2326 /* alpha_processing_sse2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = alpha_processing_sse2.c; path = libwebp/src/dsp/alpha_processing_sse2.c; sourceTree = "<group>"; };
 		F53EBE6514C0D3F00064FEC0 /* SDL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SDL-Info.plist"; path = "SDL/SDL-Info.plist"; sourceTree = "<group>"; };
 		F53EC25C14C0E28E0064FEC0 /* SDL_image.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_image.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53EC26114C0E3E10064FEC0 /* SDL_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDL_image.h; path = SDL_image/SDL_image/SDL_image.h; sourceTree = "<group>"; };
@@ -3545,6 +3547,7 @@
 				F5308333183ECDB30084A92F /* vp8l.c */,
 				F5308334183ECDB30084A92F /* vp8li.h */,
 				F5308335183ECDB30084A92F /* webpenc.c */,
+				F53A89551A38A1A0007E2326 /* alpha_processing_sse2.c */,
 				F59284B119C0A810009BA20F /* alpha_processing.c */,
 				F5308302183ECDA40084A92F /* cpu.c */,
 				F59284B319C0A82E009BA20F /* dec_clip_tables.c */,
@@ -6650,6 +6653,7 @@
 				F5308318183ECDA40084A92F /* enc.c in Sources */,
 				F5308353183ECDBF0084A92F /* muxread.c in Sources */,
 				F59284B619C0A82E009BA20F /* dec_mips32.c in Sources */,
+				F53A89561A38A1A0007E2326 /* alpha_processing_sse2.c in Sources */,
 				F59284B219C0A810009BA20F /* alpha_processing.c in Sources */,
 				F530831E183ECDA40084A92F /* yuv.c in Sources */,
 				F530833E183ECDB30084A92F /* frame.c in Sources */,
@@ -7101,7 +7105,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -7120,7 +7123,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
@@ -7760,7 +7762,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 0.4;
-				DYLIB_CURRENT_VERSION = 0.4.1;
+				DYLIB_CURRENT_VERSION = 0.4.2;
 				FRAMEWORK_VERSION = 0.4;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -7800,7 +7802,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 0.4;
-				DYLIB_CURRENT_VERSION = 0.4.1;
+				DYLIB_CURRENT_VERSION = 0.4.2;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_VERSION = 0.4;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
