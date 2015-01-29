@@ -336,6 +336,9 @@
 		F5308441183EE20D0084A92F /* btInternalEdgeUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57DDB0316A1DF0F00018854 /* btInternalEdgeUtility.h */; };
 		F5308442183EE22D0084A92F /* btCompoundFromGimpact.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53083AF183EDE730084A92F /* btCompoundFromGimpact.h */; };
 		F5308450183EE5340084A92F /* http2.c in Sources */ = {isa = PBXBuildFile; fileRef = F530844F183EE5340084A92F /* http2.c */; };
+		F53549F61A7A5E13001DE14F /* curl_endian.c in Sources */ = {isa = PBXBuildFile; fileRef = F53549F51A7A5E13001DE14F /* curl_endian.c */; };
+		F53549F81A7A5E24001DE14F /* curl_sasl_gssapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F53549F71A7A5E24001DE14F /* curl_sasl_gssapi.c */; };
+		F53549FA1A7A5E41001DE14F /* smb.c in Sources */ = {isa = PBXBuildFile; fileRef = F53549F91A7A5E41001DE14F /* smb.c */; };
 		F536907E1864D03900D327D6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F00116A468350062F5BD /* SDL2.framework */; };
 		F536907F1864D03900D327D6 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A09D6183ECD1F006E2069 /* WebP.framework */; };
 		F53A89561A38A1A0007E2326 /* alpha_processing_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = F53A89551A38A1A0007E2326 /* alpha_processing_sse2.c */; };
@@ -2261,6 +2264,9 @@
 		F530840D183EDF530084A92F /* btPATHSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btPATHSolver.h; path = bullet/src/BulletDynamics/MLCPSolvers/btPATHSolver.h; sourceTree = "<group>"; };
 		F530840E183EDF530084A92F /* btSolveProjectedGaussSeidel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btSolveProjectedGaussSeidel.h; path = bullet/src/BulletDynamics/MLCPSolvers/btSolveProjectedGaussSeidel.h; sourceTree = "<group>"; };
 		F530844F183EE5340084A92F /* http2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http2.c; path = cURL/curl/lib/http2.c; sourceTree = "<group>"; };
+		F53549F51A7A5E13001DE14F /* curl_endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = curl_endian.c; path = cURL/curl/lib/curl_endian.c; sourceTree = "<group>"; };
+		F53549F71A7A5E24001DE14F /* curl_sasl_gssapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = curl_sasl_gssapi.c; path = cURL/curl/lib/curl_sasl_gssapi.c; sourceTree = "<group>"; };
+		F53549F91A7A5E41001DE14F /* smb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = smb.c; path = cURL/curl/lib/smb.c; sourceTree = "<group>"; };
 		F53A89551A38A1A0007E2326 /* alpha_processing_sse2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = alpha_processing_sse2.c; path = libwebp/src/dsp/alpha_processing_sse2.c; sourceTree = "<group>"; };
 		F53EBE6514C0D3F00064FEC0 /* SDL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SDL-Info.plist"; path = "SDL/SDL-Info.plist"; sourceTree = "<group>"; };
 		F53EC25C14C0E28E0064FEC0 /* SDL_image.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_image.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4889,6 +4895,7 @@
 				F5FF37E916A2F8A800762464 /* content_encoding.c */,
 				F5FF37EA16A2F8A800762464 /* cookie.c */,
 				F5FF37EB16A2F8A900762464 /* curl_addrinfo.c */,
+				F53549F51A7A5E13001DE14F /* curl_endian.c */,
 				F5FF37ED16A2F8A900762464 /* curl_fnmatch.c */,
 				F5FF37EE16A2F8A900762464 /* curl_gethostname.c */,
 				F5FF37EF16A2F8A900762464 /* curl_gssapi.c */,
@@ -4899,6 +4906,7 @@
 				F5FF37F416A2F8A900762464 /* curl_ntlm_wb.c */,
 				F5FF37F516A2F8A900762464 /* curl_ntlm.c */,
 				F5FF37F716A2F8A900762464 /* curl_rtmp.c */,
+				F53549F71A7A5E24001DE14F /* curl_sasl_gssapi.c */,
 				F52E56F419C0FD8700821A75 /* curl_sasl_sspi.c */,
 				F5FF37F816A2F8A900762464 /* curl_sasl.c */,
 				F5FF37FA16A2F8A900762464 /* curl_sspi.c */,
@@ -4961,6 +4969,7 @@
 				F5FF383616A2F8A900762464 /* sendf.c */,
 				F5FF383716A2F8A900762464 /* share.c */,
 				F5FF383816A2F8A900762464 /* slist.c */,
+				F53549F91A7A5E41001DE14F /* smb.c */,
 				F5FF383916A2F8A900762464 /* smtp.c */,
 				F5FF383A16A2F8A900762464 /* socks_gssapi.c */,
 				F5FF383B16A2F8A900762464 /* socks_sspi.c */,
@@ -6822,6 +6831,7 @@
 				F5FF385316A2F8A900762464 /* base64.c in Sources */,
 				F54008A216D2AE6D004FFC6C /* bundles.c in Sources */,
 				F54008A416D2AE84004FFC6C /* conncache.c in Sources */,
+				F53549FA1A7A5E41001DE14F /* smb.c in Sources */,
 				F5FF385416A2F8A900762464 /* connect.c in Sources */,
 				F5FF385516A2F8A900762464 /* content_encoding.c in Sources */,
 				F5FF385616A2F8A900762464 /* cookie.c in Sources */,
@@ -6849,6 +6859,7 @@
 				F5FF386E16A2F8A900762464 /* formdata.c in Sources */,
 				F5FF386F16A2F8A900762464 /* ftp.c in Sources */,
 				F5FF387016A2F8A900762464 /* ftplistparser.c in Sources */,
+				F53549F81A7A5E24001DE14F /* curl_sasl_gssapi.c in Sources */,
 				F5FF387116A2F8A900762464 /* getenv.c in Sources */,
 				F5FF387216A2F8A900762464 /* getinfo.c in Sources */,
 				F5FF387316A2F8A900762464 /* gopher.c in Sources */,
@@ -6909,6 +6920,7 @@
 				F5FF38AF16A2F8A900762464 /* strequal.c in Sources */,
 				F5FF38B016A2F8A900762464 /* strerror.c in Sources */,
 				F5FF38B116A2F8A900762464 /* strtok.c in Sources */,
+				F53549F61A7A5E13001DE14F /* curl_endian.c in Sources */,
 				F5FF38B216A2F8A900762464 /* strtoofft.c in Sources */,
 				F5FF38B316A2F8A900762464 /* telnet.c in Sources */,
 				F5FF38B416A2F8A900762464 /* tftp.c in Sources */,
@@ -7937,8 +7949,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.39.0;
-				FRAMEWORK_VERSION = 7.39;
+				DYLIB_CURRENT_VERSION = 7.40.0;
+				FRAMEWORK_VERSION = 7.40;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					libcurl_EXPORTS,
@@ -7970,8 +7982,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.39.0;
-				FRAMEWORK_VERSION = 7.39;
+				DYLIB_CURRENT_VERSION = 7.40.0;
+				FRAMEWORK_VERSION = 7.40;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
