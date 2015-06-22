@@ -858,7 +858,6 @@
 		F5308390183ECE460084A92F /* encode.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = F5308383183ECDE10084A92F /* encode.h */; };
 		F5308391183ECE460084A92F /* types.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = F5308387183ECDE10084A92F /* types.h */; };
 		F53083B3183EDECB0084A92F /* btMatrixX.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083B2183EDECB0084A92F /* btMatrixX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F53083B4183EDECB0084A92F /* btMatrixX.h in Headers */ = {isa = PBXBuildFile; fileRef = F53083B2183EDECB0084A92F /* btMatrixX.h */; };
 		F5308450183EE5340084A92F /* http2.c in Sources */ = {isa = PBXBuildFile; fileRef = F530844F183EE5340084A92F /* http2.c */; };
 		F53549F61A7A5E13001DE14F /* curl_endian.c in Sources */ = {isa = PBXBuildFile; fileRef = F53549F51A7A5E13001DE14F /* curl_endian.c */; };
 		F53549F81A7A5E24001DE14F /* curl_sasl_gssapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F53549F71A7A5E24001DE14F /* curl_sasl_gssapi.c */; };
@@ -5760,7 +5759,6 @@
 				F53082FF183ECD8A0084A92F /* webpi.h in Headers */,
 				F5308348183ECDB30084A92F /* vp8enci.h in Headers */,
 				F530831F183ECDA40084A92F /* yuv.h in Headers */,
-				F53083B4183EDECB0084A92F /* btMatrixX.h in Headers */,
 				F5308339183ECDB30084A92F /* backward_references.h in Headers */,
 				F53082FD183ECD8A0084A92F /* vp8li.h in Headers */,
 				F5308373183ECDCC0084A92F /* huffman_encode.h in Headers */,
@@ -8113,7 +8111,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 0.4;
-				DYLIB_CURRENT_VERSION = 0.4.2;
+				DYLIB_CURRENT_VERSION = 0.4.3;
 				FRAMEWORK_VERSION = 0.4;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -8153,7 +8151,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 0.4;
-				DYLIB_CURRENT_VERSION = 0.4.2;
+				DYLIB_CURRENT_VERSION = 0.4.3;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_VERSION = 0.4;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
