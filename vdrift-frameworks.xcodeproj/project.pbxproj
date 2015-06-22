@@ -643,6 +643,9 @@
 		F504D4FD1B3863970095D45D /* btRaycastCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F504D1191B3860840095D45D /* btRaycastCallback.cpp */; };
 		F504D4FE1B3863970095D45D /* btSubSimplexConvexCast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F504D11C1B3860840095D45D /* btSubSimplexConvexCast.cpp */; };
 		F504D4FF1B3863970095D45D /* btVoronoiSimplexSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F504D11E1B3860840095D45D /* btVoronoiSimplexSolver.cpp */; };
+		F504D50D1B386A290095D45D /* curl_des.c in Sources */ = {isa = PBXBuildFile; fileRef = F504D50C1B386A290095D45D /* curl_des.c */; };
+		F504D50F1B386B4E0095D45D /* darwinssl.c in Sources */ = {isa = PBXBuildFile; fileRef = F504D50E1B386B4C0095D45D /* darwinssl.c */; };
+		F504D5111B386B630095D45D /* schannel.c in Sources */ = {isa = PBXBuildFile; fileRef = F504D5101B386B5D0095D45D /* schannel.c */; };
 		F50789E714C1DED000791F26 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540AF4A14C1A30E00F2FAC4 /* LinearMath.framework */; };
 		F50789F114C1E0AC00791F26 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540AF4A14C1A30E00F2FAC4 /* LinearMath.framework */; };
 		F50789F214C1E0D100791F26 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540AB1714C1979A00F2FAC4 /* BulletCollision.framework */; };
@@ -885,7 +888,6 @@
 		F53FE2B7183EBF65006D459E /* SDL_image.h in Headers */ = {isa = PBXBuildFile; fileRef = F53FE2A6183EBF65006D459E /* SDL_image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53FE2C6183EC523006D459E /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53FE2BE183EC129006D459E /* ApplicationServices.framework */; };
 		F53FE2C7183EC523006D459E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53FE2BF183EC130006D459E /* Foundation.framework */; };
-		F54008A216D2AE6D004FFC6C /* bundles.c in Sources */ = {isa = PBXBuildFile; fileRef = F54008A116D2AE6D004FFC6C /* bundles.c */; };
 		F54008A416D2AE84004FFC6C /* conncache.c in Sources */ = {isa = PBXBuildFile; fileRef = F54008A316D2AE84004FFC6C /* conncache.c */; };
 		F54008CA16D2B37F004FFC6C /* archive_cmdline.c in Sources */ = {isa = PBXBuildFile; fileRef = F54008C916D2B37F004FFC6C /* archive_cmdline.c */; };
 		F54008CC16D2B394004FFC6C /* archive_read_append_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = F54008CB16D2B394004FFC6C /* archive_read_append_filter.c */; };
@@ -998,8 +1000,6 @@
 		F57DDCF916A2181000018854 /* btSoftSoftCollisionAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = F57DDCEC16A2181000018854 /* btSoftSoftCollisionAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F57DDCFA16A2181000018854 /* btSparseSDF.h in Headers */ = {isa = PBXBuildFile; fileRef = F57DDCED16A2181000018854 /* btSparseSDF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F57E14ED18EB1A2300F21648 /* axtls.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E118EB1A2300F21648 /* axtls.c */; };
-		F57E14EE18EB1A2300F21648 /* curl_darwinssl.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E218EB1A2300F21648 /* curl_darwinssl.c */; };
-		F57E14EF18EB1A2300F21648 /* curl_schannel.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E318EB1A2300F21648 /* curl_schannel.c */; };
 		F57E14F018EB1A2300F21648 /* cyassl.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E418EB1A2300F21648 /* cyassl.c */; };
 		F57E14F118EB1A2300F21648 /* gskit.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E518EB1A2300F21648 /* gskit.c */; };
 		F57E14F218EB1A2300F21648 /* gtls.c in Sources */ = {isa = PBXBuildFile; fileRef = F57E14E618EB1A2300F21648 /* gtls.c */; };
@@ -2455,6 +2455,9 @@
 		F504D35B1B3862590095D45D /* btWheelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btWheelInfo.h; sourceTree = "<group>"; };
 		F504D47A1B3863440095D45D /* btBulletCollisionCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btBulletCollisionCommon.h; path = bullet/src/btBulletCollisionCommon.h; sourceTree = "<group>"; };
 		F504D47B1B3863440095D45D /* btBulletDynamicsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btBulletDynamicsCommon.h; path = bullet/src/btBulletDynamicsCommon.h; sourceTree = "<group>"; };
+		F504D50C1B386A290095D45D /* curl_des.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = curl_des.c; path = cURL/curl/lib/curl_des.c; sourceTree = "<group>"; };
+		F504D50E1B386B4C0095D45D /* darwinssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = darwinssl.c; path = cURL/curl/lib/vtls/darwinssl.c; sourceTree = "<group>"; };
+		F504D5101B386B5D0095D45D /* schannel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = schannel.c; path = cURL/curl/lib/vtls/schannel.c; sourceTree = "<group>"; };
 		F50E387014F83877005998F2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F50E387314F83945005998F2 /* archive_acl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_acl.c; path = Archive/libarchive/libarchive/archive_acl.c; sourceTree = "<group>"; };
 		F50E387414F83945005998F2 /* archive_check_magic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_check_magic.c; path = Archive/libarchive/libarchive/archive_check_magic.c; sourceTree = "<group>"; };
@@ -2687,7 +2690,6 @@
 		F53FE2A6183EBF65006D459E /* SDL_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_image.h; path = SDL2_image/SDL_image.h; sourceTree = "<group>"; };
 		F53FE2BE183EC129006D459E /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		F53FE2BF183EC130006D459E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F54008A116D2AE6D004FFC6C /* bundles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bundles.c; path = cURL/curl/lib/bundles.c; sourceTree = "<group>"; };
 		F54008A316D2AE84004FFC6C /* conncache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = conncache.c; path = cURL/curl/lib/conncache.c; sourceTree = "<group>"; };
 		F54008C916D2B37F004FFC6C /* archive_cmdline.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_cmdline.c; path = Archive/libarchive/libarchive/archive_cmdline.c; sourceTree = "<group>"; };
 		F54008CB16D2B394004FFC6C /* archive_read_append_filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_read_append_filter.c; path = Archive/libarchive/libarchive/archive_read_append_filter.c; sourceTree = "<group>"; };
@@ -2831,8 +2833,6 @@
 		F57DDCEC16A2181000018854 /* btSoftSoftCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftSoftCollisionAlgorithm.h; path = bullet/src/BulletSoftBody/btSoftSoftCollisionAlgorithm.h; sourceTree = "<group>"; };
 		F57DDCED16A2181000018854 /* btSparseSDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSparseSDF.h; path = bullet/src/BulletSoftBody/btSparseSDF.h; sourceTree = "<group>"; };
 		F57E14E118EB1A2300F21648 /* axtls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = axtls.c; path = cURL/curl/lib/vtls/axtls.c; sourceTree = "<group>"; };
-		F57E14E218EB1A2300F21648 /* curl_darwinssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = curl_darwinssl.c; path = cURL/curl/lib/vtls/curl_darwinssl.c; sourceTree = "<group>"; };
-		F57E14E318EB1A2300F21648 /* curl_schannel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = curl_schannel.c; path = cURL/curl/lib/vtls/curl_schannel.c; sourceTree = "<group>"; };
 		F57E14E418EB1A2300F21648 /* cyassl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = cyassl.c; path = cURL/curl/lib/vtls/cyassl.c; sourceTree = "<group>"; };
 		F57E14E518EB1A2300F21648 /* gskit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gskit.c; path = cURL/curl/lib/vtls/gskit.c; sourceTree = "<group>"; };
 		F57E14E618EB1A2300F21648 /* gtls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gtls.c; path = cURL/curl/lib/vtls/gtls.c; sourceTree = "<group>"; };
@@ -5130,12 +5130,12 @@
 				F5FF37E416A2F8A800762464 /* asyn-ares.c */,
 				F5FF37E516A2F8A800762464 /* asyn-thread.c */,
 				F5FF37E716A2F8A800762464 /* base64.c */,
-				F54008A116D2AE6D004FFC6C /* bundles.c */,
 				F54008A316D2AE84004FFC6C /* conncache.c */,
 				F5FF37E816A2F8A800762464 /* connect.c */,
 				F5FF37E916A2F8A800762464 /* content_encoding.c */,
 				F5FF37EA16A2F8A800762464 /* cookie.c */,
 				F5FF37EB16A2F8A900762464 /* curl_addrinfo.c */,
+				F504D50C1B386A290095D45D /* curl_des.c */,
 				F53549F51A7A5E13001DE14F /* curl_endian.c */,
 				F5FF37ED16A2F8A900762464 /* curl_fnmatch.c */,
 				F5FF37EE16A2F8A900762464 /* curl_gethostname.c */,
@@ -5230,15 +5230,15 @@
 				F5FF384B16A2F8A900762464 /* url.c */,
 				F5FF384C16A2F8A900762464 /* version.c */,
 				F57E14E118EB1A2300F21648 /* axtls.c */,
-				F57E14E218EB1A2300F21648 /* curl_darwinssl.c */,
-				F57E14E318EB1A2300F21648 /* curl_schannel.c */,
 				F57E14E418EB1A2300F21648 /* cyassl.c */,
+				F504D50E1B386B4C0095D45D /* darwinssl.c */,
 				F57E14E518EB1A2300F21648 /* gskit.c */,
 				F57E14E618EB1A2300F21648 /* gtls.c */,
 				F57E14E718EB1A2300F21648 /* nss.c */,
 				F57E14E818EB1A2300F21648 /* openssl.c */,
 				F57E14E918EB1A2300F21648 /* polarssl_threadlock.c */,
 				F57E14EA18EB1A2300F21648 /* polarssl.c */,
+				F504D5101B386B5D0095D45D /* schannel.c */,
 				F57E14EC18EB1A2300F21648 /* vtls.c */,
 				F5FF384D16A2F8A900762464 /* warnless.c */,
 				F5FF384E16A2F8A900762464 /* wildcard.c */,
@@ -7168,13 +7168,14 @@
 				F5FF385016A2F8A900762464 /* asyn-ares.c in Sources */,
 				F5FF385116A2F8A900762464 /* asyn-thread.c in Sources */,
 				F5FF385316A2F8A900762464 /* base64.c in Sources */,
-				F54008A216D2AE6D004FFC6C /* bundles.c in Sources */,
 				F54008A416D2AE84004FFC6C /* conncache.c in Sources */,
 				F53549FA1A7A5E41001DE14F /* smb.c in Sources */,
 				F5FF385416A2F8A900762464 /* connect.c in Sources */,
 				F5FF385516A2F8A900762464 /* content_encoding.c in Sources */,
 				F5FF385616A2F8A900762464 /* cookie.c in Sources */,
 				F5FF385716A2F8A900762464 /* curl_addrinfo.c in Sources */,
+				F504D50D1B386A290095D45D /* curl_des.c in Sources */,
+				F53549F61A7A5E13001DE14F /* curl_endian.c in Sources */,
 				F5FF385916A2F8A900762464 /* curl_fnmatch.c in Sources */,
 				F5FF385A16A2F8A900762464 /* curl_gethostname.c in Sources */,
 				F5FF385B16A2F8A900762464 /* curl_gssapi.c in Sources */,
@@ -7185,6 +7186,7 @@
 				F5FF386016A2F8A900762464 /* curl_ntlm_wb.c in Sources */,
 				F5FF386116A2F8A900762464 /* curl_ntlm.c in Sources */,
 				F5FF386316A2F8A900762464 /* curl_rtmp.c in Sources */,
+				F53549F81A7A5E24001DE14F /* curl_sasl_gssapi.c in Sources */,
 				F52E56F519C0FD8700821A75 /* curl_sasl_sspi.c in Sources */,
 				F5FF386416A2F8A900762464 /* curl_sasl.c in Sources */,
 				F5FF386616A2F8A900762464 /* curl_sspi.c in Sources */,
@@ -7198,7 +7200,6 @@
 				F5FF386E16A2F8A900762464 /* formdata.c in Sources */,
 				F5FF386F16A2F8A900762464 /* ftp.c in Sources */,
 				F5FF387016A2F8A900762464 /* ftplistparser.c in Sources */,
-				F53549F81A7A5E24001DE14F /* curl_sasl_gssapi.c in Sources */,
 				F5FF387116A2F8A900762464 /* getenv.c in Sources */,
 				F5FF387216A2F8A900762464 /* getinfo.c in Sources */,
 				F5FF387316A2F8A900762464 /* gopher.c in Sources */,
@@ -7259,7 +7260,6 @@
 				F5FF38AF16A2F8A900762464 /* strequal.c in Sources */,
 				F5FF38B016A2F8A900762464 /* strerror.c in Sources */,
 				F5FF38B116A2F8A900762464 /* strtok.c in Sources */,
-				F53549F61A7A5E13001DE14F /* curl_endian.c in Sources */,
 				F5FF38B216A2F8A900762464 /* strtoofft.c in Sources */,
 				F5FF38B316A2F8A900762464 /* telnet.c in Sources */,
 				F5FF38B416A2F8A900762464 /* tftp.c in Sources */,
@@ -7268,15 +7268,15 @@
 				F5FF38B716A2F8A900762464 /* url.c in Sources */,
 				F5FF38B816A2F8A900762464 /* version.c in Sources */,
 				F57E14ED18EB1A2300F21648 /* axtls.c in Sources */,
-				F57E14EE18EB1A2300F21648 /* curl_darwinssl.c in Sources */,
-				F57E14EF18EB1A2300F21648 /* curl_schannel.c in Sources */,
 				F57E14F018EB1A2300F21648 /* cyassl.c in Sources */,
+				F504D50F1B386B4E0095D45D /* darwinssl.c in Sources */,
 				F57E14F118EB1A2300F21648 /* gskit.c in Sources */,
 				F57E14F218EB1A2300F21648 /* gtls.c in Sources */,
 				F57E14F318EB1A2300F21648 /* nss.c in Sources */,
 				F57E14F418EB1A2300F21648 /* openssl.c in Sources */,
 				F57E14F518EB1A2300F21648 /* polarssl_threadlock.c in Sources */,
 				F57E14F618EB1A2300F21648 /* polarssl.c in Sources */,
+				F504D5111B386B630095D45D /* schannel.c in Sources */,
 				F57E14F818EB1A2300F21648 /* vtls.c in Sources */,
 				F5FF38B916A2F8A900762464 /* warnless.c in Sources */,
 				F5FF38BA16A2F8A900762464 /* wildcard.c in Sources */,
@@ -8288,8 +8288,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.40.0;
-				FRAMEWORK_VERSION = 7.40;
+				DYLIB_CURRENT_VERSION = 7.43.0;
+				FRAMEWORK_VERSION = 7.43;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					libcurl_EXPORTS,
@@ -8321,8 +8321,8 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 7;
-				DYLIB_CURRENT_VERSION = 7.40.0;
-				FRAMEWORK_VERSION = 7.40;
+				DYLIB_CURRENT_VERSION = 7.43.0;
+				FRAMEWORK_VERSION = 7.43;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
