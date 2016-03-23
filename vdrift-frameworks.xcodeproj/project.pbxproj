@@ -988,6 +988,12 @@
 		F5794EFC1CA3030400535505 /* rescaler.c in Sources */ = {isa = PBXBuildFile; fileRef = F5794EF71CA3030400535505 /* rescaler.c */; };
 		F5794EFE1CA3030D00535505 /* upsampling_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = F5794EFD1CA3030D00535505 /* upsampling_mips_dsp_r2.c */; };
 		F5794F001CA3031800535505 /* yuv_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = F5794EFF1CA3031800535505 /* yuv_mips_dsp_r2.c */; };
+		F5794F081CA30D2400535505 /* SDL_opengles2_gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = F5794F041CA30D2400535505 /* SDL_opengles2_gl2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5794F091CA30D2400535505 /* SDL_opengles2_gl2ext.h in Headers */ = {isa = PBXBuildFile; fileRef = F5794F051CA30D2400535505 /* SDL_opengles2_gl2ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5794F0A1CA30D2400535505 /* SDL_opengles2_gl2platform.h in Headers */ = {isa = PBXBuildFile; fileRef = F5794F061CA30D2400535505 /* SDL_opengles2_gl2platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5794F0B1CA30D2400535505 /* SDL_opengles2_khrplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = F5794F071CA30D2400535505 /* SDL_opengles2_khrplatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5794F0D1CA30D8F00535505 /* SDL_opengl_glext.h in Headers */ = {isa = PBXBuildFile; fileRef = F5794F0C1CA30D8F00535505 /* SDL_opengl_glext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5794F0F1CA30F2400535505 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5794F0E1CA30F2400535505 /* CoreVideo.framework */; };
 		F57DD9DE16A1DC4300018854 /* btAlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F57DD9D616A1DC4300018854 /* btAlignedAllocator.cpp */; };
 		F57DD9DF16A1DC4300018854 /* btConvexHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F57DD9D716A1DC4300018854 /* btConvexHull.cpp */; };
 		F57DD9E016A1DC4300018854 /* btConvexHullComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F57DD9D816A1DC4300018854 /* btConvexHullComputer.cpp */; };
@@ -1378,7 +1384,6 @@
 		F5D0F02216A471290062F5BD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F01716A470F70062F5BD /* CoreFoundation.framework */; };
 		F5D0F02316A471290062F5BD /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F01B16A471000062F5BD /* ForceFeedback.framework */; };
 		F5D0F02416A471290062F5BD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F01316A470ED0062F5BD /* IOKit.framework */; };
-		F5D0F02516A471290062F5BD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F01516A470F30062F5BD /* OpenGL.framework */; };
 		F5D0F2C716A49ADA0062F5BD /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D0F00116A468350062F5BD /* SDL2.framework */; };
 		F5D0F2CB16A49B0C0062F5BD /* SDL2_framerate.c in Sources */ = {isa = PBXBuildFile; fileRef = F5D0F2C816A49B0C0062F5BD /* SDL2_framerate.c */; };
 		F5D0F2CC16A49B0C0062F5BD /* SDL2_gfxPrimitives.c in Sources */ = {isa = PBXBuildFile; fileRef = F5D0F2C916A49B0C0062F5BD /* SDL2_gfxPrimitives.c */; };
@@ -2865,6 +2870,12 @@
 		F5794EF71CA3030400535505 /* rescaler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rescaler.c; path = libwebp/src/dsp/rescaler.c; sourceTree = "<group>"; };
 		F5794EFD1CA3030D00535505 /* upsampling_mips_dsp_r2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = upsampling_mips_dsp_r2.c; path = libwebp/src/dsp/upsampling_mips_dsp_r2.c; sourceTree = "<group>"; };
 		F5794EFF1CA3031800535505 /* yuv_mips_dsp_r2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yuv_mips_dsp_r2.c; path = libwebp/src/dsp/yuv_mips_dsp_r2.c; sourceTree = "<group>"; };
+		F5794F041CA30D2400535505 /* SDL_opengles2_gl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_opengles2_gl2.h; path = SDL2/SDL2/include/SDL_opengles2_gl2.h; sourceTree = "<group>"; };
+		F5794F051CA30D2400535505 /* SDL_opengles2_gl2ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_opengles2_gl2ext.h; path = SDL2/SDL2/include/SDL_opengles2_gl2ext.h; sourceTree = "<group>"; };
+		F5794F061CA30D2400535505 /* SDL_opengles2_gl2platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_opengles2_gl2platform.h; path = SDL2/SDL2/include/SDL_opengles2_gl2platform.h; sourceTree = "<group>"; };
+		F5794F071CA30D2400535505 /* SDL_opengles2_khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_opengles2_khrplatform.h; path = SDL2/SDL2/include/SDL_opengles2_khrplatform.h; sourceTree = "<group>"; };
+		F5794F0C1CA30D8F00535505 /* SDL_opengl_glext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_opengl_glext.h; path = SDL2/SDL2/include/SDL_opengl_glext.h; sourceTree = "<group>"; };
+		F5794F0E1CA30F2400535505 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		F57DD9D616A1DC4300018854 /* btAlignedAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btAlignedAllocator.cpp; path = bullet/src/LinearMath/btAlignedAllocator.cpp; sourceTree = "<group>"; };
 		F57DD9D716A1DC4300018854 /* btConvexHull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btConvexHull.cpp; path = bullet/src/LinearMath/btConvexHull.cpp; sourceTree = "<group>"; };
 		F57DD9D816A1DC4300018854 /* btConvexHullComputer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btConvexHullComputer.cpp; path = bullet/src/LinearMath/btConvexHullComputer.cpp; sourceTree = "<group>"; };
@@ -3352,7 +3363,6 @@
 		F5D0F00F16A470E10062F5BD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F5D0F01116A470E50062F5BD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		F5D0F01316A470ED0062F5BD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		F5D0F01516A470F30062F5BD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		F5D0F01716A470F70062F5BD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F5D0F01916A470FA0062F5BD /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		F5D0F01B16A471000062F5BD /* ForceFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForceFeedback.framework; path = System/Library/Frameworks/ForceFeedback.framework; sourceTree = SDKROOT; };
@@ -3632,9 +3642,9 @@
 				F5D0F02016A471290062F5BD /* Cocoa.framework in Frameworks */,
 				F5D0F02116A471290062F5BD /* CoreAudio.framework in Frameworks */,
 				F5D0F02216A471290062F5BD /* CoreFoundation.framework in Frameworks */,
+				F5794F0F1CA30F2400535505 /* CoreVideo.framework in Frameworks */,
 				F5D0F02316A471290062F5BD /* ForceFeedback.framework in Frameworks */,
 				F5D0F02416A471290062F5BD /* IOKit.framework in Frameworks */,
-				F5D0F02516A471290062F5BD /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4806,9 +4816,9 @@
 				F5D0F00F16A470E10062F5BD /* Cocoa.framework */,
 				F5D0F01116A470E50062F5BD /* CoreAudio.framework */,
 				F5D0F01716A470F70062F5BD /* CoreFoundation.framework */,
+				F5794F0E1CA30F2400535505 /* CoreVideo.framework */,
 				F5D0F01B16A471000062F5BD /* ForceFeedback.framework */,
 				F5D0F01316A470ED0062F5BD /* IOKit.framework */,
-				F5D0F01516A470F30062F5BD /* OpenGL.framework */,
 				F5D0F00316A469130062F5BD /* SDL2-Info.plist */,
 				F5D0F23E16A47ACA0062F5BD /* Source */,
 			);
@@ -4959,9 +4969,14 @@
 				F5C832B717E27766002A7780 /* SDL_mouse.h */,
 				F5C832B817E27766002A7780 /* SDL_mutex.h */,
 				F5C832B917E27766002A7780 /* SDL_name.h */,
+				F5794F0C1CA30D8F00535505 /* SDL_opengl_glext.h */,
 				F5C832BA17E27766002A7780 /* SDL_opengl.h */,
 				F5C832BB17E27766002A7780 /* SDL_opengles.h */,
 				F5C832BC17E27766002A7780 /* SDL_opengles2.h */,
+				F5794F041CA30D2400535505 /* SDL_opengles2_gl2.h */,
+				F5794F051CA30D2400535505 /* SDL_opengles2_gl2ext.h */,
+				F5794F061CA30D2400535505 /* SDL_opengles2_gl2platform.h */,
+				F5794F071CA30D2400535505 /* SDL_opengles2_khrplatform.h */,
 				F5C832BD17E27766002A7780 /* SDL_pixels.h */,
 				F5C832BE17E27766002A7780 /* SDL_platform.h */,
 				F5C832BF17E27766002A7780 /* SDL_power.h */,
@@ -5943,9 +5958,14 @@
 				F5C8347B17E27882002A7780 /* SDL_mouse.h in Headers */,
 				F5C8347C17E27882002A7780 /* SDL_mutex.h in Headers */,
 				F5C8347D17E27882002A7780 /* SDL_name.h in Headers */,
+				F5794F0D1CA30D8F00535505 /* SDL_opengl_glext.h in Headers */,
 				F5C8347E17E27882002A7780 /* SDL_opengl.h in Headers */,
 				F5C8347F17E27882002A7780 /* SDL_opengles.h in Headers */,
 				F5C8348017E27882002A7780 /* SDL_opengles2.h in Headers */,
+				F5794F081CA30D2400535505 /* SDL_opengles2_gl2.h in Headers */,
+				F5794F091CA30D2400535505 /* SDL_opengles2_gl2ext.h in Headers */,
+				F5794F0A1CA30D2400535505 /* SDL_opengles2_gl2platform.h in Headers */,
+				F5794F0B1CA30D2400535505 /* SDL_opengles2_khrplatform.h in Headers */,
 				F5C8348117E27882002A7780 /* SDL_pixels.h in Headers */,
 				F5C8348217E27882002A7780 /* SDL_platform.h in Headers */,
 				F5C8348317E27882002A7780 /* SDL_power.h in Headers */,
@@ -8341,7 +8361,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.3;
+				DYLIB_CURRENT_VERSION = 2.0.4;
 				FRAMEWORK_VERSION = 2.0;
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_AUTO_VECTORIZATION = YES;
@@ -8362,7 +8382,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.3;
+				DYLIB_CURRENT_VERSION = 2.0.4;
 				FRAMEWORK_VERSION = 2.0;
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_AUTO_VECTORIZATION = YES;

@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>http://www.libsdl.org</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
@@ -17,13 +19,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.3</string>
+	<string>2.0.4</string>
 	<key>CFBundleSignature</key>
 	<string>SDLX</string>
 	<key>CFBundleVersion</key>
 	<string>2</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2013 http://www.libsdl.org. All rights reserved.</string>
+	<string>Copyright (C) 1997-2016 Sam Lantinga &lt;slouken@libsdl.org&gt;</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
