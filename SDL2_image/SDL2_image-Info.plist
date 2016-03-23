@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.0</string>
+	<string>2.0.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>2</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 1997-2013 Sam Lantinga &lt;slouken@libsdl.org&gt;. All rights reserved.</string>
+	<string>Copyright (C) 1997-2016 Sam Lantinga &lt;slouken@libsdl.org&gt;</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
