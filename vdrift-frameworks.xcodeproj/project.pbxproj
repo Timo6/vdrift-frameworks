@@ -6287,7 +6287,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "VDrift Team";
 			};
 			buildConfigurationList = B9ADCF750907C8EB00D55A16 /* Build configuration list for PBXProject "vdrift-frameworks" */;
@@ -7456,6 +7456,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -7463,6 +7464,8 @@
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -7475,6 +7478,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -7507,7 +7511,7 @@
 				);
 				INFOPLIST_FILE = "SDL_image/SDL_image-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				PRODUCT_NAME = SDL_image;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7539,7 +7543,7 @@
 				);
 				INFOPLIST_FILE = "SDL_image/SDL_image-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				PRODUCT_NAME = SDL_image;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7571,7 +7575,7 @@
 					"$(TARGET_BUILD_DIR)/SDL2.framework/Headers",
 				);
 				INFOPLIST_FILE = "SDL2_image/SDL2_image-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				USER_HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers $(TARGET_BUILD_DIR)/WebP.framework/Headers";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -7606,7 +7610,7 @@
 					"$(TARGET_BUILD_DIR)/SDL2.framework/Headers",
 				);
 				INFOPLIST_FILE = "SDL2_image/SDL2_image-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				SEPARATE_STRIP = YES;
 				STRIP_STYLE = "non-global";
 				USER_HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers $(TARGET_BUILD_DIR)/WebP.framework/Headers";
@@ -7621,7 +7625,7 @@
 				DYLIB_CURRENT_VERSION = 1.2.8;
 				FRAMEWORK_VERSION = 1.2;
 				INFOPLIST_FILE = "SDL_net/SDL_net-Info.plist";
-				PRODUCT_NAME = SDL_net;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7633,7 +7637,7 @@
 				DYLIB_CURRENT_VERSION = 1.2.8;
 				FRAMEWORK_VERSION = 1.2;
 				INFOPLIST_FILE = "SDL_net/SDL_net-Info.plist";
-				PRODUCT_NAME = SDL_net;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7658,7 +7662,7 @@
 					"-D_DEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7688,7 +7692,7 @@
 					"-DNDEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7713,7 +7717,7 @@
 					"-D_DEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = BulletDynamics;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7743,7 +7747,7 @@
 					"-DNDEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = BulletDynamics;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7767,7 +7771,7 @@
 					"-D_DEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = BulletSoftBody;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7796,7 +7800,7 @@
 					"-DNDEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = BulletSoftBody;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7821,7 +7825,7 @@
 					"-D_DEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = LinearMath;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7851,7 +7855,7 @@
 					"-DNDEBUG",
 					"-fPIC",
 				);
-				PRODUCT_NAME = LinearMath;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bulletphysics.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7879,7 +7883,7 @@
 				);
 				HEADER_SEARCH_PATHS = /usr/X11R6/include;
 				INFOPLIST_FILE = "SDL/SDL-Info.plist";
-				PRODUCT_NAME = SDL;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7907,7 +7911,7 @@
 				);
 				HEADER_SEARCH_PATHS = /usr/X11R6/include;
 				INFOPLIST_FILE = "SDL/SDL-Info.plist";
-				PRODUCT_NAME = SDL;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7919,7 +7923,7 @@
 				DYLIB_CURRENT_VERSION = 2.0.24;
 				FRAMEWORK_VERSION = 2.0;
 				INFOPLIST_FILE = "SDL_gfx/SDL_gfx-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ferzkopp.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7931,7 +7935,7 @@
 				DYLIB_CURRENT_VERSION = 2.0.24;
 				FRAMEWORK_VERSION = 2.0;
 				INFOPLIST_FILE = "SDL_gfx/SDL_gfx-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ferzkopp.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7947,7 +7951,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = _MACOSX_;
 				HEADER_SEARCH_PATHS = Ogg/libogg/include/;
 				INFOPLIST_FILE = "Ogg/Ogg-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.xiph.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -7963,7 +7967,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = _MACOSX_;
 				HEADER_SEARCH_PATHS = Ogg/libogg/include/;
 				INFOPLIST_FILE = "Ogg/Ogg-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.xiph.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -7990,7 +7994,7 @@
 				FRAMEWORK_VERSION = 1.3;
 				HEADER_SEARCH_PATHS = Vorbis/libvorbis/lib;
 				INFOPLIST_FILE = "Vorbis/Vorbis-Info.plist";
-				PRODUCT_NAME = Vorbis;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.xiph.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -8003,7 +8007,7 @@
 				FRAMEWORK_VERSION = 1.3;
 				HEADER_SEARCH_PATHS = Vorbis/libvorbis/lib;
 				INFOPLIST_FILE = "Vorbis/Vorbis-Info.plist";
-				PRODUCT_NAME = Vorbis;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.xiph.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -8032,7 +8036,7 @@
 					/usr/lib/libiconv.dylib,
 					/usr/lib/libxml2.dylib,
 				);
-				PRODUCT_NAME = Archive;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googlecode.libarchive.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -8061,7 +8065,7 @@
 					/usr/lib/libiconv.dylib,
 					/usr/lib/libxml2.dylib,
 				);
-				PRODUCT_NAME = Archive;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googlecode.libarchive.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -8128,7 +8132,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "WebP/WebP-Info.plist";
-				PRODUCT_NAME = WebP;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.webmproject.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -8163,7 +8167,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "WebP/WebP-Info.plist";
-				PRODUCT_NAME = WebP;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.webmproject.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -8183,7 +8187,7 @@
 				HEADER_SEARCH_PATHS = /usr/X11R6/include;
 				INFOPLIST_FILE = "SDL2/SDL2-Info.plist";
 				OTHER_LDFLAGS = /usr/lib/libiconv.dylib;
-				PRODUCT_NAME = SDL2;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -8205,7 +8209,7 @@
 				HEADER_SEARCH_PATHS = /usr/X11R6/include;
 				INFOPLIST_FILE = "SDL2/SDL2-Info.plist";
 				OTHER_LDFLAGS = /usr/lib/libiconv.dylib;
-				PRODUCT_NAME = SDL2;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -8234,7 +8238,7 @@
 				FRAMEWORK_VERSION = 1.0;
 				HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers";
 				INFOPLIST_FILE = "SDL2_gfx/SDL2_gfx-Info.plist";
-				PRODUCT_NAME = SDL2_gfx;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ferzkopp.${PRODUCT_NAME:rfc1034identifier}";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -8249,7 +8253,7 @@
 				FRAMEWORK_VERSION = 1.0;
 				HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers";
 				INFOPLIST_FILE = "SDL2_gfx/SDL2_gfx-Info.plist";
-				PRODUCT_NAME = SDL2_gfx;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ferzkopp.${PRODUCT_NAME:rfc1034identifier}";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -8263,7 +8267,7 @@
 				FRAMEWORK_VERSION = 1.10;
 				HEADER_SEARCH_PATHS = GLEW/glew/include;
 				INFOPLIST_FILE = "GLEW/GLEW-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sourceforge.glew.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -8276,7 +8280,7 @@
 				FRAMEWORK_VERSION = 1.10;
 				HEADER_SEARCH_PATHS = GLEW/glew/include;
 				INFOPLIST_FILE = "GLEW/GLEW-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sourceforge.glew.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -8309,7 +8313,7 @@
 					/usr/lib/libdl.dylib,
 					/usr/lib/libz.dylib,
 				);
-				PRODUCT_NAME = cURL;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.haxx.curl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -8347,7 +8351,7 @@
 					/usr/lib/libdl.dylib,
 					/usr/lib/libz.dylib,
 				);
-				PRODUCT_NAME = cURL;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.haxx.curl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
