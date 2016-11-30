@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		F50BD7F91DEF4C7A0012AF9F /* Current VDrift */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F50BD80A1DEF4C7A0012AF9F /* Build configuration list for PBXAggregateTarget "Current VDrift" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F50BD80E1DEF4C8F0012AF9F /* PBXTargetDependency */,
+				F50BD8021DEF4C7A0012AF9F /* PBXTargetDependency */,
+				F50BD8061DEF4C7A0012AF9F /* PBXTargetDependency */,
+				F50BD8101DEF4CA40012AF9F /* PBXTargetDependency */,
+				F50BD8121DEF4CA40012AF9F /* PBXTargetDependency */,
+				F50BD8081DEF4C7A0012AF9F /* PBXTargetDependency */,
+				F50BD8141DEF4CA40012AF9F /* PBXTargetDependency */,
+			);
+			name = "Current VDrift";
+			productName = "VDrift + Frameworks";
+		};
 		F572C61514A8E1DD008B223B /* ALL */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = F572C61614A8E1DD008B223B /* Build configuration list for PBXAggregateTarget "ALL" */;
@@ -1695,6 +1712,55 @@
 			proxyType = 1;
 			remoteGlobalIDString = F540AB1614C1979A00F2FAC4;
 			remoteInfo = BulletCollision;
+		};
+		F50BD8031DEF4C7A0012AF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E83CA314A901A100623D45;
+			remoteInfo = cURL;
+		};
+		F50BD8071DEF4C7A0012AF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F572C5EB14A8DD70008B223B;
+			remoteInfo = Ogg;
+		};
+		F50BD8091DEF4C7A0012AF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F572C62B14A8E612008B223B;
+			remoteInfo = Vorbis;
+		};
+		F50BD80D1DEF4C8F0012AF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57DD93C16A1C00D00018854;
+			remoteInfo = "ALL BULLET";
+		};
+		F50BD80F1DEF4CA40012AF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D0EF7016A468350062F5BD;
+			remoteInfo = SDL2;
+		};
+		F50BD8111DEF4CA40012AF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53FE268183EBEE1006D459E;
+			remoteInfo = SDL2_image;
+		};
+		F50BD8131DEF4CA40012AF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58A09D5183ECD1F006E2069;
+			remoteInfo = WebP;
 		};
 		F5308399183ED21E0084A92F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -6458,6 +6524,7 @@
 				F57DD93C16A1C00D00018854 /* ALL BULLET */,
 				F57DD95B16A1C02B00018854 /* ALL SDL */,
 				F5D0F29C16A48B7D0062F5BD /* ALL SDL2 */,
+				F50BD7F91DEF4C7A0012AF9F /* Current VDrift */,
 				F572C67614A8EB01008B223B /* Archive */,
 				F540AB1614C1979A00F2FAC4 /* BulletCollision */,
 				F540ACD714C19EE800F2FAC4 /* BulletDynamics */,
@@ -7499,6 +7566,41 @@
 			target = F540AB1614C1979A00F2FAC4 /* BulletCollision */;
 			targetProxy = F5078A1314C1E12800791F26 /* PBXContainerItemProxy */;
 		};
+		F50BD8021DEF4C7A0012AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E83CA314A901A100623D45 /* cURL */;
+			targetProxy = F50BD8031DEF4C7A0012AF9F /* PBXContainerItemProxy */;
+		};
+		F50BD8061DEF4C7A0012AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F572C5EB14A8DD70008B223B /* Ogg */;
+			targetProxy = F50BD8071DEF4C7A0012AF9F /* PBXContainerItemProxy */;
+		};
+		F50BD8081DEF4C7A0012AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F572C62B14A8E612008B223B /* Vorbis */;
+			targetProxy = F50BD8091DEF4C7A0012AF9F /* PBXContainerItemProxy */;
+		};
+		F50BD80E1DEF4C8F0012AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57DD93C16A1C00D00018854 /* ALL BULLET */;
+			targetProxy = F50BD80D1DEF4C8F0012AF9F /* PBXContainerItemProxy */;
+		};
+		F50BD8101DEF4CA40012AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D0EF7016A468350062F5BD /* SDL2 */;
+			targetProxy = F50BD80F1DEF4CA40012AF9F /* PBXContainerItemProxy */;
+		};
+		F50BD8121DEF4CA40012AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53FE268183EBEE1006D459E /* SDL2_image */;
+			targetProxy = F50BD8111DEF4CA40012AF9F /* PBXContainerItemProxy */;
+		};
+		F50BD8141DEF4CA40012AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58A09D5183ECD1F006E2069 /* WebP */;
+			targetProxy = F50BD8131DEF4CA40012AF9F /* PBXContainerItemProxy */;
+		};
 		F530839A183ED21E0084A92F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F53FE268183EBEE1006D459E /* SDL2_image */;
@@ -7665,6 +7767,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F50BD80B1DEF4C7A0012AF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F50BD80C1DEF4C7A0012AF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -8514,6 +8630,15 @@
 			buildConfigurations = (
 				B9ADCF760907C8EB00D55A16 /* Debug */,
 				B9ADCF770907C8EB00D55A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F50BD80A1DEF4C7A0012AF9F /* Build configuration list for PBXAggregateTarget "Current VDrift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50BD80B1DEF4C7A0012AF9F /* Debug */,
+				F50BD80C1DEF4C7A0012AF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
