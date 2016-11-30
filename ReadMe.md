@@ -1,4 +1,4 @@
-A Xcode project that builds [VDrift's][1] required dependancies as native OS X
+A Xcode project that builds [VDrift's][1] required dependancies as native macOS
 frameworks. For instructions about VDrift itself visit the [wiki][2]. Released
 under the [GNU General Public License (GPL) v3][3].
 
@@ -7,7 +7,7 @@ an issue or send a pull request on [GitHub][4].
 
 # Prerequisites
 To build these frameworks you need Xcode 3.2 or later (tested only with Xcode
-6.1). Xcode is available free on the [Mac App Store][5].
+8.1). Xcode is available for free from [Apple][5].
 
 # Downloads
 Once you have the prerequisites, download the latest stable release from the
@@ -69,7 +69,7 @@ SDL2_gfx (**Reqires SDL2**): [http://ferzkopp.net/joomla/software-mainmenu-14/4-
 [2]: http://wiki.vdrift.net
 [3]: http://gnu.org/copyleft/gpl.html
 [4]: http://github.com/Timo6/vdrift-frameworks
-[5]: http://itunes.apple.com/us/app/xcode/id422352214?mt=12&ls=1
+[5]: https://developer.apple.com/xcode/
 [6]: http://bulletphysics.org/wordpress/
 [7]: http://curl.haxx.se
 [8]: http://xiph.org/downloads/
