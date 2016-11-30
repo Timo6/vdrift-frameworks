@@ -1159,7 +1159,7 @@
 		F5C5143D17E10C0900850371 /* x509asn1.c in Sources */ = {isa = PBXBuildFile; fileRef = F5C5143C17E10C0900850371 /* x509asn1.c */; };
 		F5C831C817E27720002A7780 /* SDL_atomic.c in Sources */ = {isa = PBXBuildFile; fileRef = F5C8315A17E27693002A7780 /* SDL_atomic.c */; };
 		F5C831C917E27720002A7780 /* SDL_spinlock.c in Sources */ = {isa = PBXBuildFile; fileRef = F5C8315B17E27693002A7780 /* SDL_spinlock.c */; };
-		F5C831CA17E27720002A7780 /* SDL_coreaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = F5C8315C17E27693002A7780 /* SDL_coreaudio.c */; };
+		F5C831CA17E27720002A7780 /* SDL_coreaudio.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8315C17E27693002A7780 /* SDL_coreaudio.m */; };
 		F5C831CB17E27720002A7780 /* SDL_diskaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = F5C8315D17E27693002A7780 /* SDL_diskaudio.c */; };
 		F5C831CC17E27720002A7780 /* SDL_dummyaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = F5C8315E17E27693002A7780 /* SDL_dummyaudio.c */; };
 		F5C831CD17E27720002A7780 /* SDL_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = F5C8315F17E27693002A7780 /* SDL_audio.c */; };
@@ -1273,7 +1273,6 @@
 		F5C8340E17E2786E002A7780 /* SDL_dummyaudio.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C832D517E27766002A7780 /* SDL_dummyaudio.h */; };
 		F5C8340F17E2786E002A7780 /* SDL_audio_c.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C832D617E27766002A7780 /* SDL_audio_c.h */; };
 		F5C8341017E2786E002A7780 /* SDL_audiodev_c.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C832D717E27766002A7780 /* SDL_audiodev_c.h */; };
-		F5C8341117E2786E002A7780 /* SDL_audiomem.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C832D817E27766002A7780 /* SDL_audiomem.h */; };
 		F5C8341217E2786E002A7780 /* SDL_sysaudio.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C832D917E27767002A7780 /* SDL_sysaudio.h */; };
 		F5C8341317E2786E002A7780 /* SDL_wave.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C832DA17E27767002A7780 /* SDL_wave.h */; };
 		F5C8341417E2786E002A7780 /* blank_cursor.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C832DB17E27767002A7780 /* blank_cursor.h */; };
@@ -3196,7 +3195,7 @@
 		F5C5143C17E10C0900850371 /* x509asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = x509asn1.c; path = cURL/curl/lib/x509asn1.c; sourceTree = "<group>"; };
 		F5C8315A17E27693002A7780 /* SDL_atomic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SDL_atomic.c; path = SDL2/SDL2/src/atomic/SDL_atomic.c; sourceTree = "<group>"; };
 		F5C8315B17E27693002A7780 /* SDL_spinlock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SDL_spinlock.c; path = SDL2/SDL2/src/atomic/SDL_spinlock.c; sourceTree = "<group>"; };
-		F5C8315C17E27693002A7780 /* SDL_coreaudio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SDL_coreaudio.c; path = SDL2/SDL2/src/audio/coreaudio/SDL_coreaudio.c; sourceTree = "<group>"; };
+		F5C8315C17E27693002A7780 /* SDL_coreaudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDL_coreaudio.m; path = SDL2/SDL2/src/audio/coreaudio/SDL_coreaudio.m; sourceTree = "<group>"; };
 		F5C8315D17E27693002A7780 /* SDL_diskaudio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SDL_diskaudio.c; path = SDL2/SDL2/src/audio/disk/SDL_diskaudio.c; sourceTree = "<group>"; };
 		F5C8315E17E27693002A7780 /* SDL_dummyaudio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SDL_dummyaudio.c; path = SDL2/SDL2/src/audio/dummy/SDL_dummyaudio.c; sourceTree = "<group>"; };
 		F5C8315F17E27693002A7780 /* SDL_audio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SDL_audio.c; path = SDL2/SDL2/src/audio/SDL_audio.c; sourceTree = "<group>"; };
@@ -3362,7 +3361,6 @@
 		F5C832D517E27766002A7780 /* SDL_dummyaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_dummyaudio.h; path = SDL2/SDL2/src/audio/dummy/SDL_dummyaudio.h; sourceTree = "<group>"; };
 		F5C832D617E27766002A7780 /* SDL_audio_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_audio_c.h; path = SDL2/SDL2/src/audio/SDL_audio_c.h; sourceTree = "<group>"; };
 		F5C832D717E27766002A7780 /* SDL_audiodev_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_audiodev_c.h; path = SDL2/SDL2/src/audio/SDL_audiodev_c.h; sourceTree = "<group>"; };
-		F5C832D817E27766002A7780 /* SDL_audiomem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_audiomem.h; path = SDL2/SDL2/src/audio/SDL_audiomem.h; sourceTree = "<group>"; };
 		F5C832D917E27767002A7780 /* SDL_sysaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sysaudio.h; path = SDL2/SDL2/src/audio/SDL_sysaudio.h; sourceTree = "<group>"; };
 		F5C832DA17E27767002A7780 /* SDL_wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_wave.h; path = SDL2/SDL2/src/audio/SDL_wave.h; sourceTree = "<group>"; };
 		F5C832DB17E27767002A7780 /* blank_cursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blank_cursor.h; path = SDL2/SDL2/src/events/blank_cursor.h; sourceTree = "<group>"; };
@@ -4912,7 +4910,7 @@
 			children = (
 				F5C8315A17E27693002A7780 /* SDL_atomic.c */,
 				F5C8315B17E27693002A7780 /* SDL_spinlock.c */,
-				F5C8315C17E27693002A7780 /* SDL_coreaudio.c */,
+				F5C8315C17E27693002A7780 /* SDL_coreaudio.m */,
 				F5C8315D17E27693002A7780 /* SDL_diskaudio.c */,
 				F5C8315E17E27693002A7780 /* SDL_dummyaudio.c */,
 				F5C8315F17E27693002A7780 /* SDL_audio.c */,
@@ -5086,7 +5084,6 @@
 				F5C832D517E27766002A7780 /* SDL_dummyaudio.h */,
 				F5C832D617E27766002A7780 /* SDL_audio_c.h */,
 				F5C832D717E27766002A7780 /* SDL_audiodev_c.h */,
-				F5C832D817E27766002A7780 /* SDL_audiomem.h */,
 				F5C832D917E27767002A7780 /* SDL_sysaudio.h */,
 				F5C832DA17E27767002A7780 /* SDL_wave.h */,
 				F59415A518EB0DCB00945797 /* SDL_dynapi_overrides.h */,
@@ -6082,7 +6079,6 @@
 				F5C8340E17E2786E002A7780 /* SDL_dummyaudio.h in Headers */,
 				F5C8340F17E2786E002A7780 /* SDL_audio_c.h in Headers */,
 				F5C8341017E2786E002A7780 /* SDL_audiodev_c.h in Headers */,
-				F5C8341117E2786E002A7780 /* SDL_audiomem.h in Headers */,
 				F5C8341217E2786E002A7780 /* SDL_sysaudio.h in Headers */,
 				F5C8341317E2786E002A7780 /* SDL_wave.h in Headers */,
 				F59415A818EB0DCB00945797 /* SDL_dynapi_overrides.h in Headers */,
@@ -7301,7 +7297,7 @@
 			files = (
 				F5C831C817E27720002A7780 /* SDL_atomic.c in Sources */,
 				F5C831C917E27720002A7780 /* SDL_spinlock.c in Sources */,
-				F5C831CA17E27720002A7780 /* SDL_coreaudio.c in Sources */,
+				F5C831CA17E27720002A7780 /* SDL_coreaudio.m in Sources */,
 				F5C831CB17E27720002A7780 /* SDL_diskaudio.c in Sources */,
 				F5C831CC17E27720002A7780 /* SDL_dummyaudio.c in Sources */,
 				F5C831CD17E27720002A7780 /* SDL_audio.c in Sources */,
@@ -7904,6 +7900,7 @@
 					"$(TARGET_BUILD_DIR)/SDL2.framework/Headers",
 				);
 				INFOPLIST_FILE = "SDL2_image/SDL2_image-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				USER_HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/SDL2.framework/Headers $(TARGET_BUILD_DIR)/WebP.framework/Headers";
 				WRAPPER_EXTENSION = framework;
@@ -7938,6 +7935,7 @@
 					"$(TARGET_BUILD_DIR)/SDL2.framework/Headers",
 				);
 				INFOPLIST_FILE = "SDL2_image/SDL2_image-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				SEPARATE_STRIP = YES;
 				STRIP_STYLE = "non-global";
@@ -8483,7 +8481,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.4;
+				DYLIB_CURRENT_VERSION = 2.0.5;
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
@@ -8491,6 +8489,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = /usr/X11R6/include;
 				INFOPLIST_FILE = "SDL2/SDL2-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = /usr/lib/libiconv.dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				WRAPPER_EXTENSION = framework;
@@ -8503,7 +8502,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
-				DYLIB_CURRENT_VERSION = 2.0.4;
+				DYLIB_CURRENT_VERSION = 2.0.5;
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
@@ -8512,6 +8511,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = /usr/X11R6/include;
 				INFOPLIST_FILE = "SDL2/SDL2-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = /usr/lib/libiconv.dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.${PRODUCT_NAME:rfc1034identifier}";
 				STRIP_STYLE = "non-global";
