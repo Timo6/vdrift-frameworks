@@ -683,6 +683,9 @@
 		F50BD8301DEF50040012AF9F /* spnego_gssapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F50BD8241DEF50040012AF9F /* spnego_gssapi.c */; };
 		F50BD8311DEF50040012AF9F /* spnego_sspi.c in Sources */ = {isa = PBXBuildFile; fileRef = F50BD8251DEF50040012AF9F /* spnego_sspi.c */; };
 		F50BD8321DEF50040012AF9F /* vauth.c in Sources */ = {isa = PBXBuildFile; fileRef = F50BD8261DEF50040012AF9F /* vauth.c */; };
+		F50BD8341DEF541A0012AF9F /* common_sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = F50BD8331DEF541A0012AF9F /* common_sse2.h */; };
+		F50BD8361DEF54340012AF9F /* dec_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = F50BD8351DEF54340012AF9F /* dec_msa.c */; };
+		F50BD8381DEF544F0012AF9F /* msa_macro.h in Headers */ = {isa = PBXBuildFile; fileRef = F50BD8371DEF544F0012AF9F /* msa_macro.h */; };
 		F50E387114F83877005998F2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50E387014F83877005998F2 /* CoreServices.framework */; };
 		F50E38C814F83945005998F2 /* archive_acl.c in Sources */ = {isa = PBXBuildFile; fileRef = F50E387314F83945005998F2 /* archive_acl.c */; };
 		F50E38C914F83945005998F2 /* archive_check_magic.c in Sources */ = {isa = PBXBuildFile; fileRef = F50E387414F83945005998F2 /* archive_check_magic.c */; };
@@ -2598,6 +2601,9 @@
 		F50BD8241DEF50040012AF9F /* spnego_gssapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spnego_gssapi.c; path = cURL/curl/lib/vauth/spnego_gssapi.c; sourceTree = "<group>"; };
 		F50BD8251DEF50040012AF9F /* spnego_sspi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spnego_sspi.c; path = cURL/curl/lib/vauth/spnego_sspi.c; sourceTree = "<group>"; };
 		F50BD8261DEF50040012AF9F /* vauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vauth.c; path = cURL/curl/lib/vauth/vauth.c; sourceTree = "<group>"; };
+		F50BD8331DEF541A0012AF9F /* common_sse2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common_sse2.h; path = libwebp/src/dsp/common_sse2.h; sourceTree = "<group>"; };
+		F50BD8351DEF54340012AF9F /* dec_msa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_msa.c; path = libwebp/src/dsp/dec_msa.c; sourceTree = "<group>"; };
+		F50BD8371DEF544F0012AF9F /* msa_macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msa_macro.h; path = libwebp/src/dsp/msa_macro.h; sourceTree = "<group>"; };
 		F50E387014F83877005998F2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F50E387314F83945005998F2 /* archive_acl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_acl.c; path = Archive/libarchive/libarchive/archive_acl.c; sourceTree = "<group>"; };
 		F50E387414F83945005998F2 /* archive_check_magic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_check_magic.c; path = Archive/libarchive/libarchive/archive_check_magic.c; sourceTree = "<group>"; };
@@ -4265,6 +4271,7 @@
 				F5794EC31CA3024500535505 /* argb_mips_dsp_r2.c */,
 				F5794EC41CA3024500535505 /* argb_sse2.c */,
 				F5794EC51CA3024500535505 /* argb.c */,
+				F50BD8331DEF541A0012AF9F /* common_sse2.h */,
 				F5794EC61CA3024500535505 /* cost_mips_dsp_r2.c */,
 				F5794EC71CA3024500535505 /* cost_mips32.c */,
 				F5794EC81CA3024500535505 /* cost_sse2.c */,
@@ -4273,6 +4280,7 @@
 				F59284B319C0A82E009BA20F /* dec_clip_tables.c */,
 				F5794ED11CA3025300535505 /* dec_mips_dsp_r2.c */,
 				F59284B419C0A82E009BA20F /* dec_mips32.c */,
+				F50BD8351DEF54340012AF9F /* dec_msa.c */,
 				F5308303183ECDA40084A92F /* dec_neon.c */,
 				F5308304183ECDA40084A92F /* dec_sse2.c */,
 				F5794ED31CA3025E00535505 /* dec_sse41.c */,
@@ -4301,6 +4309,7 @@
 				F530830A183ECDA40084A92F /* lossless.c */,
 				F530830B183ECDA40084A92F /* lossless.h */,
 				F5794EF11CA302F700535505 /* mips_macro.h */,
+				F50BD8371DEF544F0012AF9F /* msa_macro.h */,
 				F59284C119C0A864009BA20F /* neon.h */,
 				F5794EF31CA3030400535505 /* rescaler_mips_dsp_r2.c */,
 				F5794EF41CA3030400535505 /* rescaler_mips32.c */,
@@ -5973,6 +5982,7 @@
 				F5794EB71CA3012700535505 /* extras.h in Headers */,
 				F530838A183ECDE10084A92F /* format_constants.h in Headers */,
 				F530838B183ECDE10084A92F /* mux_types.h in Headers */,
+				F50BD8381DEF544F0012AF9F /* msa_macro.h in Headers */,
 				F530838C183ECDE10084A92F /* mux.h in Headers */,
 				F5308389183ECDE10084A92F /* encode.h in Headers */,
 				F530838D183ECDE10084A92F /* types.h in Headers */,
@@ -6004,6 +6014,7 @@
 				F5308340183ECDB30084A92F /* histogram.h in Headers */,
 				F5308375183ECDCC0084A92F /* huffman.h in Headers */,
 				F5794EB11CA3002B00535505 /* delta_palettization.h in Headers */,
+				F50BD8341DEF541A0012AF9F /* common_sse2.h in Headers */,
 				F530833C183ECDB30084A92F /* cost.h in Headers */,
 				F53082FB183ECD8A0084A92F /* vp8i.h in Headers */,
 				F57E150318EB1ECA00F21648 /* alphai.h in Headers */,
@@ -7271,6 +7282,7 @@
 				F5794EFC1CA3030400535505 /* rescaler.c in Sources */,
 				F530836E183ECDCC0084A92F /* color_cache.c in Sources */,
 				F53082F1183ECD8A0084A92F /* buffer.c in Sources */,
+				F50BD8361DEF54340012AF9F /* dec_msa.c in Sources */,
 				F530833A183ECDB30084A92F /* config.c in Sources */,
 				F5308372183ECDCC0084A92F /* huffman_encode.c in Sources */,
 				F59284B519C0A82E009BA20F /* dec_clip_tables.c in Sources */,
@@ -8421,7 +8433,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 0.5;
-				DYLIB_CURRENT_VERSION = 0.5.0;
+				DYLIB_CURRENT_VERSION = 0.5.1;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -8460,7 +8472,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 0.5;
-				DYLIB_CURRENT_VERSION = 0.5.0;
+				DYLIB_CURRENT_VERSION = 0.5.1;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
