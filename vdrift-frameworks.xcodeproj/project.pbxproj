@@ -686,6 +686,11 @@
 		F50BD8341DEF541A0012AF9F /* common_sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = F50BD8331DEF541A0012AF9F /* common_sse2.h */; };
 		F50BD8361DEF54340012AF9F /* dec_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = F50BD8351DEF54340012AF9F /* dec_msa.c */; };
 		F50BD8381DEF544F0012AF9F /* msa_macro.h in Headers */ = {isa = PBXBuildFile; fileRef = F50BD8371DEF544F0012AF9F /* msa_macro.h */; };
+		F50BD85A1DEF59870012AF9F /* btMultiBodyFixedConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50BD8571DEF59800012AF9F /* btMultiBodyFixedConstraint.cpp */; };
+		F50BD85B1DEF59910012AF9F /* btMultiBodyFixedConstraint.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BD8581DEF59800012AF9F /* btMultiBodyFixedConstraint.h */; };
+		F50BD85C1DEF59960012AF9F /* btMultiBodyJointFeedback.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BD8591DEF59800012AF9F /* btMultiBodyJointFeedback.h */; };
+		F50BD85F1DEF59B30012AF9F /* btMultiBodySliderConstraint.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BD85E1DEF59B10012AF9F /* btMultiBodySliderConstraint.h */; };
+		F50BD8601DEF59BA0012AF9F /* btMultiBodySliderConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50BD85D1DEF59B10012AF9F /* btMultiBodySliderConstraint.cpp */; };
 		F50E387114F83877005998F2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50E387014F83877005998F2 /* CoreServices.framework */; };
 		F50E38C814F83945005998F2 /* archive_acl.c in Sources */ = {isa = PBXBuildFile; fileRef = F50E387314F83945005998F2 /* archive_acl.c */; };
 		F50E38C914F83945005998F2 /* archive_check_magic.c in Sources */ = {isa = PBXBuildFile; fileRef = F50E387414F83945005998F2 /* archive_check_magic.c */; };
@@ -1971,11 +1976,14 @@
 				F504D4351B3862C10095D45D /* btMultiBodyConstraint.h in CopyFiles */,
 				F504D4361B3862C10095D45D /* btMultiBodyConstraintSolver.h in CopyFiles */,
 				F504D4371B3862C10095D45D /* btMultiBodyDynamicsWorld.h in CopyFiles */,
+				F50BD85B1DEF59910012AF9F /* btMultiBodyFixedConstraint.h in CopyFiles */,
+				F50BD85C1DEF59960012AF9F /* btMultiBodyJointFeedback.h in CopyFiles */,
 				F504D4381B3862C10095D45D /* btMultiBodyJointLimitConstraint.h in CopyFiles */,
 				F504D4391B3862C10095D45D /* btMultiBodyJointMotor.h in CopyFiles */,
 				F504D43A1B3862C10095D45D /* btMultiBodyLink.h in CopyFiles */,
 				F504D43B1B3862C10095D45D /* btMultiBodyLinkCollider.h in CopyFiles */,
 				F504D43C1B3862C10095D45D /* btMultiBodyPoint2Point.h in CopyFiles */,
+				F50BD85F1DEF59B30012AF9F /* btMultiBodySliderConstraint.h in CopyFiles */,
 				F504D43D1B3862C10095D45D /* btMultiBodySolverConstraint.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2604,6 +2612,11 @@
 		F50BD8331DEF541A0012AF9F /* common_sse2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common_sse2.h; path = libwebp/src/dsp/common_sse2.h; sourceTree = "<group>"; };
 		F50BD8351DEF54340012AF9F /* dec_msa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_msa.c; path = libwebp/src/dsp/dec_msa.c; sourceTree = "<group>"; };
 		F50BD8371DEF544F0012AF9F /* msa_macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msa_macro.h; path = libwebp/src/dsp/msa_macro.h; sourceTree = "<group>"; };
+		F50BD8571DEF59800012AF9F /* btMultiBodyFixedConstraint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = btMultiBodyFixedConstraint.cpp; sourceTree = "<group>"; };
+		F50BD8581DEF59800012AF9F /* btMultiBodyFixedConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = btMultiBodyFixedConstraint.h; sourceTree = "<group>"; };
+		F50BD8591DEF59800012AF9F /* btMultiBodyJointFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = btMultiBodyJointFeedback.h; sourceTree = "<group>"; };
+		F50BD85D1DEF59B10012AF9F /* btMultiBodySliderConstraint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = btMultiBodySliderConstraint.cpp; sourceTree = "<group>"; };
+		F50BD85E1DEF59B10012AF9F /* btMultiBodySliderConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = btMultiBodySliderConstraint.h; sourceTree = "<group>"; };
 		F50E387014F83877005998F2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F50E387314F83945005998F2 /* archive_acl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_acl.c; path = Archive/libarchive/libarchive/archive_acl.c; sourceTree = "<group>"; };
 		F50E387414F83945005998F2 /* archive_check_magic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = archive_check_magic.c; path = Archive/libarchive/libarchive/archive_check_magic.c; sourceTree = "<group>"; };
@@ -4147,6 +4160,9 @@
 				F504D33E1B3862590095D45D /* btMultiBodyConstraintSolver.h */,
 				F504D33F1B3862590095D45D /* btMultiBodyDynamicsWorld.cpp */,
 				F504D3401B3862590095D45D /* btMultiBodyDynamicsWorld.h */,
+				F50BD8571DEF59800012AF9F /* btMultiBodyFixedConstraint.cpp */,
+				F50BD8581DEF59800012AF9F /* btMultiBodyFixedConstraint.h */,
+				F50BD8591DEF59800012AF9F /* btMultiBodyJointFeedback.h */,
 				F504D3411B3862590095D45D /* btMultiBodyJointLimitConstraint.cpp */,
 				F504D3421B3862590095D45D /* btMultiBodyJointLimitConstraint.h */,
 				F504D3431B3862590095D45D /* btMultiBodyJointMotor.cpp */,
@@ -4155,6 +4171,8 @@
 				F504D3461B3862590095D45D /* btMultiBodyLinkCollider.h */,
 				F504D3471B3862590095D45D /* btMultiBodyPoint2Point.cpp */,
 				F504D3481B3862590095D45D /* btMultiBodyPoint2Point.h */,
+				F50BD85D1DEF59B10012AF9F /* btMultiBodySliderConstraint.cpp */,
+				F50BD85E1DEF59B10012AF9F /* btMultiBodySliderConstraint.h */,
 				F504D3491B3862590095D45D /* btMultiBodySolverConstraint.h */,
 			);
 			name = Featherstone;
@@ -6869,9 +6887,11 @@
 				F504D4961B38637A0095D45D /* btMultiBodyConstraint.cpp in Sources */,
 				F504D4971B38637A0095D45D /* btMultiBodyConstraintSolver.cpp in Sources */,
 				F504D4981B38637A0095D45D /* btMultiBodyDynamicsWorld.cpp in Sources */,
+				F50BD85A1DEF59870012AF9F /* btMultiBodyFixedConstraint.cpp in Sources */,
 				F504D4991B38637A0095D45D /* btMultiBodyJointLimitConstraint.cpp in Sources */,
 				F504D49A1B38637A0095D45D /* btMultiBodyJointMotor.cpp in Sources */,
 				F504D49B1B38637A0095D45D /* btMultiBodyPoint2Point.cpp in Sources */,
+				F50BD8601DEF59BA0012AF9F /* btMultiBodySliderConstraint.cpp in Sources */,
 				F504D49C1B38637A0095D45D /* btDantzigLCP.cpp in Sources */,
 				F504D49D1B38637A0095D45D /* btLemkeAlgorithm.cpp in Sources */,
 				F504D49E1B38637A0095D45D /* btMLCPSolver.cpp in Sources */,
@@ -7984,7 +8004,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BulletCollision_EXPORTS,
@@ -8008,7 +8028,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -8037,7 +8057,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BulletDynamics_EXPORTS,
@@ -8061,7 +8081,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -8090,7 +8110,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BulletSoftBody_EXPORTS,
 					USE_GRAPHICAL_BENCHMARK,
@@ -8113,7 +8133,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -8141,7 +8161,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					LinearMath_EXPORTS,
@@ -8165,7 +8185,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = 2.83.5;
+				DYLIB_CURRENT_VERSION = 2.85.1;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
